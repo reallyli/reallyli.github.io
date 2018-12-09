@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2017杂记 on Jane - A super concise theme for Hugo</title>
+    <link>http://localhost:1313/tags/2017%E6%9D%82%E8%AE%B0/</link>
+    <description>Recent content in 2017杂记 on Jane - A super concise theme for Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 08 Aug 2017 10:49:35 +0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/2017%E6%9D%82%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>夏日的思考</title>
+      <link>http://localhost:1313/post/summer-thinking/</link>
+      <pubDate>Tue, 08 Aug 2017 10:49:35 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/summer-thinking/</guid>
+      <description>赵雷上我是歌手了，《成都》这首歌又再次火了起来，其实我更喜欢《理想》这首歌，对于成都的印象一直定格在春熙路，天府广场，和下起小雨的熊猫基地，</description>
+    </item>
+    
+  </channel>
+</rss>

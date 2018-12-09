@@ -1,0 +1,2434 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jane - A super concise theme for Hugo</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Jane - A super concise theme for Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 20 Aug 2017 21:38:52 +0800</lastBuildDate>
+    
+        <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Sun, 20 Aug 2017 21:38:52 +0800</pubDate>
+      
+      <guid>http://localhost:1313/about/</guid>
+      
+        <description>&lt;p&gt;Hugo is a static site engine written in Go.&lt;/p&gt;
+
+&lt;p&gt;It makes use of a variety of open source projects including:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/cobra&#34;&gt;Cobra&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/viper&#34;&gt;Viper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/jWalterWeatherman&#34;&gt;J Walter Weatherman&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/cast&#34;&gt;Cast&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Learn more and contribute on &lt;a href=&#34;https://github.com/gohugoio&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>Github 个人资料展示页</title>
+      <link>http://localhost:1313/post/profile-summary-for-github.com/</link>
+      <pubDate>Wed, 12 Sep 2018 23:17:47 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/profile-summary-for-github.com/</guid>
+      
+        <description>&lt;blockquote&gt;
+&lt;p&gt;Github 个人资料&lt;a href=&#34;http://oqefp0r4y.bkt.clouddn.com/reallyli%27s%20GitHub%20profile%20summary.pdf&#34;&gt;展示页&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://profile-summary-for-github.com/user/reallyli&#34;&gt;https://profile-summary-for-github.com/user/reallyli&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://eva.hixiaogan.cn/thumb/blog/github.com_user_reallyli,q_60.png&#34; alt=&#34;profile-reallyli-github&#34; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;开源项目链接地址：&lt;a href=&#34;https://github.com/tipsy/profile-summary-for-github&#34;&gt;https://github.com/tipsy/profile-summary-for-github&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>Docker笔记第一部分</title>
+      <link>http://localhost:1313/post/docker-note1/</link>
+      <pubDate>Tue, 11 Sep 2018 22:42:34 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/docker-note1/</guid>
+      
+        <description>
+
+&lt;blockquote&gt;
+&lt;p&gt;有点早的笔记，记录于16年的 Docker 学习笔记，其中有些图片已经找不回来了&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://img.mukewang.com/5820943f00011ebf03630199.gif&#34; alt=&#34;docker-intro&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;docker部署项目的优势&#34;&gt;docker部署项目的优势&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;docker容器很轻很快！容器的启动时间是秒级的，大量的节约开发、测试、部署时间。&lt;/li&gt;
+&lt;li&gt;内核级的虚拟化，可以实现更高的性能和效率。&lt;/li&gt;
+&lt;li&gt;docker容器几乎可以在任意平台上运行，可以实现更轻松的迁移和扩展。&lt;/li&gt;
+&lt;li&gt;所有的修改都以增量的方式被分发和更新，可以实现自动化和更高效的管理。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;docker安装&#34;&gt;docker安装&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;阿里云安装(配专属加速器)&lt;img src=&#34;https://eva.hixiaogan.cn/thumb/blog/docker,q_70.jpeg&#34; alt=&#34;docke&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;普通安装 yum or apt-get&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;docker镜像&#34;&gt;docker镜像&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dev.aliyun.com/search.html&#34;&gt;来自云端的容器镜像服务&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hub.docker.com/&#34;&gt;开发者首选之Hub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;细说command&#34;&gt;细说command&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;docker pull ubuntu:12.04 &lt;a href=&#34;https://hub.docker.com/_/ubuntu/&#34;&gt;hub&lt;/a&gt; 从仓库获取镜像&lt;/li&gt;
+&lt;li&gt;docker images 显示本地已有的镜像&lt;/li&gt;
+&lt;li&gt;docker commit -m &amp;lsquo;update ubuntu:12.04&amp;rsquo; -a &amp;lsquo;Bob&amp;rsquo; &lt;CONTAINER ID&gt; ubuntu:12.05 提交修改的镜像 生成新的镜像 版本是12.05&lt;/li&gt;
+&lt;li&gt;docker ps 列出本地正在运行的容器 -a  列出所有的容器包括历史、停止的。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;docker run&lt;/th&gt;
+&lt;th&gt;-ti&lt;/th&gt;
+&lt;th&gt;-d&lt;/th&gt;
+&lt;th&gt;-rm&lt;/th&gt;
+&lt;th&gt;-p&lt;/th&gt;
+&lt;th&gt;-v&lt;/th&gt;
+&lt;th&gt;&amp;ndash;name=lnmp:1.0&lt;/th&gt;
+&lt;th&gt;&amp;ndash;restart=always&lt;/th&gt;
+&lt;th&gt;/bin/bash&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;跑车开起来&lt;/td&gt;
+&lt;td&gt;终端可视化&lt;/td&gt;
+&lt;td&gt;后台执行&lt;/td&gt;
+&lt;td&gt;退出就删除&lt;/td&gt;
+&lt;td&gt;宿主机：容器内&lt;/td&gt;
+&lt;td&gt;宿主机挂载点：容器内挂载点&lt;/td&gt;
+&lt;td&gt;容器名&lt;/td&gt;
+&lt;td&gt;始终重启&lt;/td&gt;
+&lt;td&gt;使用bash_shell 启动容器&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;docker exec -ti CONTAINER ID /bin/bash 进入容器&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;docker rmi image_id&lt;/th&gt;
+&lt;th&gt;docker rm container_id&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;删除镜像&lt;/td&gt;
+&lt;td&gt;删除容器&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;docker start container_id&lt;/th&gt;
+&lt;th&gt;docker stop container_id&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;重新启动停止的容器&lt;/td&gt;
+&lt;td&gt;强行停止正在运行的容器&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;本地镜像导出&lt;/th&gt;
+&lt;th&gt;本地镜像导入&lt;/th&gt;
+&lt;th&gt;容器导出&lt;/th&gt;
+&lt;th&gt;容器导入&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;docker save -o name.tar ubuntu:14.04&lt;/td&gt;
+&lt;td&gt;docker load &amp;ndash;input name.tar&lt;/td&gt;
+&lt;td&gt;docker export container_id  &amp;gt;  name.tar&lt;/td&gt;
+&lt;td&gt;cat name.tar&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;容器运行中端口指定&lt;/th&gt;
+&lt;th&gt;运行容器端口映射指定&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;iptables -t nat -I DOCKER ! -i docker0 -p tcp -m tcp &amp;ndash;dport 宿主机port  -j DNAT &amp;ndash;to-destination 容器内IP地址:容器内port&lt;/td&gt;
+&lt;td&gt;docker run -d -p 5000:5000  -p 3000:80 container_id /bin/bash&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+&lt;li&gt;docker build -t name:1.0 .  使用Dockerfile构建镜像 . 当前目录&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;强大的-dockerfile&#34;&gt;强大的 Dockerfile&lt;/h1&gt;
+
+&lt;p&gt;Dockerfile的每一条指令都创建镜像的一层 一个镜像不能超过27层&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;FROM&lt;/th&gt;
+&lt;th&gt;RUN&lt;/th&gt;
+&lt;th&gt;EXPOSE&lt;/th&gt;
+&lt;th&gt;CMD&lt;/th&gt;
+&lt;th&gt;ENTRYPOINT&lt;/th&gt;
+&lt;th&gt;COPY&lt;/th&gt;
+&lt;th&gt;MAINTAINER&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;告诉docker使用哪个镜像作为基础&lt;/td&gt;
+&lt;td&gt;以此为开头的指令会在创建中运行&lt;/td&gt;
+&lt;td&gt;向外部开放端口&lt;/td&gt;
+&lt;td&gt;启动容器后运行的程序&lt;/td&gt;
+&lt;td&gt;执行&lt;/td&gt;
+&lt;td&gt;复制指定目录或文件到容器内&lt;/td&gt;
+&lt;td&gt;镜像构建者&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;FROM ubuntu:1.0&lt;/td&gt;
+&lt;td&gt;RUN apt-get update&lt;/td&gt;
+&lt;td&gt;EXPOSE 80 443&lt;/td&gt;
+&lt;td&gt;CMD [&amp;ldquo;nginx&amp;rdquo;, &amp;ldquo;-g&amp;rdquo;, &amp;ldquo;daemon off;&amp;rdquo;]&lt;/td&gt;
+&lt;td&gt;ENTRYPOINT /usr/local/startall.sh&lt;/td&gt;
+&lt;td&gt;COPY startall.sh /usr/local/&lt;/td&gt;
+&lt;td&gt;MAINTAINER reallyli &lt;a href=&#34;mailto:zlisreallyli@outlook.com&#34;&gt;zlisreallyli@outlook.com&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Dockerfile 相关的总结&lt;/p&gt;
+
+&lt;p&gt;redis :&lt;img src=&#34;https://eva.hixiaogan.cn/thumb/blog/dockerfile_redisnew,q_70.jpeg&#34; alt=&#34;dockerfile_redisne&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;php-fpm :&lt;img src=&#34;https://eva.hixiaogan.cn/thumb/blog/dockerfile_php,q_70.jpeg&#34; alt=&#34;dockerfile_php&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;nginx : &lt;img src=&#34;https://eva.hixiaogan.cn/thumb/blog/dockerfile_nginx,q_70.jpeg&#34; alt=&#34;dockerfile_nginx&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;memcached : &lt;img src=&#34;https://eva.hixiaogan.cn/thumb/blog/dockerfile_mem,q_70.jpeg&#34; alt=&#34;dockerfile_me&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;https : &lt;img src=&#34;https://eva.hixiaogan.cn/thumb/blog/dockerfile_https,q_70.jpeg&#34; alt=&#34;dockerfile_https&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;gearmand : &lt;img src=&#34;https://eva.hixiaogan.cn/thumb/blog/dockerfile_gearman,q_70.jpeg&#34; alt=&#34;dockerfile_gearman&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;crond : &lt;img src=&#34;https://eva.hixiaogan.cn/thumb/blog/dockerfile_cron,q_70.jpeg&#34; alt=&#34;dockerfile_cron&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;docker容器内开启ssh服务&#34;&gt;docker容器内开启ssh服务&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;yum install passwd yum install openssh-server #安装ssh服务端  passwd 命令直接设置 登录密码&lt;/li&gt;
+&lt;li&gt;/etc/ssh/sshd_config #设置端口，注释不需要的设置，如:HostKey&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;dsa_key&lt;/th&gt;
+&lt;th&gt;rsa_key&lt;/th&gt;
+&lt;th&gt;ED25519_key&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;ssh-keygen -t dsa -f /etc/ssh/ssh_host_dsa_key&lt;/td&gt;
+&lt;td&gt;ssh-keygen -t rsa -f /etc/ssh/ssh_host_rsa_key&lt;/td&gt;
+&lt;td&gt;ssh-keygen -t dsa -f /etc/ssh/ssh_host_ED25519_key&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;防SSH_BRUTEFORCE攻击措施&lt;/td&gt;
+&lt;td&gt;RSA认证&lt;/td&gt;
+&lt;td&gt;开启公钥验证&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&amp;mdash;&lt;/td&gt;
+&lt;td&gt;&amp;mdash;&lt;/td&gt;
+&lt;td&gt;&amp;mdash;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;1.修改Port 4484; 2.禁用root PermitRootLogin no&lt;/td&gt;
+&lt;td&gt;RSAAuthentication yes&lt;/td&gt;
+&lt;td&gt;PubkeyAuthentication yes&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h1 id=&#34;docker-理解&#34;&gt;docker 理解&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://dockone.io/article/783&#34;&gt;10张图带你深入理解Docker容器和镜像&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://dockone.io/article/111&#34;&gt;经典Docker入门教程&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.open-open.com/lib/view/open1423703640748.html&#34;&gt;非常详细的 Docker 学习笔记&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.imooc.com/article/14325&#34;&gt;老司机的docker学习笔记&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.kancloud.cn/search?keyword=docker&amp;amp;page=1&#34;&gt;免费docker书籍&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;docker-pdf&#34;&gt;docker pdf&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://oqefp0r4y.bkt.clouddn.com/Docker%20%E2%80%94%E2%80%94%20%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%AE%9E%E8%B7%B5.pdf&#34;&gt;Docker-从入门到实践&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>OpenLDAP 使用 Shadow Account 条目</title>
+      <link>http://localhost:1313/post/ldap-use-shadow-account/</link>
+      <pubDate>Tue, 04 Sep 2018 10:29:04 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/ldap-use-shadow-account/</guid>
+      
+        <description>
+
+&lt;blockquote&gt;
+&lt;p&gt;LDAP 中使用 Shadow Account 条目可以有效的设置用户登录的过期时间，过期以后还有多少可以登陆，每隔多少天强制更换密码，提前多少天开始提示密码即将过期。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&#34;下面记录一下属性列表-方便以后查阅&#34;&gt;下面记录一下属性列表，方便以后查阅&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;shadowLastChange: 密码从1970年1月1日开始, 到最近一次修改, 一共间隔了多少天. 比如这里指定成16967就表示2016年6月15日. 也可以直接获取当天的日期,方法为:在系统里 useradd 一个用户,查看 &lt;code&gt;/etc/shadow&lt;/code&gt; 中该用户的第三个值, 即是该值. 该值如果设置成0, 则表示下次登陆将强制修改密码, 用户修改密码成功以后, 该值将发生对应的变化&lt;/li&gt;
+&lt;li&gt;shadowMin: 密码从 &lt;code&gt;shadowLastChange&lt;/code&gt; 指定的日期开始, 到多少天以后才能再次修改密码, 防止某些人天天没事就修改密码, 此值设置成0表示不限制&lt;/li&gt;
+&lt;li&gt;shadowMax: 密码从 &lt;code&gt;shadowLastChange&lt;/code&gt; 指定的日期开始, 到多少天以后过期(即多少天后必须更改密码)&lt;/li&gt;
+&lt;li&gt;shadowInactive: 密码过期以后还可以登陆多少天(每次登陆都会要求更改密码), 如果超过此值指定的天数, 下次登陆时会提示 &lt;code&gt;Your account has expired; please contact your system administrator&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;shadowWarning: 提前多少天开始警告用户密码将会过期&lt;/li&gt;
+&lt;li&gt;shadowExpire: 密码从1970年1月1日开始, 多少天以后将会过期, 这里一般用不到&lt;/li&gt;
+&lt;li&gt;shadowFlag: 暂时无用&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;一般属性的参考值&#34;&gt;一般属性的参考值&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;shadowLastChange: 0&lt;/li&gt;
+&lt;li&gt;shadowMin: 0&lt;/li&gt;
+&lt;li&gt;shadowMax: 90 #每隔90天强制更换密码&lt;/li&gt;
+&lt;li&gt;shadowInactive: 7 #过期以后还有7天可以登陆,每次登陆都会提示修改密码&lt;/li&gt;
+&lt;li&gt;shadowWarning: 8 #提前8天开始提示密码即将过期&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;laravel-使用-ldap-设置-objectclass-shadowaccount-条目-下面举例向-ldap-server-中添加一个新成员&#34;&gt;Laravel 使用 LDAP，设置 objectclass shadowAccount 条目，下面举例向 LDAP Server 中添加一个新成员&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-php&#34;&gt;$user = Adldap::make()-&amp;gt;user(
+  [
+    &#39;mail&#39; =&amp;gt; $data[&#39;email&#39;],
+    &#39;uid&#39; =&amp;gt; $data[&#39;uid&#39;],
+    &#39;cn&#39; =&amp;gt; $data[&#39;uid&#39;],
+    &#39;sn&#39; =&amp;gt; $data[&#39;uid&#39;],
+    &#39;userpassword&#39; =&amp;gt; $data[&#39;password&#39;],
+  ]
+);
+$user-&amp;gt;setAttribute(&#39;objectclass&#39;,
+  [
+    &#39;shadowAccount&#39;,
+    &#39;inetOrgPerson&#39;
+  ]
+);
+$user-&amp;gt;setDn(&#39;uid=&#39; . $data[&#39;uid&#39;] . &#39;,&#39; . $user-&amp;gt;getDnBuilder()-&amp;gt;get());
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;给某个成员设置账号失效时间&#34;&gt;给某个成员设置账号失效时间&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-php&#34;&gt;$user = Adldap::search()-&amp;gt;where(&#39;mail&#39;, &#39;xxx@xx.com&#39;)-&amp;gt;first();
+$user-&amp;gt;shadowExpire = 100;
+$user-&amp;gt;save();
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>Just Back Home</title>
+      <link>http://localhost:1313/post/just-back-home/</link>
+      <pubDate>Sun, 02 Sep 2018 20:40:36 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/just-back-home/</guid>
+      
+        <description>&lt;blockquote&gt;
+&lt;p&gt;服务器明天都要到期了，不知不觉已经一年了，时间流转如此之快，父母渐渐的老去，开始体会多去为他们着想。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这次回家，显然是长胖了，已经大半年没有健身了，记起自己去年那股拼尽，即使是在寒冷的冬天，我也保持了一周四练。胸背肩手腿的轮番轰炸。今年四月份去了新公司，新的旅途，新的方向。开始慢慢去思考很多，包括技术，包括业余生活，包括明天。或许每个人都会有那么一段时间，发现自己以前坚持做的一件事情，现在已经不那么上心了，但是还是会在潜意识里告诉自己，你已经很久没有坚持了。不必说是时间，也不必说是忙碌，这个世界上的大部分人本身坚持去做一件自己原本信誓旦的事情，都不会坚持到永远，这个社会上的人不是一个单一的个体。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://eva.hixiaogan.cn/thumb/blog/xiaogan_wuhan_20180902,q_70.jpg&#34; alt=&#34;xiaogan&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;多长时间没有发微博了，记得上次发微博都是6月30号，今天已经是9月1号了。记得去年十月一，也在老巷子和堂一起吃了场午夜食堂，红烧鲫鱼，美味十足。今年比往年相比早了一个月，不过还是老地方。下次见面就是明年了，时间总是惊人的流转，剧情不反转，慵懒的下去，躺在沙发上准备小憩会，听见外面下起雨来，时间恍恍惚惚就要到4点了，犯困听老唱片，下一站，和独男，37℃，再续老巷情怀，从深圳到北京，在辗转武汉，young blood，2018已经进入金九银十的阶段，走过无数个日夜，有家的地方最温暖。&lt;/p&gt;
+
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  class=&#34;center&#34;  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://eva.hixiaogan.cn/thumb/blog/wuhan_meeting_20180902,q_70.jpg&#34; alt=&#34;Wuhan Keep Real&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://eva.hixiaogan.cn/thumb/blog/wuhan_meeting_20180902,q_70.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;&lt;h4&gt;武汉再聚&lt;/h4&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;列车摇摇晃晃，9月1号又是开学的时间，我都忘记上学时候的暑假是怎么过的了，不想去说什么假如，也不会去说当初，重要的是当下。微信公众号《王耳朵先生》推了一篇文章，《爸妈，同学家里有15套拆迁房，我为什么要读书》，针对于这个问题，阐述了读书的重要性，其实可以衍生出另外一个问题，就是《孩子，你同学家里都有15套拆迁房，他为什么每次都能拿班级第一名》。这个问题每个人的理解不一样。下面文章作者的回复很好：读书是为了让你知道，接受不公平，是一个人必然的过程，而不是一味埋怨；读书是为了让你免于生活沦落，和阶层下滑，相反，拥有向上走的能力；读书，还是为了让你拥有不一样的视野，拥有更多选择的权利。我很接受这样的看法，随着年龄的增长，感觉读书变得越发的重要，而更多的选择权在于自己，通过读书，获得更多的选择权，去做更多喜欢做的事，而不是一味的固守，一味的接受平庸的现实。这次回家的重要性，不言而喻了。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://eva.hixiaogan.cn/thumb/blog/home_20180902,q_70.jpg&#34; alt=&#34;xiaogan&#34; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;9月你好，9月各自安好，秋高气爽的季节，开始加足马力，选择一直向前。最后一个季度，愿多一份平稳，多一份保佑。&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>Laravel 最佳实践思考</title>
+      <link>http://localhost:1313/post/laravel-best-practices/</link>
+      <pubDate>Wed, 29 Aug 2018 22:44:40 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/laravel-best-practices/</guid>
+      
+        <description>
+
+&lt;blockquote&gt;
+&lt;p&gt;开始写一个项目之前，我们都会考虑很多问题。上到服务器层，下到代码层。以至于选用哪种语言开发新项目，一要保证开发效率，二要贴合产品需求。对于启动一个 Laravel 项目，必须在原有代码生态上制定出业界认同的标准规范。符合软件设计原则，尽量贴合底层包的设计优先。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;新项目启动，刚开始都会开需求研讨会，拆分细节，拆分功能模块，建立项目流程管理机制。一步一步落实到开发者层面，中间分布式衔接到测试者之样例，运营者账号管理，项目经理进度把控，运维服务器调度等等多个环节。对于 PHP 开发者来说，可能每个公司制定的代码规范都不尽相同，虽然有起初的 PSR 业界规范，但是数万个程序员依然有数万中代码风格。Github 上有篇文章介绍 &lt;a href=&#34;https://github.com/alexeymezenin/laravel-best-practices&#34;&gt;Laravel Best Practices&lt;/a&gt;，起初很早的时候在 LC 上阅读过这篇文章，可以帮助我们理解面向对象的 SOLID 原则。不管是用什么语言开始你的新项目，规范化的 start 一件事情，永远都是头等大事，这即是真切之言。不要让其在迫不得已的后期 restart。&lt;/p&gt;
+
+&lt;p&gt;针对文章的不少代码片段在此做一个总结，方便以后查阅。也时常去思考用如何在实践过程中也出更加贴近与 Laravel 的代码。&lt;/p&gt;
+
+&lt;h1 id=&#34;单一责任原则&#34;&gt;单一责任原则&lt;/h1&gt;
+
+&lt;p&gt;一个类和一个方法应该只有一个原则，Laravel Model 提供了属性修改器的功能，可以更加友好的去格式化我们需要的属性，对于调用 Model 的 Services 不应该关心你想获取的属性内部如何处理的。但是如何简化 Model 层也是开发过程中值得思考的问题&lt;/p&gt;
+
+&lt;h1 id=&#34;简化控制器&#34;&gt;简化控制器&lt;/h1&gt;
+
+&lt;p&gt;实际开发中我们应该将查询构造器相关的代码放入 Eloquent 模型或存储库类中。与控制器层衔接的应该是上层的 Service、Repository&lt;/p&gt;
+
+&lt;h1 id=&#34;验证类归类&#34;&gt;验证类归类&lt;/h1&gt;
+
+&lt;p&gt;使用 Laravel 构造私有 Api 服务器的项目，或者一般的 Web 项目都少不了表单验证、前端数据校验。那么最合理的做法应该将验证逻辑抽离成一个子目录，每个 Api 接口对应一个 Request 类，而这个类继承的是 Laravel 核心基类 Http Request，此类中包含 验证规则，验证信息提示，验证结果三个核心方法。&lt;/p&gt;
+
+&lt;h1 id=&#34;杜绝重复代码块&#34;&gt;杜绝重复代码块&lt;/h1&gt;
+
+&lt;p&gt;老生常谈的话题，软件设计原则，尽可能的重用代码，Give Up DRY!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;带完结&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>简述 Event Loop 运行机制</title>
+      <link>http://localhost:1313/post/event-loop/</link>
+      <pubDate>Fri, 24 Aug 2018 13:34:52 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/event-loop/</guid>
+      
+        <description>
+
+&lt;blockquote&gt;
+&lt;p&gt;一个 event loop只要存在，就会不断执行下边的步骤&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ol&gt;
+&lt;li&gt;在 tasks 队列中选择最老的一个task，用户代理可以选择任何 tas k队列，如果没有可选的任务，则跳到下边的 microtasks 步骤。&lt;/li&gt;
+&lt;li&gt;将上边选择的 task 设置为正在运行的task。&lt;/li&gt;
+&lt;li&gt;Run: 运行被选择的 task。&lt;/li&gt;
+&lt;li&gt;将 event loop 的 currently running task 变为 null。&lt;/li&gt;
+&lt;li&gt;从 task 队列里移除前边运行的task。&lt;/li&gt;
+&lt;li&gt;Microtasks: 执行 microtasks 任务检查点。（也就是执行 microtasks 队列里的任务）&lt;/li&gt;
+&lt;li&gt;更新渲染（Update the rendering）&amp;hellip;&lt;/li&gt;
+&lt;li&gt;如果这是一个 worker event loop，但是没有任务在 task 队列中，并且 WorkerGlobalScope 对象的 closing 标识为 true，则销毁event loop，中止这些步骤，然后进行定义在 Web workers 章节的 run a worker。&lt;/li&gt;
+&lt;li&gt;返回到第一步。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&#34;概括-event-loop-机制&#34;&gt;概括 Event Loop 机制&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;event loop 会不断循环的去取 tasks 队列的中最老的一个任务推入栈中执行，并在当次循环里依次执行并清空 microtask 队列里的任务。&lt;/li&gt;
+&lt;li&gt;执行完 microtask 队列里的任务，有可能会渲染更新。（浏览器很聪明，在一帧以内的多次 dom 变动浏览器不会立即响应，而是会积攒变动以最高60HZ的频率更新视图）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;比喻-event-loop-机制&#34;&gt;比喻 Event Loop 机制&lt;/h1&gt;
+
+&lt;p&gt;主线程类似一个加工厂，它只有一条流水线，待执行的任务就是流水线上的原料，只有前一个加工完，后一个才能进行。event loops 就是把原料放上流水线的工人。只要已经放在流水线上的，它们会被依次处理，称为同步任务。一些待处理的原料，工人会按照它们的种类排序，在适当的时机放上流水线，这些称为异步任务。&lt;/p&gt;
+
+&lt;h1 id=&#34;推荐文章&#34;&gt;推荐文章&lt;/h1&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aooy/blog/issues/5&#34;&gt;https://github.com/aooy/blog/issues/5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/rhinel/blog-word/issues/4&#34;&gt;https://github.com/rhinel/blog-word/issues/4&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>Go 日常笔记 V1.0</title>
+      <link>http://localhost:1313/post/go-github-note/</link>
+      <pubDate>Sun, 19 Aug 2018 14:44:08 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/go-github-note/</guid>
+      
+        <description>
+
+&lt;h1 id=&#34;总结一些-go-在-github-上的一些热门-repo&#34;&gt;总结一些 Go 在 Github 上的一些热门 Repo&lt;/h1&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;#tool&#34;&gt;Go dependency management tool&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#framworks&#34;&gt;Web frameworks for Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#beego&#34;&gt;Beego framework&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#gin&#34;&gt;Gin framework&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#group&#34;&gt;社区&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#others&#34;&gt;其他&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#demo&#34;&gt;Demo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#books&#34;&gt;Books&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;tool&#34;&gt;Go dependency management tool&lt;/h2&gt;
+
+&lt;p&gt;&lt;code&gt;dep&lt;/code&gt; 是 Go 的依赖管理工具。 它需要 &lt;code&gt;Go 1.9&lt;/code&gt; 或更新版本才能编译。&lt;a href=&#34;https://golang.github.io/dep/&#34;&gt;文档地址&lt;/a&gt;，安装方法如下：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;$ brew install dep
+$ brew upgrade dep
+# or
+$ curl https://raw.githubusercontent.com/golang/dep/master/install.sh | sh
+
+# or
+$ go get -u github.com/golang/dep/cmd/dep
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;frameworks&#34;&gt;Web frameworks for Go&lt;/h2&gt;
+
+&lt;p&gt;总结 Go 最热门的框架，时常保持更新，&lt;a href=&#34;https://github.com/mingrammer/go-web-framework-stars&#34;&gt;传送门&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;beego&#34;&gt;Beego framework&lt;/h2&gt;
+
+&lt;p&gt;Go 编程语言的开源，高性能Web框架，用于在 Go 中快速开发 &lt;code&gt;RESTful API&lt;/code&gt;，Web 应用程序和后端服务。&lt;a href=&#34;https://beego.me/&#34;&gt;文档地址&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;gin&#34;&gt;Gin framework&lt;/h2&gt;
+
+&lt;p&gt;Gin 是一个用 Go（Golang）编写的 HTTP Web 框架。 它具有类似 Martini 的 API，具有更好的性能 - 速度提高了40倍。&lt;a href=&#34;https://gin-gonic.github.io/gin/&#34;&gt;文档地址&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;group&#34;&gt;社区&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gowalker.org/&#34;&gt;gowalker&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://golangcaff.com/&#34;&gt;golangcaff&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://studygolang.com/&#34;&gt;studygolang&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;others&#34;&gt;其他&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;在线运行 Go 程序-&lt;a href=&#34;https://play.golang.org/&#34;&gt;play&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;初步学习教程-&lt;a href=&#34;https://golangbot.com/golang-tutorial-part-1-introduction-and-installation/&#34;&gt;golangbot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Golang 优秀开源项目汇总 - &lt;a href=&#34;https://github.com/hackstoic/golang-open-source-projects&#34;&gt;Repo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;demo&#34;&gt;Demo&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;掘金小册，基于 Go 语言构建企业级的 RESTful API 服务 - &lt;a href=&#34;https://github.com/lexkong/apiserver&#34;&gt;apiserver&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;books&#34;&gt;Books&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;经典 - &lt;a href=&#34;http://gopl-zh.codeyu.com/&#34;&gt;Go 语言圣经简体中文 pdf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>Go 教程第五部分之常量</title>
+      <link>http://localhost:1313/post/go-tutorial-note-5/</link>
+      <pubDate>Sun, 19 Aug 2018 11:59:29 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/go-tutorial-note-5/</guid>
+      
+        <description>
+
+&lt;p&gt;&lt;img src=&#34;https://eva.hixiaogan.cn/thumb/blog/golang_const.png&#34; alt=&#34;golang_const&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;常量&#34;&gt;常量&lt;/h1&gt;
+
+&lt;h2 id=&#34;定义&#34;&gt;定义&lt;/h2&gt;
+
+&lt;p&gt;术语常量在 Go 中表示定值，例如 5，15，&amp;rsquo;hello world&amp;rsquo; 等，常量一旦定义就不能重新分配其他的任何值，下面就是一个错误的例子，代码编译错误，无法重新分配新的值。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;package main
+
+func main() {
+  const a = 10
+  a = 20 // [error] reassignment not allowed
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;应该在编译前赋予好常量的值，下面的例子告诉我们无法将其分配给函数调用返回的值。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;package main
+
+import (
+  &amp;quot;fmt&amp;quot;
+  &amp;quot;math&amp;quot;
+)
+
+func main(){
+  fmt.Println(&amp;quot;Hello World Playground&amp;quot;)
+  var a = math.Sqrt(4) // Allowed
+  const b = math.Sqrt(4) // Not Allowed
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;上面运行结果会出现编译错误，&lt;code&gt;const initializer math.Sqrt（4）&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;字符串常量&#34;&gt;字符串常量&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;值得注意的是字符串常量是无类型的&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Go 是一种强类型语言。所有的变量都需要显式类型，看下面的例子&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;package main
+
+import &amp;quot;fmt&amp;quot;
+
+func main() {
+  var name = &amp;quot;reallyli&amp;quot;
+  fmt.Println(&amp;quot;type %T value %v&amp;quot;, name, name)
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;以上的例子会输出 类型是 String ， 那么 String 就是其默认类型。通过下面的例子我们可以创建一个类型化常量&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;const name string = &amp;quot;reallyli&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Go 是一种强类型语言，&lt;strong&gt;&lt;em&gt;不允许在分配期间混合类型&lt;/em&gt;&lt;/strong&gt;，看下面的例子&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;package main
+
+func main() {
+  var defaultName = &amp;quot;reallyli&amp;quot;
+  type myString string //string 类型的别名
+  var customName, myString = &amp;quot;reallyli&amp;quot;
+  customName = defaultName //not allowed 编译器认为两个变量的类型不一样 不能被重新赋值 
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;布尔常量&#34;&gt;布尔常量&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;package main
+
+func main() {  
+    const trueConst = true //定义一个常量 trueConst
+    type myBool bool // 定义一个变量类型 为 bool 的别名
+    var defaultBool = trueConst //allowed // 定义一个变量 defaultBool
+    var customBool myBool = trueConst //allowed 定一个变量类型为 myBool 的变量 customBool
+    defaultBool = customBool //not allowed 两个类型不一样的变量 不能被重新赋值
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;数字常量&#34;&gt;数字常量&lt;/h2&gt;
+
+&lt;p&gt;数字常量包括整数、浮点数和复数常量，看下面的例子&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;package main
+
+import (  
+    &amp;quot;fmt&amp;quot;
+)
+
+func main() {  
+    const a = 5
+    var intVar int = a
+    var int32Var int32 = a
+    var float64Var float64 = a
+    var complex64Var complex64 = a
+    fmt.Println(&amp;quot;intVar&amp;quot;,intVar, &amp;quot;\nint32Var&amp;quot;, int32Var, &amp;quot;\nfloat64Var&amp;quot;, float64Var, &amp;quot;\ncomplex64Var&amp;quot;,complex64Var)
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;数字表达式&#34;&gt;数字表达式&lt;/h2&gt;
+
+&lt;p&gt;数值常量可以在表达式中自由混合和匹配，只有在将它们分配给变量或在需要类型的代码中的任何位置使用时才需要类型。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;package main
+
+import (
+  &amp;quot;fmt&amp;quot;
+)
+
+func main() {
+  var a = 5.9 / 8
+  fmt.Printf(&amp;quot;a&#39;s type %T value %v&amp;quot;, a, a) // a&#39;s type float64 value 0.7375
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>难得七夕</title>
+      <link>http://localhost:1313/post/tanabata-2018/</link>
+      <pubDate>Fri, 17 Aug 2018 22:18:50 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/tanabata-2018/</guid>
+      
+        <description>&lt;p&gt;&lt;img src=&#34;https://eva.hixiaogan.cn/thumb/blog/tanabata.png&#34; alt=&#34;tanabata&#34; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;每年的七夕节好像并没有想象中的那么深刻，朋友圈还是往常节日一样，总有那么一批秀幸福的人。今天也没有多少特殊的纪念，照常上班，充满生命力的挤公交，接受各种任务的洗礼。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;早上习惯性的塞上耳机，行走在通往公司的路上，耳机里随机到了陶喆《21》这首歌，突然想起自己一个人在珠海斗门的实习日子，那时候总是奔往多个地方，那时天真的很蓝，在破旧的站台等公交的日子，最重要的是那时候刚好21。一切都是那么机缘巧合，每天醒来的日子，看看阳台外的远山，或许今天会是雨天，那就快到午饭时间，打包一份广东特色盒饭，回到家中听着音乐，欣赏窗台外的风景，一阵午睡足以让人更加清醒。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;4年&lt;/em&gt;&lt;/strong&gt; 多去了，那些刚入社会不久的那个我，显得更加谨小慎微。程序人生3年有余，多了一份耐心，却少了一份纯粹。已经 &lt;strong&gt;&lt;em&gt;好几年&lt;/em&gt;&lt;/strong&gt; 没有触碰篮球了，已经快 &lt;strong&gt;&lt;em&gt;8个月&lt;/em&gt;&lt;/strong&gt; 没有健身了，甚至七夕节的今天，我也会忘记给心爱的她献上美丽的鲜花。人生多少都会难得糊涂，甚至会面对无数个抉择。选择开始程序人生，有了新的人生目标，多少都会对日新月异的技术变更感到些许无措，选择进入婚姻的殿堂，有了更大的责任和重担，多少都会对渐渐上涨的房租和消费开支些许感叹。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;回到主题，今天是2018年的七夕节，去年怎么过的我也没有多大的印象，现在时间是将近晚上11点，最近在抓紧时间学习新的东西，希望把自己的知识面拓展宽，不能一直停留在舒适区，尝试去改变写学习方法和提升学习效率，接下来的四个月我将持续更新自己的站点，给自己定阶段性的任务。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;感谢我的 &lt;strong&gt;&lt;em&gt;wife&lt;/em&gt;&lt;/strong&gt; 一直在背后默默的支持我，婚后的第一个 &lt;strong&gt;&lt;em&gt;七夕节&lt;/em&gt;&lt;/strong&gt; 我没有给你想要的惊喜，平平淡淡，真真切切，这些话未免有些俗不可耐。男人的前线战场，愈演愈烈，没有两个自己，只有一个她，宽容和谅解，才是毕升的修行。&lt;/p&gt;
+
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  class=&#34;center&#34;  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://eva.hixiaogan.cn/thumb/blog/traveler_2018.jpg&#34; alt=&#34;马来西亚之旅&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://eva.hixiaogan.cn/thumb/blog/traveler_2018.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;&lt;h4&gt;2018-马来西亚-蜜月旅行&lt;/h4&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+
+&lt;hr /&gt;
+
+&lt;p&gt;26岁，年轻气盛的年纪，血气方刚。该去实现自己想法的年纪，该去试着突破自我的年纪。在应有的技术层面多做加法，在应有的人脉圈内多做交集。30岁以后慢慢做减法，试着舍弃一些不该承受的责任，试着顾全大局。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;我对未来想说，如果未来不是那个真的我，为何今天还在此虚度。&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;莫忘初心，方能始终；程序人生，快马加鞭；婚姻和事业并行，感悟一生&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>Go 教程第四部分之变量类型</title>
+      <link>http://localhost:1313/post/go-tutorial-note-4/</link>
+      <pubDate>Sat, 11 Aug 2018 12:29:20 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/go-tutorial-note-4/</guid>
+      
+        <description>
+
+&lt;p&gt;&lt;img src=&#34;https://eva.hixiaogan.cn/thumb/blog/golang_var.png&#34; alt=&#34;golang_var&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;变量的基本类型&#34;&gt;变量的基本类型&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Bool&lt;/li&gt;
+&lt;li&gt;Numeric Types&lt;/li&gt;
+&lt;li&gt;String&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;bool&#34;&gt;Bool&lt;/h2&gt;
+
+&lt;p&gt;bool类型表示布尔值，为true或false。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;package main
+
+import &amp;quot;fmt&amp;quot;
+
+func main() {
+    a := true
+    b := false
+    fmt.Println(&amp;quot;a:&amp;quot;, a, &amp;quot;b:&amp;quot;, b)
+    c := a &amp;amp;&amp;amp; b
+    fmt.Println(&amp;quot;c:&amp;quot;, c)
+    d := a || b
+    fmt.Println(&amp;quot;d;&amp;quot;, d)
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;numeric&#34;&gt;Numeric&lt;/h2&gt;
+
+&lt;h3 id=&#34;有符号整数&#34;&gt;有符号整数&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;right&#34;&gt;类型&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;大小&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;范围&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;int8&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;8位&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;-128到127&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;int16&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;16位&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;-32768到32767&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;int32&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;32位&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;-2147483648到2147483647&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;int64&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;64位&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;-9223372036854775808到9223372036854775807&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;int&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;表示32位或64位整数，具体取决于底层平台。除非需要使用特定大小的整数，否则通常应使用int来表示整数&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;32位系统中的-2147483648到2147483647和64位系统中的-9223372036854775808到9223372036854775807&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;package main
+
+import &amp;quot;fmt&amp;quot;
+
+func main() {
+    var a int = 9
+    b := 10
+    fmt.Println(&amp;quot;value of a is&amp;quot;, a, &amp;quot;and b is&amp;quot;, b)
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;可以使用 Printf 方法中的 ％T 格式说明符打印变量的类型。Go 有一个不安全的包，它有一个 Sizeof 函数，它以字节为单位返回传递给它的变量的大小。应谨慎使用不安全的软件包，因为使用它的代码可能存在可移植性问题，以下代码中使用它只是举例说明。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;package main
+
+import (
+    &amp;quot;fmt&amp;quot;
+    &amp;quot;unsafe&amp;quot;
+)
+
+func main() {
+    var a int = 10
+    b := 20
+    fmt.Printf(&amp;quot;type of a is %T, size of a is %d&amp;quot;, a, unsafe.Sizeof(a)) //type and size of a
+    fmt.Printf(&amp;quot;\ntype of b is %T, size of b is %d&amp;quot;, b, unsafe.Sizeof(b)) //type and size of b
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;无符号整数&#34;&gt;无符号整数&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;right&#34;&gt;类型&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;大小&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;范围&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;int8&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;8位&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;-128到127&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;int16&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;16位&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;-32768到32767&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;int32&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;32位&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;-2147483648到2147483647&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;int64&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;64位&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;-9223372036854775808到9223372036854775807&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;int&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;表示32位或64位整数，具体取决于底层平台。除非需要使用特定大小的整数，否则通常应使用int来表示整数&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;32位系统中的-2147483648到2147483647和64位系统中的-9223372036854775808到9223372036854775807&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;浮点类型&#34;&gt;浮点类型&lt;/h2&gt;
+
+&lt;p&gt;float32： 32位浮点数
+float64： 64位浮点数&lt;/p&gt;
+
+&lt;h2 id=&#34;复杂类型&#34;&gt;复杂类型&lt;/h2&gt;
+
+&lt;p&gt;complex64：具有float32实部和虚部的复数数字
+complex128：具有float64实部和虚部的复数&lt;/p&gt;
+
+&lt;p&gt;内置函数复合体用于构造具有实部和虚部的复数。复杂函数具有以下定义&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;func complex(r, i FloatType) ComplexType  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;它将实部和虚部作为参数并返回复杂类型。实部和虚部都应该是相同的类型。即float32或float64。如果实部和虚部都是float32，则此函数返回complex64类型的复数值。如果实部和虚部都是float64类型，则此函数返回complex128类型的复数值&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;package main
+
+import (
+    &amp;quot;fmt&amp;quot;
+)
+
+func main() {
+    a := complex(1, 2)
+    b := 3 + 4i
+    sum := a + b
+    fmt.Println(&amp;quot;sum:&amp;quot;, sum)
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;其他数字类型&#34;&gt;其他数字类型&lt;/h2&gt;
+
+&lt;p&gt;byte 是 unit8 的别名
+符文是 int32 的别名&lt;/p&gt;
+
+&lt;h2 id=&#34;字符串类型&#34;&gt;字符串类型&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;package main
+
+import (
+    &amp;quot;fmt&amp;quot;
+)
+
+func main() {
+    name := &amp;quot;reallyli&amp;quot;
+    ago := 26
+    fmt.Println(&amp;quot;My name is &amp;quot;, name, &amp;quot;, ago is&amp;quot;, ago)
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;类型转换&#34;&gt;类型转换&lt;/h2&gt;
+
+&lt;p&gt;Go 对显式输入非常严格。没有自动类型转换，两个不同类型的变量进行运算需要进行强制转换&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;package main
+
+import (
+    &amp;quot;fmt&amp;quot;
+)
+
+func main() {
+    a := 1.22
+    b := 2
+    sum := a + b
+    // sum := int(a) + b //yes
+    fmt.Println(&amp;quot;sum:&amp;quot;, sum)
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;invalid operation: a + b (mismatched types float64 and int)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;package main
+
+import (  
+    &amp;quot;fmt&amp;quot;
+)
+
+func main() {  
+    i := 10
+    var j int = float64(i) //this statement will not work without explicit conversion
+    // var j float64 = float64(i) // yes
+    fmt.Println(&amp;quot;j&amp;quot;, j)
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>Go 教程第三部分之变量语法</title>
+      <link>http://localhost:1313/post/go-tutorial-note-3/</link>
+      <pubDate>Fri, 10 Aug 2018 09:46:57 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/go-tutorial-note-3/</guid>
+      
+        <description>
+
+&lt;p&gt;&lt;img src=&#34;https://eva.hixiaogan.cn/thumb/blog/go_tutorial_3.png&#34; alt=&#34;go_tutorial_3&#34; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;变量是为存储特定类型的值的内存位置指定的名称。在 go 中声明变量有各种语法。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&#34;声明一个变量&#34;&gt;声明一个变量&lt;/h1&gt;
+
+&lt;p&gt;比如声明一个 name 的变量&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;package main
+
+import fmt
+
+func main() {
+  var name int
+  fmt.Println(&amp;quot;My age is&amp;quot;, name)
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;该语句 &lt;code&gt;var age int&lt;/code&gt; 声明了一个变量类型为 int 的变量。我们没有为变量分配任何值。一般情况下没有为变量赋值，那么改变量的初始值默认为0。运行上面程序会输出如下结果。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;My ago is 0
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;当然实际应用中也可以给变量赋其他类型的值，就上面的例子而言， 我们可以给变量 name 赋予任何整数值&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;package main
+
+import &amp;quot;fmt&amp;quot;
+
+func main() {  
+    var age int // variable declaration
+    fmt.Println(&amp;quot;my age is &amp;quot;, age)
+    age = 29 //assignment
+    fmt.Println(&amp;quot;my age is&amp;quot;, age)
+    age = 54 //assignment
+    fmt.Println(&amp;quot;my new age is&amp;quot;, age)
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;声明具有初始值的变量&#34;&gt;声明具有初始值的变量&lt;/h1&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;变量在声明的时候也可以赋予初始值，基本语法是 &lt;code&gt;var name type = initialvalue&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;package main
+
+import &amp;quot;fmt&amp;quot;
+
+func main() {  
+    var age int = 29 // variable declaration with initial value
+
+    fmt.Println(&amp;quot;my age is&amp;quot;, age)
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;类型推断&#34;&gt;类型推断&lt;/h1&gt;
+
+&lt;p&gt;如果变量在声明的时候已经赋予了初始值，Go 将自动根据该初始值推断该变量的类型。因此，如果变量具有初始值，则可以*省略*变量声明中的类型。基本语法是 &lt;code&gt;var name = initialvalue&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;package main
+
+import &amp;quot;fmt&amp;quot;
+
+func main() {  
+    var age = 29 // type will be inferred
+
+    fmt.Println(&amp;quot;my age is&amp;quot;, age)
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;多变量声明&#34;&gt;多变量声明&lt;/h1&gt;
+
+&lt;p&gt;可以在单个语句中声明多个变量。基本语法是 &lt;code&gt;var name1，name2 type = initialvalue1，initialvalue2&lt;/code&gt;。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;package main
+
+import fmt
+
+func main() {
+  var width,height = 100, 200, //declaring multiple variables, &amp;quot;int&amp;quot; is dropped
+
+  fmt.Println(&amp;quot;Width is&amp;quot;, width, &amp;quot;Height is&amp;quot;, height)
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;在某些情况下，我们可能希望在单个语句中声明属于不同类型的变量。基本语法如下&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;var (  
+      name1 = initialvalue1,
+      name2 = initialvalue2
+)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;再看看下面的例子&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;package main
+
+import &amp;quot;fmt&amp;quot;
+
+func main() {  
+    var (
+        name   = &amp;quot;naveen&amp;quot;
+        age    = 29
+        height int
+    )
+    fmt.Println(&amp;quot;my name is&amp;quot;, name, &amp;quot;, age is&amp;quot;, age, &amp;quot;and height is&amp;quot;, height)
+    // output my name is naveen, age is 29 and height is 0
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;简短的声明&#34;&gt;简短的声明&lt;/h1&gt;
+
+&lt;p&gt;Go还提供了另一种简洁的方式来声明变量。这称为简写声明，它使用 ：= 运算符。基本语法是 &lt;code&gt;name：= initialvalue&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;package main
+
+import &amp;quot;fmt&amp;quot;
+
+func main() {  
+    name, age := &amp;quot;naveen&amp;quot;, 29 //short hand declaration
+
+    fmt.Println(&amp;quot;my name is&amp;quot;, name, &amp;quot;age is&amp;quot;, age)
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;由于 Go 是强类型的，因此声明属于一种类型的变量不能分配另一种类型的值。以下程序将抛出一个错误，&lt;code&gt;cannot use &amp;quot;naveen&amp;quot; (type string) as type int in assignment&lt;/code&gt; 因为 age 被声明为 int 类型，不能赋予其他类型的值。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;package main
+
+func main() {
+    age := 10
+    age = &amp;quot;Bob&amp;quot; //error since we are trying to assign a string to a variable of type int
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>Go 教程第二部分之 Hello World</title>
+      <link>http://localhost:1313/post/go-tutorial-note-2/</link>
+      <pubDate>Thu, 09 Aug 2018 09:46:57 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/go-tutorial-note-2/</guid>
+      
+        <description>
+
+&lt;p&gt;&lt;img src=&#34;https://eva.hixiaogan.cn/thumb/blog/hello_world_golang.png&#34; alt=&#34;hello_world_golang&#34; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;个人建议使用带有go扩展名的Visual Studio Code作为IDE。它具有自动完成，代码样式和许多其他功能。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这是 Golang 教程系列的第二篇教程。请阅读 Golang 教程第1部分：简介和安装，了解 golang 是什么以及如何安装 Golang。往往学习一门新的编程语言都要从编写 Hello World 开始，那就 Let&amp;rsquo;s do it!&lt;/p&gt;
+
+&lt;h1 id=&#34;设置-go-工作区&#34;&gt;设置 go 工作区&lt;/h1&gt;
+
+&lt;p&gt;准备工作之一就是需要设置 go 工作区。&lt;/p&gt;
+
+&lt;p&gt;对于 Mac 或 Linux ，go 工作区应位于 &lt;code&gt;$ HOME / go&lt;/code&gt; 中，对于 Windows， 工作区应该位于 &lt;code&gt;C：\ Users \ YourName \ go&lt;/code&gt; 中。实际开发过程中，通过设置 &lt;code&gt;GOPATH&lt;/code&gt; 环境变量，可以设置不同的工作区。 通常 go 的所有源文件应该位于工作区内名为 src 的目录中。因此我们需要在原有工作区的基础上创建子文件夹 src ，目录结构应如下所示。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;  go
+    src
+      hello
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;开始编写 helloworld.go 文件&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;package main
+
+import &amp;quot;fmt&amp;quot;
+
+func main() {
+  fmt.Println(&amp;quot;Hello World&amp;quot;)
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;那么现在的目录结构应该是如下图所示&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;  go
+    src
+      hello
+        helloworld.go
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;运行-go&#34;&gt;运行 go&lt;/h1&gt;
+
+&lt;p&gt;通常运行 go 有几种不同的方法&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;使用 &lt;code&gt;go run&lt;/code&gt; 命令 - &lt;code&gt;go run ~/src/hello/helloworld.go&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;使用 &lt;code&gt;go install&lt;/code&gt; 命令， &lt;code&gt;go install hello&lt;/code&gt;，然后 &lt;code&gt;workspacepath/bin/hello&lt;/code&gt; 运行编译后的程序&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;运行程序的第三个很酷的方法是使用 &lt;code&gt;go play&lt;/code&gt;。虽然这有限制，但是当我们想要运行简单的程序时，这个在线运行 go 程序的&lt;a href=&#34;https://play.golang.org/&#34;&gt;工具&lt;/a&gt;还是不错的。&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;当你输入 &lt;code&gt;go install hello&lt;/code&gt; 时，go 会在工作区内搜索 hello 包（ hello 被称为包，系列教程后面将会详细介绍包）。然后它在工作区的 bin 目录中创建一个名为 hello（ windows 环境下为 hello.exe 文件）的二进制文件。运行 &lt;code&gt;go install hello&lt;/code&gt; 后，目录结构如下所示&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;  go
+    bin
+      hello
+    src
+      hello
+        helloworld.go
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;hello-world-简易-go-程序代码分析&#34;&gt;hello world 简易 go 程序代码分析&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;package main - 每个 go 文件必须以 package name 语句开头。包用于提供代码分区和可重用性。这里使用的包名是 main&lt;/li&gt;
+&lt;li&gt;import &amp;ldquo;fmt&amp;rdquo; - 导入 fmt 包，它将在 main 函数中用于将文本打印到标准输出&lt;/li&gt;
+&lt;li&gt;func main() - 主要是一个特殊的功能。程序执行从 main 函数开始。main函数应始终位于主包中。该 { 和 } 表示主要功能的开始和结束。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;# 每个 go 文件必须以 package name 语句开头。包用于提供代码分区和可重用性。这里使用的包名是 main
+package main
+
+# 导入 fmt 包，它将在 main 函数中用于将文本打印到标准输出
+import &amp;quot;fmt&amp;quot;
+
+# 函数体
+func main() {
+  # fmt 包的 Println 函数用于将文本写入标准输出。
+  fmt.Println(&amp;quot;Hello World&amp;quot;)
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>Go 教程第一部分</title>
+      <link>http://localhost:1313/post/go-tutorial-note-1/</link>
+      <pubDate>Sun, 05 Aug 2018 11:27:27 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/go-tutorial-note-1/</guid>
+      
+        <description>
+
+&lt;p&gt;&lt;img src=&#34;https://eva.hixiaogan.cn/thumb/blog/golang_note.png&#34; alt=&#34;golang&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;什么是-golang&#34;&gt;什么是 Golang&lt;/h1&gt;
+
+&lt;p&gt;&lt;code&gt;Go&lt;/code&gt; 也称为 &lt;code&gt;Golang&lt;/code&gt;，是一种由谷歌开源的，编译和静态类型的编程语言&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Golang&lt;/code&gt;的主要重点是使高度可用、可扩展的 Web 应用程序开发变得简单&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;golang-的优点&#34;&gt;Golang 的优点&lt;/h1&gt;
+
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;并发性是该语言的重要优势。因此常用在编写多线程程序。这是通过Goroutines和渠道实现的。&lt;/li&gt;
+&lt;li&gt;Golang 是一种编译语言。源代码被编译为本机二进制文件。在诸如nodejs中使用的JavaScript之类的解释语言中缺少这一点。&lt;/li&gt;
+&lt;li&gt;语言规范非常简单。你甚至可以用它来写你自己的编译器:)&lt;/li&gt;
+&lt;li&gt;Go 编译器支持静态链接。所有 Go 代码都可以静态链接到一个大的二进制文件中，并且可以轻松地部署在云服务器中，而不用考虑其依赖性。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;安装&#34;&gt;安装&lt;/h1&gt;
+
+&lt;p&gt;Mac，Windows 和 Linux 三个平台都支持Golang。您可以从 &lt;a href=&#34;https://golang.org/dl/&#34;&gt;golang.org&lt;/a&gt; 下载相应平台的二进制文件&lt;/p&gt;
+
+&lt;h2 id=&#34;mac&#34;&gt;Mac&lt;/h2&gt;
+
+&lt;p&gt;从 &lt;code&gt;https://golang.org/dl/&lt;/code&gt; 下载 OS X 安装程序。双击即可开始安装。按照提示进行操作，在&lt;code&gt;/usr/local/go&lt;/code&gt;中安装 Golang，然后将&lt;code&gt;/usr/local/go/bin&lt;/code&gt; 添加到 PATH 环境变量中。&lt;/p&gt;
+
+&lt;h2 id=&#34;windows&#34;&gt;Windows&lt;/h2&gt;
+
+&lt;p&gt;从 &lt;code&gt;https://golang.org/dl/&lt;/code&gt; 下载 MSI 安装程序。双击以开始安装并按照提示进行操作。在位置 &lt;code&gt;C：\Go&lt;/code&gt;中安装  Golang，然后&lt;code&gt;C：\Go\bin&lt;/code&gt; 添加到路径环境变量中。&lt;/p&gt;
+
+&lt;h2 id=&#34;linux&#34;&gt;Linux&lt;/h2&gt;
+
+&lt;p&gt;从 &lt;code&gt;https://golang.org/dl/&lt;/code&gt; 下载 tar 文件并将其解压缩到 &lt;code&gt;/usr/local&lt;/code&gt;。 然后将 &lt;code&gt;/usr/local/go/bin&lt;/code&gt; 添加到 PATH 环境变量。&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;原文地址：&lt;a href=&#34;https://golangbot.com/golang-tutorial-part-1-introduction-and-installation/&#34;&gt;https://golangbot.com/golang-tutorial-part-1-introduction-and-installation/&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>Php Deployer</title>
+      <link>http://localhost:1313/post/php-deployer/</link>
+      <pubDate>Wed, 18 Jul 2018 22:00:41 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/php-deployer/</guid>
+      
+        <description>
+
+&lt;p&gt;&lt;img src=&#34;https://eva.hixiaogan.cn/thumb/blog/php_deloyer_side.jpg&#34; alt=&#34;php-deployer&#34; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;实际项目开发中，对于自动化部署 php 项目市面上鲜有比较不错的方案，比如瓦力，比如公司 ruby 项目组使用 &lt;a href=&#34;https://capistranorb.com/&#34;&gt;capistrano&lt;/a&gt;，经过少数实践，还是选择使用 pr,issue 比较活跃的 deployer&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;关于 &lt;code&gt;deployer&lt;/code&gt; 部署 &lt;code&gt;Laravel&lt;/code&gt; 项目最初实践方案是比较初级的，&lt;code&gt;composer global&lt;/code&gt; 安装到本地，然后编写符合自己项目的 task , 配置主机，配置共享目录，服务器配置 sudo 免密码账号等等一系列操作。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;刚开始可能遇到的问题比较低级，但是通过翻看 &lt;a href=&#34;https://github.com/deployphp/deployer/issues&#34;&gt;deployer&lt;/a&gt; 的各种 issues，逐步的把问题解决，也算是有一点小进步吧。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;关于使用 deployer 部署 php 项目，我后来在 Laravel-china 社区看到了 Overtrue 的一篇文章，总结的很好，方便以后查阅，再此我记一下&lt;a href=&#34;https://laravel-china.org/articles/13242/another-introduction-to-the-use-of-deployer&#34;&gt;链接&lt;/a&gt;，文中把整个部署过程讲的很通透，下面的评论也有一些可能会在未来遇到的问题，总体来说很赞👍👍&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;关于使用 deployer 部署 Laravel 项目，虽然此 package 已经提前预设了 laravel recipe，包括共享目录 &lt;code&gt;storage&lt;/code&gt;，共享文件 &lt;code&gt;.env&lt;/code&gt;，集成各种 &lt;code&gt;artisan&lt;/code&gt; 等等，但是我们也在试想如何更优雅与 Laravel 贴近，于是想在此基础上封装一个扩展包，起初在此扩展包我们想添加的功能是：添加部署群消息提醒，添加修订日志，自动上传新的 .env 文件等，搜索博大的 github 仓库，果不其然发现了一个 &lt;code&gt;package&lt;/code&gt; 集成 deployer，于是在此基础上我们重新整合了需求，定制自己项目的自动化部署扩展包 &lt;a href=&#34;https://github.com/reallyli/laravel-unideploy&#34;&gt;laravel-unideploy&lt;/a&gt;，目前还在不断完善中，但是大部分代码都是基于 &lt;a href=&#34;https://github.com/lorisleiva/laravel-deployer&#34;&gt;laravel-deployer&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;原来开始叨叨别人包 bug 多，一杯咖啡的时间，冷静下来，总有一些独特的思想在里面，一千的 php 程序员眼中，总有一千种代码实现，怎么去权衡代码精简和代码易读易懂是一个不朽的问题😇&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&#34;总结一下实际项目开发中遇到的一些问题&#34;&gt;总结一下实际项目开发中遇到的一些问题&lt;/h1&gt;
+
+&lt;h2 id=&#34;问题一&#34;&gt;问题一&lt;/h2&gt;
+
+&lt;p&gt;acl 未安装，下面如下 shell 返回空&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;if hash setfacl 2&amp;gt;/dev/null; then echo &#39;true&#39;; fi
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;解决方案&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sudo apt-get install acl
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;参考 &lt;a href=&#34;https://github.com/deployphp/deployer/issues/1118&#34;&gt;issues&lt;/a&gt;，Unable to setup correct permissions for writable dirs&lt;/p&gt;
+
+&lt;h2 id=&#34;问题二&#34;&gt;问题二&lt;/h2&gt;
+
+&lt;p&gt;reload php-fpm 没有权限&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sudo need to enter a password
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;解决方案&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sudo vi /etc/sudoers
+your_user_name ALL=(ALL) NOPASSWD: ALL
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;需要特别注意的地方是 将部署账号的 sudo 配置在文件的最后一行，避免有*覆盖*的情况，可以配置完执行 &lt;code&gt;sudo cat /etc/sudoers&lt;/code&gt; 看看是否有权限&lt;/p&gt;
+
+&lt;h2 id=&#34;问题三&#34;&gt;问题三&lt;/h2&gt;
+
+&lt;p&gt;git deploy failed&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;Fetching origin
+ERROR: Repository not found.
+fatal: Could not read from remote repository.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;解决方案&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;eval `ssh-agent -s` &amp;amp;&amp;amp;
+ssh-add ~/.ssh/id_rsa
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;项目部署的主机配置中设置 forwardAgent 为 true，本地 ssh-add 自己的私钥，因为部署过程中需要与服务器保持会话&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;其他的配置还在逐渐实践中，期间在遇到什么问题，随时补充笔记，吾日三省吾身。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;写了这么一段小笔记，现在已经快到12点了，突然发现我电脑的键盘膜上 &lt;code&gt;command + c&lt;/code&gt;已经开始花了，这么多天过去了，往后余生，风雪是你，平淡是你，清贫是你，荣华是你。&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.uniqueway.com&#34;&gt;无二之旅&lt;/a&gt;，定制有温度的旅行，今年的目标之一是定制自己的 &lt;code&gt;uni-package&lt;/code&gt;，实践是成长最好的方式，等待周五的好消息，因为余生有你，才有更大的动力和信心。🌙&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>午后的猫</title>
+      <link>http://localhost:1313/post/afternoon-cat/</link>
+      <pubDate>Wed, 04 Jul 2018 22:59:59 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/afternoon-cat/</guid>
+      
+        <description>&lt;blockquote&gt;
+&lt;p&gt;来自我的 QQ &lt;a href=&#34;https://user.qzone.qq.com/1025070092&#34;&gt;空间&lt;/a&gt;日志，记载于 2013-9-12 22:41&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;突然发现很久没有打球了，或许是到了九月秋初这个季节才开始想起。没有时间，没有精力看上去只是心灵上的阻碍，我发现再也找不回以前的那种感觉才是最恰如其份的理由。一大群人走在路上，周围的异度空间若隐若现，欣赏完一片风景，你发现再也找不回重复的路，明天的太阳还是会升起，我只是想怀恋一下曾经的5,5，5和小半场兄弟们。&lt;/p&gt;
+
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  class=&#34;center&#34;  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://a2.qpic.cn/psb?/e22bce0d-c189-4c81-be5c-fe7638b1b99e/U2eenee42sthtaoA5cWgII3*FhXTqgZgt87xpgFXwL0!/b/dO8i3Jb8IwAA&amp;amp;ek=1&amp;amp;kp=1&amp;amp;pt=0&amp;amp;bo=vAIAAgAAAAABAJs!&amp;amp;tl=3&amp;amp;su=3148428961&amp;amp;tm=1530712800&amp;amp;sce=0-12-12&amp;amp;rf=2-9&#34; alt=&#34;Miami Storm&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://a2.qpic.cn/psb?/e22bce0d-c189-4c81-be5c-fe7638b1b99e/U2eenee42sthtaoA5cWgII3*FhXTqgZgt87xpgFXwL0!/b/dO8i3Jb8IwAA&amp;amp;ek=1&amp;amp;kp=1&amp;amp;pt=0&amp;amp;bo=vAIAAgAAAAABAJs!&amp;amp;tl=3&amp;amp;su=3148428961&amp;amp;tm=1530712800&amp;amp;sce=0-12-12&amp;amp;rf=2-9&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;&lt;h4&gt;热火时期的三巨头&lt;/h4&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;我觉得我会有所转变，我想时间会说明一切。老照片里的&lt;code&gt;SKAM&lt;/code&gt;，永远都不会从我的生活里消失，明仔离开XG的那一天，我好像记得要写一篇日志纪念有5号的日子，只是一年多了才突然想起。那次你给我看的数据本(关于&lt;code&gt;BOSTON&lt;/code&gt;），就像看到了一种信仰，那是骨子里的痴迷与忠诚。永远的绿色，铁血的魂，，只要有那么一股劲在，有故事的人永远都不曾老去&lt;/p&gt;
+
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  class=&#34;center&#34;  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://a1.qpic.cn/psb?/e22bce0d-c189-4c81-be5c-fe7638b1b99e/yaTa8a1HLQHkb57syc71E5H7gQhHXqIXvAO1.m5jwLs!/b/dBDJO5bkDAAA&amp;amp;ek=1&amp;amp;kp=1&amp;amp;pt=0&amp;amp;bo=IANYAgAAAAABAF4!&amp;amp;tl=3&amp;amp;su=010320545&amp;amp;tm=1530712800&amp;amp;sce=0-12-12&amp;amp;rf=2-9&#34; alt=&#34;Boston Storm&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://a1.qpic.cn/psb?/e22bce0d-c189-4c81-be5c-fe7638b1b99e/yaTa8a1HLQHkb57syc71E5H7gQhHXqIXvAO1.m5jwLs!/b/dBDJO5bkDAAA&amp;amp;ek=1&amp;amp;kp=1&amp;amp;pt=0&amp;amp;bo=IANYAgAAAAABAF4!&amp;amp;tl=3&amp;amp;su=010320545&amp;amp;tm=1530712800&amp;amp;sce=0-12-12&amp;amp;rf=2-9&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;&lt;h4&gt;铁血绿色军团&lt;/h4&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;我发现我都出来三个月了，很多思想还是没有转变过来，依旧我行我素，或许该经得住时间的考验了。从南山，东莞再到沙井，退路的问题一直成为我前进的方向。是时候静下心来做好当下的事了，从14到&lt;code&gt;Shuai&lt;/code&gt;到&lt;code&gt;Tang&lt;/code&gt;，南山街头疲惫等公交的场景和景宏模具夕阳下的篮球场，再到眼前每天打交道的电镀。我只想说，一切很DB。我已经开始忘记堂哥什么时候飞往虹桥的，我只是记得·我们一路走来的带点点滴滴，热火夺冠的那一天，模具厂里只是新来了几个球迷而已。开了午饭的食堂里只能看到颁奖仪式的尾声，至今还未曾想起当时是怎样的饭菜，只是今天越来越记挂罢了，原来那也是一种简单的知足。我已经开始忘了帅是什么时候去往佛山的，我只是记得走的那一天包夜的开黑三人组，第二天拖着行李的时候，我已经不记得当时是什么样的状态。每到九点半超市门口的风景，只是永远有你我的城市缩影。热火夺冠的那一天，我们还在惋惜年老的马刺和总冠军仅有一步之遥，老照片里的SKAM，有篮球的日子总会让我想起些什么，只是微薄的想起，在某一瞬间，或者某一时刻。&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;叮噹可否不要老FA：画面感很强！那段记忆犹新的日子依然在脑海。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  class=&#34;center&#34;  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://a3.qpic.cn/psb?/e22bce0d-c189-4c81-be5c-fe7638b1b99e/XJ6jJHZ90W.q0vWPwooAltaIjD2aZ1IuX*BidJzRhAo!/b/dDlFD5VCDQAA&amp;amp;ek=1&amp;amp;kp=1&amp;amp;pt=0&amp;amp;bo=mAFSAgAAAAABAO4!&amp;amp;tl=3&amp;amp;su=0158197121&amp;amp;tm=1530712800&amp;amp;sce=0-12-12&amp;amp;rf=2-9&#34; alt=&#34;Devin Wade&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://a3.qpic.cn/psb?/e22bce0d-c189-4c81-be5c-fe7638b1b99e/XJ6jJHZ90W.q0vWPwooAltaIjD2aZ1IuX*BidJzRhAo!/b/dDlFD5VCDQAA&amp;amp;ek=1&amp;amp;kp=1&amp;amp;pt=0&amp;amp;bo=mAFSAgAAAAABAO4!&amp;amp;tl=3&amp;amp;su=0158197121&amp;amp;tm=1530712800&amp;amp;sce=0-12-12&amp;amp;rf=2-9&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;&lt;h4&gt;闪电侠韦德&lt;/h4&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+
+&lt;blockquote&gt;
+&lt;p&gt;结尾送上一首爱与诚，往事可堪回首，希望兄弟们今年都能找到各自心里的另一半，向着美好奋进！&lt;/p&gt;
+&lt;/blockquote&gt;
+
+  &lt;iframe style=&#34;max-width: 100%&#34;
+      class=&#34;music163&#34;
+      frameborder=&#34;no&#34;
+      border=&#34;0&#34;
+      marginwidth=&#34;0&#34;
+      marginheight=&#34;0&#34;
+      width=&#34;330&#34;
+      height=&#34;86&#34;
+      src=&#34;//music.163.com/outchain/player?type=2&amp;id=86849&amp;auto=0&amp;height=66&#34;&gt;
+    &lt;/iframe&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>Jane Theme Preview</title>
+      <link>http://localhost:1313/post/jane-theme-preview/</link>
+      <pubDate>Tue, 06 Mar 2018 16:01:23 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/jane-theme-preview/</guid>
+      
+        <description>&lt;p&gt;&lt;strong&gt;Markdown&lt;/strong&gt; is created by &lt;a href=&#34;http://daringfireball.net/&#34;&gt;Daring Fireball&lt;/a&gt;, the original guideline is &lt;a href=&#34;http://daringfireball.net/projects/markdown/syntax&#34;&gt;here&lt;/a&gt;. Its syntax, however, varies between different parsers or editors.&lt;/p&gt;
+
+&lt;p&gt;Please note that HTML fragments in markdown source will be recognized but not parsed or rendered. Also, there may be small reformatting on the original markdown source code after saving.&lt;/p&gt;
+
+&lt;h2 id=&#34;paragraph-and-line-breaks&#34;&gt;Paragraph and line breaks&lt;/h2&gt;
+
+&lt;p&gt;A paragraph is simply one or more consecutive lines of text. In markdown source code, paragraphs are separated by more than one blank lines. In Typora, you only need to press &lt;code&gt;Return&lt;/code&gt; to create a new paragraph.&lt;/p&gt;
+
+&lt;p&gt;Press &lt;code&gt;Shift&lt;/code&gt; + &lt;code&gt;Return&lt;/code&gt; to create a single line break. However, most markdown parser will ignore single line break, to make other markdown parsers recognize your line break, you can leave two whitespace at the end of the line, or insert &lt;code&gt;&amp;lt;br/&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;headers&#34;&gt;Headers&lt;/h2&gt;
+
+&lt;p&gt;Headers use 1-6 hash characters at the start of the line, corresponding to header levels 1-6. For example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;# This is an H1
+
+## This is an H2
+
+###### This is an H6
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In typora, input ‘#’s followed by title content, and press &lt;code&gt;Return&lt;/code&gt; key will create a header.&lt;/p&gt;
+
+&lt;h2 id=&#34;blockquotes&#34;&gt;Blockquotes&lt;/h2&gt;
+
+&lt;p&gt;Markdown uses email-style &amp;gt; characters for block quoting. They are presented as:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;This is a blockquote with two paragraphs. This is first paragraph.&lt;/p&gt;
+
+&lt;p&gt;This is second pragraph.Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.&lt;/p&gt;
+
+&lt;p&gt;This is another blockquote with one paragraph. There is three empty line to seperate two blockquote.&lt;/p&gt;
+
+&lt;p&gt;这是一段中文测试。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In typora, just input ‘&amp;gt;’ followed by quote contents a block quote is  generated. Typora will insert proper ‘&amp;gt;’ or line break for you. Block quote inside anther block quote is allowed by adding additional levels of ‘&amp;gt;’.&lt;/p&gt;
+
+&lt;h2 id=&#34;lists&#34;&gt;Lists&lt;/h2&gt;
+
+&lt;p&gt;Input &lt;code&gt;* list item 1&lt;/code&gt; will create an un-ordered list, the &lt;code&gt;*&lt;/code&gt; symbol can be replace with &lt;code&gt;+&lt;/code&gt; or &lt;code&gt;-&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Input &lt;code&gt;1. list item 1&lt;/code&gt; will create an ordered list, their markdown source code is like:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Red&lt;/li&gt;
+&lt;li&gt;Green&lt;/li&gt;
+&lt;li&gt;Blue&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Red&lt;/li&gt;
+&lt;li&gt;Green&lt;/li&gt;
+&lt;li&gt;Blue&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;task-list&#34;&gt;Task List&lt;/h2&gt;
+
+&lt;p&gt;Task lists are lists with items marked as either &lt;code&gt;[ ]&lt;/code&gt; or &lt;code&gt;[x]&lt;/code&gt; (incomplete or complete). For example:&lt;/p&gt;
+
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; a task list item&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; list syntax required&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; normal &lt;strong&gt;formatting&lt;/strong&gt;, @mentions, #1234 refs&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; incomplete&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; completed&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You can change the complete/incomplete state by click the checkbox before the item.&lt;/p&gt;
+
+&lt;h2 id=&#34;syntax-highlighting&#34;&gt;Syntax Highlighting&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;function helloWorld () {
+  alert(&amp;quot;Hello, World!&amp;quot;)
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;public class HelloWorld {
+  public static void main(String[] args) {
+    System.out.println(&amp;quot;Hello, World!&amp;quot;);
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;math-blocks&#34;&gt;Math Blocks&lt;/h2&gt;
+
+&lt;p&gt;You can render *LaTeX* mathematical expressions using &lt;strong&gt;MathJax&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Input &lt;code&gt;$$&lt;/code&gt;, then press &amp;lsquo;Return&amp;rsquo; key will trigger an input field which accept &lt;em&gt;Tex/LaTex&lt;/em&gt; source. Following is an example:
+$$
+\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix}
+\mathbf{i} &amp;amp; \mathbf{j} &amp;amp; \mathbf{k} &lt;br /&gt;
+\frac{\partial X}{\partial u} &amp;amp;  \frac{\partial Y}{\partial u} &amp;amp; 0 &lt;br /&gt;
+\frac{\partial X}{\partial v} &amp;amp;  \frac{\partial Y}{\partial v} &amp;amp; 0 &lt;br /&gt;
+\end{vmatrix}
+$$&lt;/p&gt;
+
+&lt;p&gt;In markdown source file, math block is &lt;em&gt;LaTeX&lt;/em&gt; expression wrapped by ‘$$’ mark:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;$$
+\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix}
+\mathbf{i} &amp;amp; \mathbf{j} &amp;amp; \mathbf{k} \\
+\frac{\partial X}{\partial u} &amp;amp;  \frac{\partial Y}{\partial u} &amp;amp; 0 \\
+\frac{\partial X}{\partial v} &amp;amp;  \frac{\partial Y}{\partial v} &amp;amp; 0 \\
+\end{vmatrix}
+$$
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;tables&#34;&gt;Tables&lt;/h2&gt;
+
+&lt;p&gt;Input &lt;code&gt;| First Header  | Second Header |&lt;/code&gt; and press &lt;code&gt;return&lt;/code&gt; key will create a table with two column.&lt;/p&gt;
+
+&lt;p&gt;After table is created, focus on that table will pop up a toolbar for table, where you can resize, align, or delete table. You can also use context menu to copy and add/delete column/row.&lt;/p&gt;
+
+&lt;p&gt;Following descriptions can be skipped, as markdown source code for tables are generated by typora automatically.&lt;/p&gt;
+
+&lt;p&gt;In markdown source code, they look like:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;| Name              | Markdown            | HTML tag             |
+| ----------------- | ------------------- | -------------------- |
+| *Emphasis*        | `*Emphasis*`        | `&amp;lt;em&amp;gt;&amp;lt;/em&amp;gt;`          |
+| **Strong**        | `**Strong**`        | `&amp;lt;strong&amp;gt;&amp;lt;/strong&amp;gt;` |
+| `code`            | ``code``            | `&amp;lt;code&amp;gt;&amp;lt;/code&amp;gt;`      |
+| ~~Strikethrough~~ | `~~Strikethrough~~` | `&amp;lt;del&amp;gt;&amp;lt;/del`         |
+| &amp;lt;u&amp;gt;Underline&amp;lt;/u&amp;gt;  | `&amp;lt;u&amp;gt;underline&amp;lt;/u&amp;gt;`  | `&amp;lt;u&amp;gt;&amp;lt;/u&amp;gt;`            |
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;Markdown&lt;/th&gt;
+&lt;th&gt;HTML tag&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt;Emphasis&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;*Emphasis*&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;&amp;lt;em&amp;gt;&amp;lt;/em&amp;gt;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Strong&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;**Strong**&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;&amp;lt;strong&amp;gt;&amp;lt;/strong&amp;gt;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;code&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;code&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;&amp;lt;code&amp;gt;&amp;lt;/code&amp;gt;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;del&gt;Strikethrough&lt;/del&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;~~Strikethrough~~&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;&amp;lt;del&amp;gt;&amp;lt;/del&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;u&gt;Underline&lt;/u&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;&amp;lt;u&amp;gt;underline&amp;lt;/u&amp;gt;&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;&amp;lt;u&amp;gt;&amp;lt;/u&amp;gt;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;footnotes&#34;&gt;Footnotes&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;You can create footnotes like this[^footnote].
+
+[^footnote]: Here is the *text* of the **footnote**.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;will produce:&lt;/p&gt;
+
+&lt;p&gt;You can create footnotes like this&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:footnote&#34;&gt;&lt;a href=&#34;#fn:footnote&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;Mouse on the ‘footnote’ superscript to see content of the footnote.&lt;/p&gt;
+
+&lt;h2 id=&#34;horizontal-rules&#34;&gt;Horizontal Rules&lt;/h2&gt;
+
+&lt;p&gt;Input &lt;code&gt;***&lt;/code&gt; or &lt;code&gt;---&lt;/code&gt; on a blank line and press &lt;code&gt;return&lt;/code&gt; will draw a horizontal line.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+
+&lt;p&gt;Markdown supports two style of links: inline and reference.&lt;/p&gt;
+
+&lt;p&gt;In both styles, the link text is delimited by [square brackets].&lt;/p&gt;
+
+&lt;p&gt;To create an inline link, use a set of regular parentheses immediately after the link text’s closing square bracket. Inside the parentheses, put the URL where you want the link to point, along with an optional title for the link, surrounded in quotes. For example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;This is [an example](http://example.com/ &amp;quot;Title&amp;quot;) inline link.
+
+[This link](http://example.net/) has no title attribute.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;will produce:&lt;/p&gt;
+
+&lt;p&gt;This is &lt;a href=&#34;http://example.com/&#34; title=&#34;Title&#34;&gt;an example&lt;/a&gt; inline link. (&lt;code&gt;&amp;lt;p&amp;gt;This is &amp;lt;a href=&amp;quot;http://example.com/&amp;quot; title=&amp;quot;Title&amp;quot;&amp;gt;&lt;/code&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://example.net/&#34;&gt;This link&lt;/a&gt; has no title attribute. (&lt;code&gt;&amp;lt;p&amp;gt;&amp;lt;a href=&amp;quot;http://example.net/&amp;quot;&amp;gt;This link&amp;lt;/a&amp;gt; has no&lt;/code&gt;)&lt;/p&gt;
+
+&lt;h3 id=&#34;internal-links&#34;&gt;Internal Links&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;You can set the href to headers&lt;/strong&gt;, which will create a bookmark that allow you to jump to that section after clicking. For example:&lt;/p&gt;
+
+&lt;p&gt;Command(on Windows: Ctrl) + Click &lt;a href=&#34;#block-elements&#34;&gt;This link&lt;/a&gt; will jump to header &lt;code&gt;Block Elements&lt;/code&gt;. To see how to write that, please move cursor or click that link with &lt;code&gt;⌘&lt;/code&gt; key pressed to expand the element into markdown source.&lt;/p&gt;
+
+&lt;h3 id=&#34;reference-links&#34;&gt;Reference Links&lt;/h3&gt;
+
+&lt;p&gt;Reference-style links use a second set of square brackets, inside which you place a label of your choosing to identify the link:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;This is [an example][id] reference-style link.
+
+Then, anywhere in the document, you define your link label like this, on a line by itself:
+
+[id]: http://example.com/  &amp;quot;Optional Title Here&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In typora, they will be rendered like:&lt;/p&gt;
+
+&lt;p&gt;This is &lt;a href=&#34;http://example.com/&#34; title=&#34;Optional Title Here&#34;&gt;an example&lt;/a&gt; reference-style link.&lt;/p&gt;
+
+&lt;p&gt;The implicit link name shortcut allows you to omit the name of the link, in which case the link text itself is used as the name. Just use an empty set of square brackets — e.g., to link the word “Google” to the google.com web site, you could simply write:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;[Google][]
+And then define the link:
+
+[Google]: http://google.com/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In typora click link will expand it for editing, command+click will open the hyperlink in web browser.&lt;/p&gt;
+
+&lt;h2 id=&#34;urls&#34;&gt;URLs&lt;/h2&gt;
+
+&lt;p&gt;Typora allows you to insert urls as links, wrapped by &lt;code&gt;&amp;lt;&lt;/code&gt;brackets&lt;code&gt;&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;&amp;lt;i@typora.io&amp;gt;&lt;/code&gt; becomes &lt;a href=&#34;mailto:i@typora.io&#34;&gt;i@typora.io&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Typora will aslo auto link standard URLs. e.g: www.google.com.&lt;/p&gt;
+
+&lt;h2 id=&#34;images&#34;&gt;Images&lt;/h2&gt;
+
+&lt;p&gt;Image looks similar with links, but it requires an additional &lt;code&gt;!&lt;/code&gt; char before the start of link. Image syntax looks like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;![Alt text](/path/to/img.jpg)
+
+![Alt text](/path/to/img.jpg &amp;quot;Optional title&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You are able to use drag &amp;amp; drop to insert image from image file or we browser. And modify the markdown source code by clicking on the image. Relative path will be used if image is in same directory or sub-directory with current editing document when drag &amp;amp; drop.&lt;/p&gt;
+
+&lt;p&gt;For more tips on images, please read &lt;a href=&#34;http://support.typora.io//Images/&#34;&gt;http://support.typora.io//Images/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;emphasis&#34;&gt;Emphasis&lt;/h2&gt;
+
+&lt;p&gt;Markdown treats asterisks (&lt;code&gt;*&lt;/code&gt;) and underscores (&lt;code&gt;_&lt;/code&gt;) as indicators of emphasis. Text wrapped with one &lt;code&gt;*&lt;/code&gt; or &lt;code&gt;_&lt;/code&gt; will be wrapped with an HTML &lt;code&gt;&amp;lt;em&amp;gt;&lt;/code&gt; tag. E.g:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;*single asterisks*
+
+_single underscores_
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;output:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;single asterisks&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;single underscores&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;GFM will ignores underscores in words, which is commonly used in code and names, like this:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;wow_great_stuff&lt;/p&gt;
+
+&lt;p&gt;do_this_and_do_that_and_another_thing.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;To produce a literal asterisk or underscore at a position where it would otherwise be used as an emphasis delimiter, you can backslash escape it:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;\*this text is surrounded by literal asterisks\*
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Typora recommends to use &lt;code&gt;*&lt;/code&gt; symbol.&lt;/p&gt;
+
+&lt;h2 id=&#34;strong&#34;&gt;Strong&lt;/h2&gt;
+
+&lt;p&gt;double *’s or _’s will be wrapped with an HTML &lt;code&gt;&amp;lt;strong&amp;gt;&lt;/code&gt; tag, e.g:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;**double asterisks**
+
+__double underscores__
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;output:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;double asterisks&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;double underscores&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Typora recommends to use &lt;code&gt;**&lt;/code&gt; symbol.&lt;/p&gt;
+
+&lt;h2 id=&#34;code&#34;&gt;Code&lt;/h2&gt;
+
+&lt;p&gt;To indicate a span of code, wrap it with backtick quotes (`). Unlike a pre-formatted code block, a code span indicates code within a normal paragraph. For example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;Use the `printf()` function.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;will produce:&lt;/p&gt;
+
+&lt;p&gt;Use the &lt;code&gt;printf()&lt;/code&gt; function.&lt;/p&gt;
+
+&lt;h2 id=&#34;strikethrough&#34;&gt;Strikethrough&lt;/h2&gt;
+
+&lt;p&gt;GFM adds syntax to create strikethrough text, which is missing from standard Markdown.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;~~Mistaken text.~~&lt;/code&gt; becomes &lt;del&gt;Mistaken text.&lt;/del&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;underline&#34;&gt;Underline&lt;/h2&gt;
+
+&lt;p&gt;Underline is powered by raw HTML.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;&amp;lt;u&amp;gt;Underline&amp;lt;/u&amp;gt;&lt;/code&gt; becomes &lt;u&gt;Underline&lt;/u&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;emoji-happy&#34;&gt;Emoji :happy:&lt;/h2&gt;
+
+&lt;p&gt;Input emoji with syntax &lt;code&gt;😄&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;User can trigger auto-complete suggestions for emoji by pressing &lt;code&gt;ESC&lt;/code&gt; key, or trigger it automatically after enable it on preference panel. Also, input UTF8 emoji char directly from &lt;code&gt;Edit&lt;/code&gt; -&amp;gt; &lt;code&gt;Emoji &amp;amp; Symbols&lt;/code&gt; from menu bar is also supported.&lt;/p&gt;
+
+&lt;h2 id=&#34;inline-math&#34;&gt;Inline Math&lt;/h2&gt;
+
+&lt;p&gt;To use this feature, first, please enable it in &lt;code&gt;Preference&lt;/code&gt; Panel -&amp;gt; &lt;code&gt;Markdown&lt;/code&gt; Tab. Then use &lt;code&gt;$&lt;/code&gt; to wrap TeX command, for example: &lt;code&gt;$\lim_{x \to \infty} \exp(-x) = 0$&lt;/code&gt; will be rendered as LaTeX command.&lt;/p&gt;
+
+&lt;p&gt;To trigger inline preview for inline math: input “$”, then press &lt;code&gt;ESC&lt;/code&gt; key, then input TeX command, a preview tooltip will be visible like below:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://typora.io/img/inline-math.gif&#34; style=&#34;zoom:50%;&#34; /&gt;&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:footnote&#34;&gt;Here is the &lt;em&gt;text&lt;/em&gt; of the &lt;strong&gt;footnote&lt;/strong&gt;.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:footnote&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Jane 主题预览</title>
+      <link>http://localhost:1313/post/jane-theme-preview/</link>
+      <pubDate>Tue, 06 Mar 2018 16:01:23 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/jane-theme-preview/</guid>
+      
+        <description>&lt;p&gt;主题预览,内容有待填充。&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>Shortcodes Preview</title>
+      <link>http://localhost:1313/post/shortcodes-preview/</link>
+      <pubDate>Sun, 04 Mar 2018 16:01:23 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/shortcodes-preview/</guid>
+      
+        <description>&lt;h2 id=&#34;what-a-shortcode-is&#34;&gt;What a Shortcode is&lt;/h2&gt;
+
+&lt;p&gt;Hugo loves Markdown because of its simple content format, but there are times when Markdown falls short. Often, content authors are forced to add raw HTML (e.g., video &lt;code&gt;&amp;lt;iframes&amp;gt;&lt;/code&gt;) to Markdown content. We think this contradicts the beautiful simplicity of Markdown&amp;rsquo;s syntax.&lt;/p&gt;
+
+&lt;p&gt;Hugo created &lt;strong&gt;shortcodes&lt;/strong&gt; to circumvent these limitations.&lt;/p&gt;
+
+&lt;p&gt;A shortcode is a simple snippet inside a content file that Hugo will render using a predefined template. Note that shortcodes will not work in template files. If you need the type of drop-in functionality that shortcodes provide but in a template, you most likely want a [partial template][partials] instead.&lt;/p&gt;
+
+&lt;p&gt;In addition to cleaner Markdown, shortcodes can be updated any time to reflect new classes, techniques, or standards. At the point of site generation, Hugo shortcodes will easily merge in your changes. You avoid a possibly complicated search and replace operation.&lt;/p&gt;
+
+&lt;p&gt;More details: &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/&#34;&gt;https://gohugo.io/content-management/shortcodes/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;blockquotes&#34;&gt;blockquotes&lt;/h2&gt;
+
+&lt;p&gt;Normal quote:
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a simple quote.&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;&lt;/strong&gt;
+    
+      
+        
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Quote with author:
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a quote with only an Author named Author2.&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;Author2&lt;/strong&gt;
+    
+      
+        
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Quote with author and source:
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a quote from Author3 and source &amp;ldquo;source.&amp;rdquo;&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;Author3&lt;/strong&gt;
+    
+      &lt;cite&gt;Source&lt;/cite&gt;
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Quote with author and link:
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+      
+      
+      
+    
+     
+      
+    
+    
+
+    
+    
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a quote from Author4 and links to &lt;a href=&#34;https://www.google.com&#34;&gt;https://www.google.com&lt;/a&gt;.&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;Author4&lt;/strong&gt;
+    
+      
+        &lt;cite&gt;
+          &lt;a href=&#34;https://www.google.com&#34; title=&#34;https://www.google.com&#34;&gt;google.com&lt;/a&gt; 
+        &lt;/cite&gt;
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Quote with author, link and title:
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a quote from Author5 and links to &lt;a href=&#34;https://www.google.com&#34;&gt;https://www.google.com&lt;/a&gt; with title &amp;ldquo;Google.&amp;rdquo;&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;Author5&lt;/strong&gt;
+    
+      
+        &lt;cite&gt;
+          &lt;a href=&#34;https://www.google.com&#34; title=&#34;https://www.google.com&#34;&gt;Google&lt;/a&gt; 
+        &lt;/cite&gt;
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Quote with author and a link longer than 32 characters, string is first cut at 32 characters then everything after the last forward slash is removed
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+      
+      
+      
+    
+     
+      
+    
+    
+
+    
+    
+         
+         
+         
+
+         
+        
+        
+        
+        
+      
+      
+    
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a quote from Author5 and links to &lt;a href=&#34;https://twitter.com/CryptoGangsta/status/716427930126196737&#34;&gt;https://twitter.com/CryptoGangsta/status/716427930126196737&lt;/a&gt; which is longer than 32 characters.
+  &lt;br&gt;And this is a new line in the quote with the HTML br tag.&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;Author6&lt;/strong&gt;
+    
+      
+        &lt;cite&gt;
+          &lt;a href=&#34;https://twitter.com/CryptoGangsta/status/716427930126196737&#34; title=&#34;https://twitter.com/CryptoGangsta/status/716427930126196737&#34;&gt;twitter.com/CryptoGangsta/...&lt;/a&gt; 
+        &lt;/cite&gt;
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Test from the Octopress blockquote page at: &lt;a href=&#34;http://octopress.org/docs/plugins/blockquote/&#34;&gt;http://octopress.org/docs/plugins/blockquote/&lt;/a&gt;
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+      
+      
+      
+    
+     
+      
+    
+    
+
+    
+    
+         
+         
+         
+
+         
+        
+        
+        
+        
+        
+        
+      
+      
+    
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;Over the past 24 hours I&amp;rsquo;ve been reflecting on my life &amp;amp; I&amp;rsquo;ve realized only one thing. I need a medieval battle axe.&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;@allanbranch&lt;/strong&gt;
+    
+      
+        &lt;cite&gt;
+          &lt;a href=&#34;https://twitter.com/allanbranch/status/90766146063712256&#34; title=&#34;https://twitter.com/allanbranch/status/90766146063712256&#34;&gt;twitter.com/allanbranch/status/...&lt;/a&gt; 
+        &lt;/cite&gt;
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&#34;music&#34;&gt;music&lt;/h2&gt;
+
+  &lt;iframe style=&#34;max-width: 100%&#34;
+      class=&#34;music163&#34;
+      frameborder=&#34;no&#34;
+      border=&#34;0&#34;
+      marginwidth=&#34;0&#34;
+      marginheight=&#34;0&#34;
+      width=&#34;330&#34;
+      height=&#34;86&#34;
+      src=&#34;//music.163.com/outchain/player?type=2&amp;id=3950552&amp;auto=0&amp;height=66&#34;&gt;
+    &lt;/iframe&gt;
+
+&lt;h2 id=&#34;gist&#34;&gt;gist&lt;/h2&gt;
+
+&lt;p&gt;We can embed the gist in our content via username and gist ID pulled from the URL:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; gist spf13 7896402 &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Display:&lt;/p&gt;
+
+&lt;script type=&#34;application/javascript&#34; src=&#34;//gist.github.com/spf13/7896402.js&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;expand&#34;&gt;expand&lt;/h2&gt;
+
+&lt;p&gt;The Expand shortcode displays an expandable/collapsible section of text on your page. Here is an example&lt;/p&gt;
+
+&lt;details&gt;
+  &lt;summary style=&#34;background-color:#f5f5f5;border:1px solid #ccc;padding:5px;&#34;&gt;
+    Is this learn theme rocks ?
+    
+  &lt;/summary&gt;
+  
+Yes !.
+
+&lt;/details&gt;
+
+
+&lt;h3 id=&#34;usage&#34;&gt;Usage&lt;/h3&gt;
+
+&lt;p&gt;this shortcode takes exactly one optional parameter to define the text that appears next to the expand/collapse icon. (default is “Click to expand”)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; expand &amp;quot;Is this learn theme rocks ?&amp;quot; &amp;gt;}}
+Yes !.
+{{&amp;lt; /expand &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;youtube&#34;&gt;youtube&lt;/h2&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/w7Ft2ymGmfc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;vimeo&#34;&gt;vimeo&lt;/h2&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//player.vimeo.com/video/146022717&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
+&lt;h2 id=&#34;youku&#34;&gt;youku&lt;/h2&gt;
+
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+    &lt;iframe src=&#34;https://player.youku.com/embed/XMzQ0ODUxMjM2NA?autoplay=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34; title=&#34;YouKu Video&#34;&gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Image Preview</title>
+      <link>http://localhost:1313/post/image-preview/</link>
+      <pubDate>Sat, 03 Mar 2018 16:01:23 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/image-preview/</guid>
+      
+        <description>&lt;p&gt;Thanks for &lt;a href=&#34;https://github.com/liwenyip/hugo-easy-gallery&#34;&gt;liwenyip/hugo-easy-gallery&lt;/a&gt; &amp;amp; &lt;a href=&#34;https://github.com/xianmin/hugo-theme-jane/pull/48&#34;&gt;Zebradil · Pull Request #48&lt;/a&gt; .&lt;/p&gt;
+
+&lt;p&gt;Now, we could use &lt;code&gt;{{&amp;lt; gallery &amp;gt;}}&lt;/code&gt; shortcode in hugo-theme-jane.&lt;/p&gt;
+
+&lt;h2 id=&#34;normal-image&#34;&gt;Normal Image&lt;/h2&gt;
+
+&lt;p&gt;This is an image in &lt;code&gt;static/image&lt;/code&gt; folder.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;![This is an image in `static/image` folder.](/image/example.jpg)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;figure-shortcode&#34;&gt;&lt;code&gt;{{&amp;lt; figure &amp;gt;}}&lt;/code&gt; shortcode&lt;/h2&gt;
+
+&lt;h3 id=&#34;figure-image-with-title&#34;&gt;figure image with title&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; figure src=&amp;quot;/image/example.jpg&amp;quot; title=&amp;quot;figure image with title&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;figure-image-with-caption&#34;&gt;figure image with caption&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; figure src=&amp;quot;/image/example.jpg&amp;quot; caption=&amp;quot;figure image with caption figure image with caption figure image with caption figure image with caption figure image with caption&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;more-figure-shortcode-usage&#34;&gt;more &lt;code&gt;{{&amp;lt; figure &amp;gt;}}&lt;/code&gt; shortcode usage&lt;/h3&gt;
+
+&lt;p&gt;Specifying your image files:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;{{&amp;lt; figure src=&amp;quot;thumb.jpg&amp;quot; link=&amp;quot;image.jpg&amp;quot; &amp;gt;}}&lt;/code&gt; will use &lt;code&gt;thumb.jpg&lt;/code&gt; for thumbnail and &lt;code&gt;image.jpg&lt;/code&gt; for lightbox&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;{{&amp;lt; figure src=&amp;quot;image.jpg&amp;quot; &amp;gt;}}&lt;/code&gt; or &lt;code&gt;{{&amp;lt; figure link=&amp;quot;image.jpg&amp;quot; &amp;gt;}}&lt;/code&gt; will use &lt;code&gt;image.jpg&lt;/code&gt; for both thumbnail and lightbox&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;{{&amp;lt; figure link=&amp;quot;image.jpg&amp;quot; thumb=&amp;quot;-small&amp;quot; &amp;gt;}}&lt;/code&gt; will use &lt;code&gt;image-small.jpg&lt;/code&gt; for thumbnail and &lt;code&gt;image.jpg&lt;/code&gt; for lightbox&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Optional parameters:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;All the &lt;a href=&#34;https://gohugo.io/extras/shortcodes&#34;&gt;features/parameters&lt;/a&gt; of Hugo&amp;rsquo;s built-in &lt;code&gt;figure&lt;/code&gt; shortcode work as normal, i.e. src, link, title, caption, class, attr (attribution), attrlink, alt&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;size&lt;/code&gt; (e.g. &lt;code&gt;size=&amp;quot;1024x768&amp;quot;&lt;/code&gt;) pre-defines the image size for PhotoSwipe. Use this option if you don&amp;rsquo;t want to pre-load the linked image to determine its size.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;class&lt;/code&gt; allows you to set any custom classes you want on the &lt;code&gt;&amp;lt;figure&amp;gt;&lt;/code&gt; tag.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Optional parameters for standalone &lt;code&gt;{{&amp;lt; figure &amp;gt;}}&lt;/code&gt; shortcodes only (i.e. don&amp;rsquo;t use on &lt;code&gt;{{&amp;lt; figure &amp;gt;}}&lt;/code&gt; inside &lt;code&gt;{{&amp;lt; gallery &amp;gt;}}&lt;/code&gt; - strange things may happen if you do):&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;caption-position&lt;/code&gt; and &lt;code&gt;caption-effect&lt;/code&gt; work the same as for the &lt;code&gt;{{&amp;lt; gallery &amp;gt;}}&lt;/code&gt; shortcode (see below).&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;width&lt;/code&gt; defines the &lt;a href=&#34;https://www.w3schools.com/cssref/pr_dim_max-width.asp&#34;&gt;&lt;code&gt;max-width&lt;/code&gt;&lt;/a&gt; of the image displayed on the page. If using a thumbnail for a standalone figure, set this equal to your thumbnail&amp;rsquo;s native width to make the captions behave properly (or feel free to come up with a better solution and submit a pull request :-)). Also use this option if you don&amp;rsquo;t have a thumbnail and you don&amp;rsquo;t want the hi-res image to take up the entire width of the screen/container.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;class=&amp;quot;no-photoswipe&amp;quot;&lt;/code&gt; prevents a &lt;code&gt;&amp;lt;figure&amp;gt;&lt;/code&gt; from being loaded into PhotoSwipe. If you click on the figure you&amp;rsquo;ll instead a good ol&amp;rsquo; fashioned hyperlink to a bigger image (or - if you haven&amp;rsquo;t specified a bigger image - the same one).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;gallery-shortcode&#34;&gt;&lt;code&gt;{{&amp;lt; gallery &amp;gt;}}&lt;/code&gt; shortcode&lt;/h2&gt;
+
+&lt;h3 id=&#34;simple-gallery&#34;&gt;simple gallery&lt;/h3&gt;
+
+&lt;p&gt;To specify a directory of image files:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; gallery dir=&amp;quot;/img/your-directory-of-images/&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The images are automatically captioned with the file name.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;[image].jpg&lt;/code&gt; is used for the hi-res image, and &lt;code&gt;[image]-thumb.jpg&lt;/code&gt; is used for the thumbnails.&lt;/li&gt;
+&lt;li&gt;If &lt;code&gt;[image]-thumb.jpg&lt;/code&gt; doesn&amp;rsquo;t exist, then &lt;code&gt;[image].jpg&lt;/code&gt; will be used for both hi-res and thumbnail images.&lt;/li&gt;
+&lt;li&gt;The default thumbnail suffix is &lt;code&gt;-thumb&lt;/code&gt;, but you can specify a different one e.g. &lt;code&gt;thumb=&amp;quot;-small&amp;quot;&lt;/code&gt; or &lt;code&gt;thumb=&amp;quot;_150x150&amp;quot;&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;to-specify-individual-image-files&#34;&gt;To specify individual image files&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; gallery &amp;gt;}}
+  {{&amp;lt; figure src=&amp;quot;image1.jpg&amp;quot; &amp;gt;}}
+  {{&amp;lt; figure src=&amp;quot;image2.jpg&amp;quot; &amp;gt;}}
+  {{&amp;lt; figure src=&amp;quot;image3.jpg&amp;quot; &amp;gt;}}
+{{&amp;lt; /gallery &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Optional parameters:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;caption-position&lt;/code&gt; - determines the captions&amp;rsquo; position over the image. Options:
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;bottom&lt;/code&gt; (default)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;center&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;none&lt;/code&gt; hides captions on the page (they will only show in PhotoSwipe)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;caption-effect&lt;/code&gt; - determines if/how captions appear upon hover. Options:
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;slide&lt;/code&gt; (default)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;fade&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;none&lt;/code&gt; (captions always visible)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;hover-effect&lt;/code&gt; - determines if/how images change upon hover. Options:
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;zoom&lt;/code&gt; (default)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;grow&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;shrink&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;slideup&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;slidedown&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;none&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;hover-transition&lt;/code&gt; - determines if/how images change upon hover. Options:
+
+&lt;ul&gt;
+&lt;li&gt;not set - smooth transition (default)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;none&lt;/code&gt; - hard transition&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Deploy on Jane - A super concise theme for Hugo</title>
+    <link>http://localhost:1313/tags/deploy/</link>
+    <description>Recent content in Deploy on Jane - A super concise theme for Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 18 Jul 2018 22:00:41 +0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/deploy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Php Deployer</title>
+      <link>http://localhost:1313/post/php-deployer/</link>
+      <pubDate>Wed, 18 Jul 2018 22:00:41 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/php-deployer/</guid>
+      <description>实际项目开发中，对于自动化部署 php 项目市面上鲜有比较不错的方案，比如瓦力，比如公司 ruby 项目组使用 capistrano，经过少数实践，还是选择使用</description>
+    </item>
+    
+  </channel>
+</rss>

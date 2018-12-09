@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>技术杂记 on Jane - A super concise theme for Hugo</title>
+    <link>http://localhost:1313/categories/%E6%8A%80%E6%9C%AF%E6%9D%82%E8%AE%B0/</link>
+    <description>Recent content in 技术杂记 on Jane - A super concise theme for Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 12 Sep 2018 23:17:47 +0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/categories/%E6%8A%80%E6%9C%AF%E6%9D%82%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Github 个人资料展示页</title>
+      <link>http://localhost:1313/post/profile-summary-for-github.com/</link>
+      <pubDate>Wed, 12 Sep 2018 23:17:47 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/profile-summary-for-github.com/</guid>
+      <description>Github 个人资料展示页 https://profile-summary-for-github.com/user/reallyli 开源项目链接地址：https://github.com/tipsy/profile-summary-for-github</description>
+    </item>
+    
+    <item>
+      <title>Docker笔记第一部分</title>
+      <link>http://localhost:1313/post/docker-note1/</link>
+      <pubDate>Tue, 11 Sep 2018 22:42:34 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/docker-note1/</guid>
+      <description>有点早的笔记，记录于16年的 Docker 学习笔记，其中有些图片已经找不回来了 docker部署项目的优势 docker容器很轻很快！容器的启动时间是秒级的</description>
+    </item>
+    
+    <item>
+      <title>OpenLDAP 使用 Shadow Account 条目</title>
+      <link>http://localhost:1313/post/ldap-use-shadow-account/</link>
+      <pubDate>Tue, 04 Sep 2018 10:29:04 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/ldap-use-shadow-account/</guid>
+      <description>LDAP 中使用 Shadow Account 条目可以有效的设置用户登录的过期时间，过期以后还有多少可以登陆，每隔多少天强制更换密码，提前多少天开始提示密码即将过期。 下面记录</description>
+    </item>
+    
+    <item>
+      <title>Laravel 最佳实践思考</title>
+      <link>http://localhost:1313/post/laravel-best-practices/</link>
+      <pubDate>Wed, 29 Aug 2018 22:44:40 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/laravel-best-practices/</guid>
+      <description>开始写一个项目之前，我们都会考虑很多问题。上到服务器层，下到代码层。以至于选用哪种语言开发新项目，一要保证开发效率，二要贴合产品需求。对于启</description>
+    </item>
+    
+    <item>
+      <title>简述 Event Loop 运行机制</title>
+      <link>http://localhost:1313/post/event-loop/</link>
+      <pubDate>Fri, 24 Aug 2018 13:34:52 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/event-loop/</guid>
+      <description>一个 event loop只要存在，就会不断执行下边的步骤 在 tasks 队列中选择最老的一个task，用户代理可以选择任何 tas k队列，如果没有可选的任务，则跳到下边</description>
+    </item>
+    
+    <item>
+      <title>Php Deployer</title>
+      <link>http://localhost:1313/post/php-deployer/</link>
+      <pubDate>Wed, 18 Jul 2018 22:00:41 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/php-deployer/</guid>
+      <description>实际项目开发中，对于自动化部署 php 项目市面上鲜有比较不错的方案，比如瓦力，比如公司 ruby 项目组使用 capistrano，经过少数实践，还是选择使用</description>
+    </item>
+    
+    <item>
+      <title>PHP 函数式编程初步笔记</title>
+      <link>http://localhost:1313/post/functional-php/</link>
+      <pubDate>Sun, 03 Dec 2017 21:07:32 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/functional-php/</guid>
+      <description>最近朋友推荐这本书：Functional PHP ，很多对于程序设计方面的思路值得多思考和借鉴。函数式编程不是一个框架或工具，而是一种编写代码的方式</description>
+    </item>
+    
+    <item>
+      <title>Linux Rsync</title>
+      <link>http://localhost:1313/post/linux-rsync/</link>
+      <pubDate>Sat, 02 Dec 2017 17:08:12 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/linux-rsync/</guid>
+      <description>Rsync（remote synchronize） 是一个远程数据同步工具，可以使用“ Rsync 算法”同步本地和远程主机之间的文件。Rsync 的好处是只</description>
+    </item>
+    
+    <item>
+      <title>Elasticsearch 工作笔记</title>
+      <link>http://localhost:1313/post/elasticsearch-note/</link>
+      <pubDate>Thu, 23 Nov 2017 10:22:27 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/elasticsearch-note/</guid>
+      <description>实际公司后台管理系统中使用了elasticsearch作为首选搜索引擎，使用传统的mysql like的确给服务器造成了不少性能压力，目前根据</description>
+    </item>
+    
+    <item>
+      <title>PHP7 要点</title>
+      <link>http://localhost:1313/post/php7/</link>
+      <pubDate>Fri, 10 Nov 2017 10:42:42 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/php7/</guid>
+      <description>PHP7教程研读：使用新的Zend Engine 3.0将应用程序性能提高近两倍，内存消耗比PHP 5.6高出50％。它允许服务更多的并发用户，而不需要任何</description>
+    </item>
+    
+    <item>
+      <title>Laravel Queue 笔记</title>
+      <link>http://localhost:1313/post/laravel-queue-note/</link>
+      <pubDate>Sun, 04 Jun 2017 20:53:02 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/laravel-queue-note/</guid>
+      <description>日常队列使用小结，推荐使用supervisor驱动 说明 队列配置文件存放在 config/queue.php。 每一种队列驱动的配置都可以在该文件</description>
+    </item>
+    
+    <item>
+      <title>Webpack 前端笔记</title>
+      <link>http://localhost:1313/post/webpack-note/</link>
+      <pubDate>Sun, 28 May 2017 22:34:52 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/webpack-note/</guid>
+      <description>工作过程中对于前端模块打包的小结 说明 代码拆分：Webpack 有两种组织模块依赖的方式，同步和异步。异步依赖作为分割点，形成一个新的块。在优化</description>
+    </item>
+    
+    <item>
+      <title>日常配置 soft editor</title>
+      <link>http://localhost:1313/post/configuration-editor/</link>
+      <pubDate>Wed, 24 May 2017 10:19:15 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/configuration-editor/</guid>
+      <description>走一波配置流，莫等闲，高效快速开发，从自己的常用的工具开始，寻找舒适的工作方式，仅仅是一个开始。 配置列表 PhpStorm Atom Sublime Iterm2 PhpStorm 插件和主题 之前一篇文章已经</description>
+    </item>
+    
+    <item>
+      <title>PHP SPL 笔记</title>
+      <link>http://localhost:1313/post/php-spl-note/</link>
+      <pubDate>Thu, 04 May 2017 10:01:58 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/php-spl-note/</guid>
+      <description>关于 SPL 的日常学习笔记 一听到SPL这个词，第一反应就是项目中经常用的函数spl_autoload_register，这个函数在composer</description>
+    </item>
+    
+  </channel>
+</rss>

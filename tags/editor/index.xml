@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Editor on Jane - A super concise theme for Hugo</title>
+    <link>http://localhost:1313/tags/editor/</link>
+    <description>Recent content in Editor on Jane - A super concise theme for Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 24 May 2017 10:19:15 +0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/editor/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>日常配置 soft editor</title>
+      <link>http://localhost:1313/post/configuration-editor/</link>
+      <pubDate>Wed, 24 May 2017 10:19:15 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/configuration-editor/</guid>
+      <description>走一波配置流，莫等闲，高效快速开发，从自己的常用的工具开始，寻找舒适的工作方式，仅仅是一个开始。 配置列表 PhpStorm Atom Sublime Iterm2 PhpStorm 插件和主题 之前一篇文章已经</description>
+    </item>
+    
+  </channel>
+</rss>

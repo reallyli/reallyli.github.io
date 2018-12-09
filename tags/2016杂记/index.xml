@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2016杂记 on Jane - A super concise theme for Hugo</title>
+    <link>http://localhost:1313/tags/2016%E6%9D%82%E8%AE%B0/</link>
+    <description>Recent content in 2016杂记 on Jane - A super concise theme for Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 26 Nov 2016 18:31:53 +0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/2016%E6%9D%82%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>冬眠的鱼</title>
+      <link>http://localhost:1313/post/hibernating-fish/</link>
+      <pubDate>Sat, 26 Nov 2016 18:31:53 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/hibernating-fish/</guid>
+      <description>早在很久以前，有人告诉我：鱼的记忆只有7秒，7秒之后它就不会记得曾经的事情了，所有的一切又都会变成崭新的开始，所以，在那一方小小的鱼缸里面，</description>
+    </item>
+    
+  </channel>
+</rss>

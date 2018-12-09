@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2018杂记 on Jane - A super concise theme for Hugo</title>
+    <link>http://localhost:1313/tags/2018%E6%9D%82%E8%AE%B0/</link>
+    <description>Recent content in 2018杂记 on Jane - A super concise theme for Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 17 Aug 2018 22:18:50 +0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/2018%E6%9D%82%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>难得七夕</title>
+      <link>http://localhost:1313/post/tanabata-2018/</link>
+      <pubDate>Fri, 17 Aug 2018 22:18:50 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/tanabata-2018/</guid>
+      <description>每年的七夕节好像并没有想象中的那么深刻，朋友圈还是往常节日一样，总有那么一批秀幸福的人。今天也没有多少特殊的纪念，照常上班，充满生命力的挤公</description>
+    </item>
+    
+    <item>
+      <title>午后的猫</title>
+      <link>http://localhost:1313/post/afternoon-cat/</link>
+      <pubDate>Wed, 04 Jul 2018 22:59:59 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/afternoon-cat/</guid>
+      <description>来自我的 QQ 空间日志，记载于 2013-9-12 22:41 突然发现很久没有打球了，或许是到了九月秋初这个季节才开始想起。没有时间，没有精力看上去只是心灵上的阻碍，我发现</description>
+    </item>
+    
+    <item>
+      <title>展望2018</title>
+      <link>http://localhost:1313/post/outlook-2018/</link>
+      <pubDate>Sun, 31 Dec 2017 08:54:57 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/outlook-2018/</guid>
+      <description>2017即将结束，总想记录点什么，于是开始歇斯底里，记忆如丝。 2017开始接近尾声了，崭新的2018年即将到来，转眼间我在北京已经呆了2年半</description>
+    </item>
+    
+  </channel>
+</rss>

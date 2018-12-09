@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on Jane - A super concise theme for Hugo</title>
+    <link>http://localhost:1313/tags/linux/</link>
+    <description>Recent content in Linux on Jane - A super concise theme for Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 02 Dec 2017 17:08:12 +0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Linux Rsync</title>
+      <link>http://localhost:1313/post/linux-rsync/</link>
+      <pubDate>Sat, 02 Dec 2017 17:08:12 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/linux-rsync/</guid>
+      <description>Rsync（remote synchronize） 是一个远程数据同步工具，可以使用“ Rsync 算法”同步本地和远程主机之间的文件。Rsync 的好处是只</description>
+    </item>
+    
+  </channel>
+</rss>

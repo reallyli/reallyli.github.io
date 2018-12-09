@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Go笔记 on Jane - A super concise theme for Hugo</title>
+    <link>http://localhost:1313/tags/go%E7%AC%94%E8%AE%B0/</link>
+    <description>Recent content in Go笔记 on Jane - A super concise theme for Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 19 Aug 2018 14:44:08 +0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/go%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Go 日常笔记 V1.0</title>
+      <link>http://localhost:1313/post/go-github-note/</link>
+      <pubDate>Sun, 19 Aug 2018 14:44:08 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/go-github-note/</guid>
+      <description>总结一些 Go 在 Github 上的一些热门 Repo Go dependency management tool Web frameworks for Go Beego framework Gin framework 社区 其他 Demo Books Go dependency management tool dep 是 Go 的依赖管理工具。 它需要 Go 1.9 或更新版本才能编译。文档地址，安装方</description>
+    </item>
+    
+  </channel>
+</rss>
