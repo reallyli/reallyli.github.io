@@ -2,192 +2,192 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on reallyli - 那些道听途说</title>
-    <link>http://localhost:1313/post/</link>
+    <link>https://reallyli.github.io/post/</link>
     <description>Recent content in Posts on reallyli - 那些道听途说</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 09 Dec 2018 21:14:28 +0800</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://reallyli.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>2018 Ending</title>
-      <link>http://localhost:1313/post/2018-ending/</link>
+      <link>https://reallyli.github.io/post/2018-ending/</link>
       <pubDate>Sun, 09 Dec 2018 21:14:28 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/2018-ending/</guid>
+      <guid>https://reallyli.github.io/post/2018-ending/</guid>
       <description>2018的结尾，不够歇斯底里，不会花言巧语，努力走出舒适区，事在人为，贵在行动。 2018年的圣诞节马上要到了，我住的城市还未游有任何下</description>
     </item>
     
     <item>
       <title>Github 个人资料展示页</title>
-      <link>http://localhost:1313/post/profile-summary-for-github.com/</link>
+      <link>https://reallyli.github.io/post/profile-summary-for-github.com/</link>
       <pubDate>Wed, 12 Sep 2018 23:17:47 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/profile-summary-for-github.com/</guid>
+      <guid>https://reallyli.github.io/post/profile-summary-for-github.com/</guid>
       <description>Github 个人资料展示页 https://profile-summary-for-github.com/user/reallyli 开源项目链接地址：https://github.com/tipsy/profile-summary-for-github</description>
     </item>
     
     <item>
       <title>Docker笔记第一部分</title>
-      <link>http://localhost:1313/post/docker-note1/</link>
+      <link>https://reallyli.github.io/post/docker-note1/</link>
       <pubDate>Tue, 11 Sep 2018 22:42:34 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/docker-note1/</guid>
+      <guid>https://reallyli.github.io/post/docker-note1/</guid>
       <description>有点早的笔记，记录于16年的 Docker 学习笔记，其中有些图片已经找不回来了 docker部署项目的优势 docker容器很轻很快！容器的启动时间是秒级的</description>
     </item>
     
     <item>
       <title>OpenLDAP 使用 Shadow Account 条目</title>
-      <link>http://localhost:1313/post/ldap-use-shadow-account/</link>
+      <link>https://reallyli.github.io/post/ldap-use-shadow-account/</link>
       <pubDate>Tue, 04 Sep 2018 10:29:04 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/ldap-use-shadow-account/</guid>
+      <guid>https://reallyli.github.io/post/ldap-use-shadow-account/</guid>
       <description>LDAP 中使用 Shadow Account 条目可以有效的设置用户登录的过期时间，过期以后还有多少可以登陆，每隔多少天强制更换密码，提前多少天开始提示密码即将过期。 下面记录</description>
     </item>
     
     <item>
       <title>Just Back Home</title>
-      <link>http://localhost:1313/post/just-back-home/</link>
+      <link>https://reallyli.github.io/post/just-back-home/</link>
       <pubDate>Sun, 02 Sep 2018 20:40:36 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/just-back-home/</guid>
+      <guid>https://reallyli.github.io/post/just-back-home/</guid>
       <description>服务器明天都要到期了，不知不觉已经一年了，时间流转如此之快，父母渐渐的老去，开始体会多去为他们着想。 这次回家，显然是长胖了，已经大半年没有健</description>
     </item>
     
     <item>
       <title>Laravel 最佳实践思考</title>
-      <link>http://localhost:1313/post/laravel-best-practices/</link>
+      <link>https://reallyli.github.io/post/laravel-best-practices/</link>
       <pubDate>Wed, 29 Aug 2018 22:44:40 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/laravel-best-practices/</guid>
+      <guid>https://reallyli.github.io/post/laravel-best-practices/</guid>
       <description>开始写一个项目之前，我们都会考虑很多问题。上到服务器层，下到代码层。以至于选用哪种语言开发新项目，一要保证开发效率，二要贴合产品需求。对于启</description>
     </item>
     
     <item>
       <title>简述 Event Loop 运行机制</title>
-      <link>http://localhost:1313/post/event-loop/</link>
+      <link>https://reallyli.github.io/post/event-loop/</link>
       <pubDate>Fri, 24 Aug 2018 13:34:52 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/event-loop/</guid>
+      <guid>https://reallyli.github.io/post/event-loop/</guid>
       <description>一个 event loop只要存在，就会不断执行下边的步骤 在 tasks 队列中选择最老的一个task，用户代理可以选择任何 tas k队列，如果没有可选的任务，则跳到下边</description>
     </item>
     
     <item>
       <title>Go 日常笔记 V1.0</title>
-      <link>http://localhost:1313/post/go-github-note/</link>
+      <link>https://reallyli.github.io/post/go-github-note/</link>
       <pubDate>Sun, 19 Aug 2018 14:44:08 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/go-github-note/</guid>
+      <guid>https://reallyli.github.io/post/go-github-note/</guid>
       <description>总结一些 Go 在 Github 上的一些热门 Repo Go dependency management tool Web frameworks for Go Beego framework Gin framework 社区 其他 Demo Books Go dependency management tool dep 是 Go 的依赖管理工具。 它需要 Go 1.9 或更新版本才能编译。文档地址，安装方</description>
     </item>
     
     <item>
       <title>Go 教程第五部分之常量</title>
-      <link>http://localhost:1313/post/go-tutorial-note-5/</link>
+      <link>https://reallyli.github.io/post/go-tutorial-note-5/</link>
       <pubDate>Sun, 19 Aug 2018 11:59:29 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/go-tutorial-note-5/</guid>
+      <guid>https://reallyli.github.io/post/go-tutorial-note-5/</guid>
       <description>常量 定义 术语常量在 Go 中表示定值，例如 5，15，&amp;rsquo;hello world&amp;rsquo; 等，常量一旦定义就不能重新分配其他的任何值，下面就是一个错误的例子，</description>
     </item>
     
     <item>
       <title>难得七夕</title>
-      <link>http://localhost:1313/post/tanabata-2018/</link>
+      <link>https://reallyli.github.io/post/tanabata-2018/</link>
       <pubDate>Fri, 17 Aug 2018 22:18:50 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/tanabata-2018/</guid>
+      <guid>https://reallyli.github.io/post/tanabata-2018/</guid>
       <description>每年的七夕节好像并没有想象中的那么深刻，朋友圈还是往常节日一样，总有那么一批秀幸福的人。今天也没有多少特殊的纪念，照常上班，充满生命力的挤公</description>
     </item>
     
     <item>
       <title>Go 教程第四部分之变量类型</title>
-      <link>http://localhost:1313/post/go-tutorial-note-4/</link>
+      <link>https://reallyli.github.io/post/go-tutorial-note-4/</link>
       <pubDate>Sat, 11 Aug 2018 12:29:20 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/go-tutorial-note-4/</guid>
+      <guid>https://reallyli.github.io/post/go-tutorial-note-4/</guid>
       <description>变量的基本类型 Bool Numeric Types String Bool bool类型表示布尔值，为true或false。 package main import &amp;quot;fmt&amp;quot; func main() { a := true b := false fmt.Println(&amp;quot;a:&amp;quot;, a, &amp;quot;b:&amp;quot;, b) c := a &amp;amp;&amp;amp; b fmt.Println(&amp;quot;c:&amp;quot;, c) d := a || b fmt.Println(&amp;quot;d;&amp;quot;, d) } Numeric 有</description>
     </item>
     
     <item>
       <title>Go 教程第三部分之变量语法</title>
-      <link>http://localhost:1313/post/go-tutorial-note-3/</link>
+      <link>https://reallyli.github.io/post/go-tutorial-note-3/</link>
       <pubDate>Fri, 10 Aug 2018 09:46:57 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/go-tutorial-note-3/</guid>
+      <guid>https://reallyli.github.io/post/go-tutorial-note-3/</guid>
       <description>变量是为存储特定类型的值的内存位置指定的名称。在 go 中声明变量有各种语法。 声明一个变量 比如声明一个 name 的变量 package main import fmt func main() { var name int fmt.Println(&amp;quot;My age is&amp;quot;, name) } 该语句</description>
     </item>
     
     <item>
       <title>Go 教程第二部分之 Hello World</title>
-      <link>http://localhost:1313/post/go-tutorial-note-2/</link>
+      <link>https://reallyli.github.io/post/go-tutorial-note-2/</link>
       <pubDate>Thu, 09 Aug 2018 09:46:57 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/go-tutorial-note-2/</guid>
+      <guid>https://reallyli.github.io/post/go-tutorial-note-2/</guid>
       <description>个人建议使用带有go扩展名的Visual Studio Code作为IDE。它具有自动完成，代码样式和许多其他功能。 这是 Golang 教程系列的第二篇教程。请阅读 Golang 教</description>
     </item>
     
     <item>
       <title>Go 教程第一部分</title>
-      <link>http://localhost:1313/post/go-tutorial-note-1/</link>
+      <link>https://reallyli.github.io/post/go-tutorial-note-1/</link>
       <pubDate>Sun, 05 Aug 2018 11:27:27 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/go-tutorial-note-1/</guid>
+      <guid>https://reallyli.github.io/post/go-tutorial-note-1/</guid>
       <description>什么是 Golang Go 也称为 Golang，是一种由谷歌开源的，编译和静态类型的编程语言 Golang的主要重点是使高度可用、可扩展的 Web 应用程序开发变得简单</description>
     </item>
     
     <item>
       <title>Php Deployer</title>
-      <link>http://localhost:1313/post/php-deployer/</link>
+      <link>https://reallyli.github.io/post/php-deployer/</link>
       <pubDate>Wed, 18 Jul 2018 22:00:41 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/php-deployer/</guid>
+      <guid>https://reallyli.github.io/post/php-deployer/</guid>
       <description>实际项目开发中，对于自动化部署 php 项目市面上鲜有比较不错的方案，比如瓦力，比如公司 ruby 项目组使用 capistrano，经过少数实践，还是选择使用</description>
     </item>
     
     <item>
       <title>午后的猫</title>
-      <link>http://localhost:1313/post/afternoon-cat/</link>
+      <link>https://reallyli.github.io/post/afternoon-cat/</link>
       <pubDate>Wed, 04 Jul 2018 22:59:59 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/afternoon-cat/</guid>
+      <guid>https://reallyli.github.io/post/afternoon-cat/</guid>
       <description>来自我的 QQ 空间日志，记载于 2013-9-12 22:41 突然发现很久没有打球了，或许是到了九月秋初这个季节才开始想起。没有时间，没有精力看上去只是心灵上的阻碍，我发现</description>
     </item>
     
     <item>
       <title>展望2018</title>
-      <link>http://localhost:1313/post/outlook-2018/</link>
+      <link>https://reallyli.github.io/post/outlook-2018/</link>
       <pubDate>Sun, 31 Dec 2017 08:54:57 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/outlook-2018/</guid>
+      <guid>https://reallyli.github.io/post/outlook-2018/</guid>
       <description>2017即将结束，总想记录点什么，于是开始歇斯底里，记忆如丝。 2017开始接近尾声了，崭新的2018年即将到来，转眼间我在北京已经呆了2年半</description>
     </item>
     
     <item>
       <title>PHP 函数式编程初步笔记</title>
-      <link>http://localhost:1313/post/functional-php/</link>
+      <link>https://reallyli.github.io/post/functional-php/</link>
       <pubDate>Sun, 03 Dec 2017 21:07:32 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/functional-php/</guid>
+      <guid>https://reallyli.github.io/post/functional-php/</guid>
       <description>最近朋友推荐这本书：Functional PHP ，很多对于程序设计方面的思路值得多思考和借鉴。函数式编程不是一个框架或工具，而是一种编写代码的方式</description>
     </item>
     
     <item>
       <title>Linux Rsync</title>
-      <link>http://localhost:1313/post/linux-rsync/</link>
+      <link>https://reallyli.github.io/post/linux-rsync/</link>
       <pubDate>Sat, 02 Dec 2017 17:08:12 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/linux-rsync/</guid>
+      <guid>https://reallyli.github.io/post/linux-rsync/</guid>
       <description>Rsync（remote synchronize） 是一个远程数据同步工具，可以使用“ Rsync 算法”同步本地和远程主机之间的文件。Rsync 的好处是只</description>
     </item>
     
     <item>
       <title>Elasticsearch 工作笔记</title>
-      <link>http://localhost:1313/post/elasticsearch-note/</link>
+      <link>https://reallyli.github.io/post/elasticsearch-note/</link>
       <pubDate>Thu, 23 Nov 2017 10:22:27 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/elasticsearch-note/</guid>
+      <guid>https://reallyli.github.io/post/elasticsearch-note/</guid>
       <description>实际公司后台管理系统中使用了elasticsearch作为首选搜索引擎，使用传统的mysql like的确给服务器造成了不少性能压力，目前根据</description>
     </item>
     

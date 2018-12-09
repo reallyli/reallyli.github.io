@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2017旅行 on reallyli - 那些道听途说</title>
-    <link>http://localhost:1313/tags/2017%E6%97%85%E8%A1%8C/</link>
+    <link>https://reallyli.github.io/tags/2017%E6%97%85%E8%A1%8C/</link>
     <description>Recent content in 2017旅行 on reallyli - 那些道听途说</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 20 May 2017 10:30:53 +0800</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/tags/2017%E6%97%85%E8%A1%8C/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://reallyli.github.io/tags/2017%E6%97%85%E8%A1%8C/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>斯米兰之旅</title>
-      <link>http://localhost:1313/post/similan-travel/</link>
+      <link>https://reallyli.github.io/post/similan-travel/</link>
       <pubDate>Sat, 20 May 2017 10:30:53 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/similan-travel/</guid>
+      <guid>https://reallyli.github.io/post/similan-travel/</guid>
       <description>抛开所有的烦恼，来一次说走就走的旅行，感受不一样的世界。 😝出去走了一趟，时间还是很赶，还来不及看风景，就要离开，都说外面的世界很精彩，都想踏</description>
     </item>
     

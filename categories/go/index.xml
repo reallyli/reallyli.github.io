@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Go on reallyli - 那些道听途说</title>
-    <link>http://localhost:1313/categories/go/</link>
+    <link>https://reallyli.github.io/categories/go/</link>
     <description>Recent content in Go on reallyli - 那些道听途说</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 19 Aug 2018 14:44:08 +0800</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/categories/go/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://reallyli.github.io/categories/go/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Go 日常笔记 V1.0</title>
-      <link>http://localhost:1313/post/go-github-note/</link>
+      <link>https://reallyli.github.io/post/go-github-note/</link>
       <pubDate>Sun, 19 Aug 2018 14:44:08 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/go-github-note/</guid>
+      <guid>https://reallyli.github.io/post/go-github-note/</guid>
       <description>总结一些 Go 在 Github 上的一些热门 Repo Go dependency management tool Web frameworks for Go Beego framework Gin framework 社区 其他 Demo Books Go dependency management tool dep 是 Go 的依赖管理工具。 它需要 Go 1.9 或更新版本才能编译。文档地址，安装方</description>
     </item>
     
     <item>
       <title>Go 教程第五部分之常量</title>
-      <link>http://localhost:1313/post/go-tutorial-note-5/</link>
+      <link>https://reallyli.github.io/post/go-tutorial-note-5/</link>
       <pubDate>Sun, 19 Aug 2018 11:59:29 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/go-tutorial-note-5/</guid>
+      <guid>https://reallyli.github.io/post/go-tutorial-note-5/</guid>
       <description>常量 定义 术语常量在 Go 中表示定值，例如 5，15，&amp;rsquo;hello world&amp;rsquo; 等，常量一旦定义就不能重新分配其他的任何值，下面就是一个错误的例子，</description>
     </item>
     
     <item>
       <title>Go 教程第四部分之变量类型</title>
-      <link>http://localhost:1313/post/go-tutorial-note-4/</link>
+      <link>https://reallyli.github.io/post/go-tutorial-note-4/</link>
       <pubDate>Sat, 11 Aug 2018 12:29:20 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/go-tutorial-note-4/</guid>
+      <guid>https://reallyli.github.io/post/go-tutorial-note-4/</guid>
       <description>变量的基本类型 Bool Numeric Types String Bool bool类型表示布尔值，为true或false。 package main import &amp;quot;fmt&amp;quot; func main() { a := true b := false fmt.Println(&amp;quot;a:&amp;quot;, a, &amp;quot;b:&amp;quot;, b) c := a &amp;amp;&amp;amp; b fmt.Println(&amp;quot;c:&amp;quot;, c) d := a || b fmt.Println(&amp;quot;d;&amp;quot;, d) } Numeric 有</description>
     </item>
     
     <item>
       <title>Go 教程第三部分之变量语法</title>
-      <link>http://localhost:1313/post/go-tutorial-note-3/</link>
+      <link>https://reallyli.github.io/post/go-tutorial-note-3/</link>
       <pubDate>Fri, 10 Aug 2018 09:46:57 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/go-tutorial-note-3/</guid>
+      <guid>https://reallyli.github.io/post/go-tutorial-note-3/</guid>
       <description>变量是为存储特定类型的值的内存位置指定的名称。在 go 中声明变量有各种语法。 声明一个变量 比如声明一个 name 的变量 package main import fmt func main() { var name int fmt.Println(&amp;quot;My age is&amp;quot;, name) } 该语句</description>
     </item>
     
     <item>
       <title>Go 教程第二部分之 Hello World</title>
-      <link>http://localhost:1313/post/go-tutorial-note-2/</link>
+      <link>https://reallyli.github.io/post/go-tutorial-note-2/</link>
       <pubDate>Thu, 09 Aug 2018 09:46:57 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/go-tutorial-note-2/</guid>
+      <guid>https://reallyli.github.io/post/go-tutorial-note-2/</guid>
       <description>个人建议使用带有go扩展名的Visual Studio Code作为IDE。它具有自动完成，代码样式和许多其他功能。 这是 Golang 教程系列的第二篇教程。请阅读 Golang 教</description>
     </item>
     
     <item>
       <title>Go 教程第一部分</title>
-      <link>http://localhost:1313/post/go-tutorial-note-1/</link>
+      <link>https://reallyli.github.io/post/go-tutorial-note-1/</link>
       <pubDate>Sun, 05 Aug 2018 11:27:27 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/go-tutorial-note-1/</guid>
+      <guid>https://reallyli.github.io/post/go-tutorial-note-1/</guid>
       <description>什么是 Golang Go 也称为 Golang，是一种由谷歌开源的，编译和静态类型的编程语言 Golang的主要重点是使高度可用、可扩展的 Web 应用程序开发变得简单</description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Javascript on reallyli - 那些道听途说</title>
-    <link>http://localhost:1313/tags/javascript/</link>
+    <link>https://reallyli.github.io/tags/javascript/</link>
     <description>Recent content in Javascript on reallyli - 那些道听途说</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 24 Aug 2018 13:34:52 +0800</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://reallyli.github.io/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>简述 Event Loop 运行机制</title>
-      <link>http://localhost:1313/post/event-loop/</link>
+      <link>https://reallyli.github.io/post/event-loop/</link>
       <pubDate>Fri, 24 Aug 2018 13:34:52 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/event-loop/</guid>
+      <guid>https://reallyli.github.io/post/event-loop/</guid>
       <description>一个 event loop只要存在，就会不断执行下边的步骤 在 tasks 队列中选择最老的一个task，用户代理可以选择任何 tas k队列，如果没有可选的任务，则跳到下边</description>
     </item>
     

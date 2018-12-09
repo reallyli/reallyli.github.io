@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Laravel on reallyli - 那些道听途说</title>
-    <link>http://localhost:1313/tags/laravel/</link>
+    <link>https://reallyli.github.io/tags/laravel/</link>
     <description>Recent content in Laravel on reallyli - 那些道听途说</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 29 Aug 2018 22:44:40 +0800</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/tags/laravel/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://reallyli.github.io/tags/laravel/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Laravel 最佳实践思考</title>
-      <link>http://localhost:1313/post/laravel-best-practices/</link>
+      <link>https://reallyli.github.io/post/laravel-best-practices/</link>
       <pubDate>Wed, 29 Aug 2018 22:44:40 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/laravel-best-practices/</guid>
+      <guid>https://reallyli.github.io/post/laravel-best-practices/</guid>
       <description>开始写一个项目之前，我们都会考虑很多问题。上到服务器层，下到代码层。以至于选用哪种语言开发新项目，一要保证开发效率，二要贴合产品需求。对于启</description>
     </item>
     
     <item>
       <title>Laravel Queue 笔记</title>
-      <link>http://localhost:1313/post/laravel-queue-note/</link>
+      <link>https://reallyli.github.io/post/laravel-queue-note/</link>
       <pubDate>Sun, 04 Jun 2017 20:53:02 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/laravel-queue-note/</guid>
+      <guid>https://reallyli.github.io/post/laravel-queue-note/</guid>
       <description>日常队列使用小结，推荐使用supervisor驱动 说明 队列配置文件存放在 config/queue.php。 每一种队列驱动的配置都可以在该文件</description>
     </item>
     

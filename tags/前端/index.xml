@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>前端 on reallyli - 那些道听途说</title>
-    <link>http://localhost:1313/tags/%E5%89%8D%E7%AB%AF/</link>
+    <link>https://reallyli.github.io/tags/%E5%89%8D%E7%AB%AF/</link>
     <description>Recent content in 前端 on reallyli - 那些道听途说</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 28 May 2017 22:34:52 +0800</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/tags/%E5%89%8D%E7%AB%AF/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://reallyli.github.io/tags/%E5%89%8D%E7%AB%AF/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Webpack 前端笔记</title>
-      <link>http://localhost:1313/post/webpack-note/</link>
+      <link>https://reallyli.github.io/post/webpack-note/</link>
       <pubDate>Sun, 28 May 2017 22:34:52 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/webpack-note/</guid>
+      <guid>https://reallyli.github.io/post/webpack-note/</guid>
       <description>工作过程中对于前端模块打包的小结 说明 代码拆分：Webpack 有两种组织模块依赖的方式，同步和异步。异步依赖作为分割点，形成一个新的块。在优化</description>
     </item>
     

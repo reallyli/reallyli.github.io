@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>reallyli - 那些道听途说</title>
-    <link>http://localhost:1313/</link>
+    <link>https://reallyli.github.io/</link>
     <description>Recent content on reallyli - 那些道听途说</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 20 Aug 2018 21:38:52 +0800</lastBuildDate>
     
-        <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://reallyli.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>关于</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://reallyli.github.io/about/</link>
       <pubDate>Mon, 20 Aug 2018 21:38:52 +0800</pubDate>
       
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://reallyli.github.io/about/</guid>
       
         <description>&lt;iframe src=&#34;https://githubbadge.appspot.com/reallyli&#34; style=&#34;border: 0;height: 142px;width: 200px;overflow: hidden;&#34; frameBorder=&#34;0&#34;&gt;&lt;/iframe&gt;
 
@@ -29,10 +29,10 @@
     
     <item>
       <title>2018 Ending</title>
-      <link>http://localhost:1313/post/2018-ending/</link>
+      <link>https://reallyli.github.io/post/2018-ending/</link>
       <pubDate>Sun, 09 Dec 2018 21:14:28 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/2018-ending/</guid>
+      <guid>https://reallyli.github.io/post/2018-ending/</guid>
       
         <description>&lt;blockquote&gt;
 &lt;p&gt;2018的结尾，不够歇斯底里，不会花言巧语，努力走出舒适区，事在人为，贵在行动。&lt;/p&gt;
@@ -57,10 +57,10 @@
     
     <item>
       <title>Github 个人资料展示页</title>
-      <link>http://localhost:1313/post/profile-summary-for-github.com/</link>
+      <link>https://reallyli.github.io/post/profile-summary-for-github.com/</link>
       <pubDate>Wed, 12 Sep 2018 23:17:47 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/profile-summary-for-github.com/</guid>
+      <guid>https://reallyli.github.io/post/profile-summary-for-github.com/</guid>
       
         <description>&lt;blockquote&gt;
 &lt;p&gt;Github 个人资料&lt;a href=&#34;http://oqefp0r4y.bkt.clouddn.com/reallyli%27s%20GitHub%20profile%20summary.pdf&#34;&gt;展示页&lt;/a&gt;&lt;/p&gt;
@@ -81,10 +81,10 @@
     
     <item>
       <title>Docker笔记第一部分</title>
-      <link>http://localhost:1313/post/docker-note1/</link>
+      <link>https://reallyli.github.io/post/docker-note1/</link>
       <pubDate>Tue, 11 Sep 2018 22:42:34 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/docker-note1/</guid>
+      <guid>https://reallyli.github.io/post/docker-note1/</guid>
       
         <description>
 
@@ -358,10 +358,10 @@
     
     <item>
       <title>OpenLDAP 使用 Shadow Account 条目</title>
-      <link>http://localhost:1313/post/ldap-use-shadow-account/</link>
+      <link>https://reallyli.github.io/post/ldap-use-shadow-account/</link>
       <pubDate>Tue, 04 Sep 2018 10:29:04 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/ldap-use-shadow-account/</guid>
+      <guid>https://reallyli.github.io/post/ldap-use-shadow-account/</guid>
       
         <description>
 
@@ -423,10 +423,10 @@ $user-&amp;gt;save();
     
     <item>
       <title>Just Back Home</title>
-      <link>http://localhost:1313/post/just-back-home/</link>
+      <link>https://reallyli.github.io/post/just-back-home/</link>
       <pubDate>Sun, 02 Sep 2018 20:40:36 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/just-back-home/</guid>
+      <guid>https://reallyli.github.io/post/just-back-home/</guid>
       
         <description>&lt;blockquote&gt;
 &lt;p&gt;服务器明天都要到期了，不知不觉已经一年了，时间流转如此之快，父母渐渐的老去，开始体会多去为他们着想。&lt;/p&gt;
@@ -439,7 +439,7 @@ $user-&amp;gt;save();
 &lt;p&gt;多长时间没有发微博了，记得上次发微博都是6月30号，今天已经是9月1号了。记得去年十月一，也在老巷子和堂一起吃了场午夜食堂，红烧鲫鱼，美味十足。今年比往年相比早了一个月，不过还是老地方。下次见面就是明年了，时间总是惊人的流转，剧情不反转，慵懒的下去，躺在沙发上准备小憩会，听见外面下起雨来，时间恍恍惚惚就要到4点了，犯困听老唱片，下一站，和独男，37℃，再续老巷情怀，从深圳到北京，在辗转武汉，young blood，2018已经进入金九银十的阶段，走过无数个日夜，有家的地方最温暖。&lt;/p&gt;
 
 
-&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://reallyli.github.io/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  class=&#34;center&#34;  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
@@ -466,10 +466,10 @@ $user-&amp;gt;save();
     
     <item>
       <title>Laravel 最佳实践思考</title>
-      <link>http://localhost:1313/post/laravel-best-practices/</link>
+      <link>https://reallyli.github.io/post/laravel-best-practices/</link>
       <pubDate>Wed, 29 Aug 2018 22:44:40 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/laravel-best-practices/</guid>
+      <guid>https://reallyli.github.io/post/laravel-best-practices/</guid>
       
         <description>
 
@@ -506,10 +506,10 @@ $user-&amp;gt;save();
     
     <item>
       <title>简述 Event Loop 运行机制</title>
-      <link>http://localhost:1313/post/event-loop/</link>
+      <link>https://reallyli.github.io/post/event-loop/</link>
       <pubDate>Fri, 24 Aug 2018 13:34:52 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/event-loop/</guid>
+      <guid>https://reallyli.github.io/post/event-loop/</guid>
       
         <description>
 
@@ -552,10 +552,10 @@ $user-&amp;gt;save();
     
     <item>
       <title>Go 日常笔记 V1.0</title>
-      <link>http://localhost:1313/post/go-github-note/</link>
+      <link>https://reallyli.github.io/post/go-github-note/</link>
       <pubDate>Sun, 19 Aug 2018 14:44:08 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/go-github-note/</guid>
+      <guid>https://reallyli.github.io/post/go-github-note/</guid>
       
         <description>
 
@@ -634,10 +634,10 @@ $ go get -u github.com/golang/dep/cmd/dep
     
     <item>
       <title>Go 教程第五部分之常量</title>
-      <link>http://localhost:1313/post/go-tutorial-note-5/</link>
+      <link>https://reallyli.github.io/post/go-tutorial-note-5/</link>
       <pubDate>Sun, 19 Aug 2018 11:59:29 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/go-tutorial-note-5/</guid>
+      <guid>https://reallyli.github.io/post/go-tutorial-note-5/</guid>
       
         <description>
 
@@ -764,10 +764,10 @@ func main() {
     
     <item>
       <title>难得七夕</title>
-      <link>http://localhost:1313/post/tanabata-2018/</link>
+      <link>https://reallyli.github.io/post/tanabata-2018/</link>
       <pubDate>Fri, 17 Aug 2018 22:18:50 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/tanabata-2018/</guid>
+      <guid>https://reallyli.github.io/post/tanabata-2018/</guid>
       
         <description>&lt;p&gt;&lt;img src=&#34;https://eva.hixiaogan.cn/thumb/blog/tanabata.png&#34; alt=&#34;tanabata&#34; /&gt;&lt;/p&gt;
 
@@ -790,7 +790,7 @@ func main() {
 &lt;p&gt;感谢我的 &lt;strong&gt;&lt;em&gt;wife&lt;/em&gt;&lt;/strong&gt; 一直在背后默默的支持我，婚后的第一个 &lt;strong&gt;&lt;em&gt;七夕节&lt;/em&gt;&lt;/strong&gt; 我没有给你想要的惊喜，平平淡淡，真真切切，这些话未免有些俗不可耐。男人的前线战场，愈演愈烈，没有两个自己，只有一个她，宽容和谅解，才是毕升的修行。&lt;/p&gt;
 
 
-&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://reallyli.github.io/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  class=&#34;center&#34;  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
@@ -821,10 +821,10 @@ func main() {
     
     <item>
       <title>Go 教程第四部分之变量类型</title>
-      <link>http://localhost:1313/post/go-tutorial-note-4/</link>
+      <link>https://reallyli.github.io/post/go-tutorial-note-4/</link>
       <pubDate>Sat, 11 Aug 2018 12:29:20 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/go-tutorial-note-4/</guid>
+      <guid>https://reallyli.github.io/post/go-tutorial-note-4/</guid>
       
         <description>
 
@@ -1068,10 +1068,10 @@ func main() {
     
     <item>
       <title>Go 教程第三部分之变量语法</title>
-      <link>http://localhost:1313/post/go-tutorial-note-3/</link>
+      <link>https://reallyli.github.io/post/go-tutorial-note-3/</link>
       <pubDate>Fri, 10 Aug 2018 09:46:57 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/go-tutorial-note-3/</guid>
+      <guid>https://reallyli.github.io/post/go-tutorial-note-3/</guid>
       
         <description>
 
@@ -1218,10 +1218,10 @@ func main() {
     
     <item>
       <title>Go 教程第二部分之 Hello World</title>
-      <link>http://localhost:1313/post/go-tutorial-note-2/</link>
+      <link>https://reallyli.github.io/post/go-tutorial-note-2/</link>
       <pubDate>Thu, 09 Aug 2018 09:46:57 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/go-tutorial-note-2/</guid>
+      <guid>https://reallyli.github.io/post/go-tutorial-note-2/</guid>
       
         <description>
 
@@ -1314,10 +1314,10 @@ func main() {
     
     <item>
       <title>Go 教程第一部分</title>
-      <link>http://localhost:1313/post/go-tutorial-note-1/</link>
+      <link>https://reallyli.github.io/post/go-tutorial-note-1/</link>
       <pubDate>Sun, 05 Aug 2018 11:27:27 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/go-tutorial-note-1/</guid>
+      <guid>https://reallyli.github.io/post/go-tutorial-note-1/</guid>
       
         <description>
 
@@ -1369,10 +1369,10 @@ func main() {
     
     <item>
       <title>Php Deployer</title>
-      <link>http://localhost:1313/post/php-deployer/</link>
+      <link>https://reallyli.github.io/post/php-deployer/</link>
       <pubDate>Wed, 18 Jul 2018 22:00:41 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/php-deployer/</guid>
+      <guid>https://reallyli.github.io/post/php-deployer/</guid>
       
         <description>
 
@@ -1459,10 +1459,10 @@ ssh-add ~/.ssh/id_rsa
     
     <item>
       <title>午后的猫</title>
-      <link>http://localhost:1313/post/afternoon-cat/</link>
+      <link>https://reallyli.github.io/post/afternoon-cat/</link>
       <pubDate>Wed, 04 Jul 2018 22:59:59 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/afternoon-cat/</guid>
+      <guid>https://reallyli.github.io/post/afternoon-cat/</guid>
       
         <description>&lt;blockquote&gt;
 &lt;p&gt;来自我的 QQ &lt;a href=&#34;https://user.qzone.qq.com/1025070092&#34;&gt;空间&lt;/a&gt;日志，记载于 2013-9-12 22:41&lt;/p&gt;
@@ -1471,7 +1471,7 @@ ssh-add ~/.ssh/id_rsa
 &lt;p&gt;突然发现很久没有打球了，或许是到了九月秋初这个季节才开始想起。没有时间，没有精力看上去只是心灵上的阻碍，我发现再也找不回以前的那种感觉才是最恰如其份的理由。一大群人走在路上，周围的异度空间若隐若现，欣赏完一片风景，你发现再也找不回重复的路，明天的太阳还是会升起，我只是想怀恋一下曾经的5,5，5和小半场兄弟们。&lt;/p&gt;
 
 
-&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://reallyli.github.io/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  class=&#34;center&#34;  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
@@ -1543,10 +1543,10 @@ ssh-add ~/.ssh/id_rsa
     
     <item>
       <title>展望2018</title>
-      <link>http://localhost:1313/post/outlook-2018/</link>
+      <link>https://reallyli.github.io/post/outlook-2018/</link>
       <pubDate>Sun, 31 Dec 2017 08:54:57 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/outlook-2018/</guid>
+      <guid>https://reallyli.github.io/post/outlook-2018/</guid>
       
         <description>&lt;blockquote&gt;
 &lt;p&gt;2017即将结束，总想记录点什么，于是开始歇斯底里，记忆如丝。&lt;/p&gt;
@@ -1567,7 +1567,7 @@ ssh-add ~/.ssh/id_rsa
 &lt;p&gt;年中我开始尝试健身，半年有余，变化不多，但确实改了了自己的很多习惯，&lt;a href=&#34;https://weibo.com/u/2414700103&#34;&gt;微博&lt;/a&gt;里记录着这半年来的点点滴滴。刚开始很茫然，很多人告诉自己，坚持不了几天的。卸下一天的疲惫，在跑步机上挥洒汗水，每一次的到来和每一次的结束都告诉自己，坚持下去就会看到变化。期间认识了志同道合的朋友，上大重量的时候互相辅助一把，每周胸背肩手腿的轮番轰炸，见证一点一滴的变化。9点半的991，一直等不到，闲来无聊掏出手机快照，我想我的目标，他也有他的爱好。生活的乐趣远不止于此，期待下一个节点的蜕变。&lt;/p&gt;
 
 
-&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://reallyli.github.io/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  class=&#34;center&#34;  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
@@ -1600,10 +1600,10 @@ ssh-add ~/.ssh/id_rsa
     
     <item>
       <title>PHP 函数式编程初步笔记</title>
-      <link>http://localhost:1313/post/functional-php/</link>
+      <link>https://reallyli.github.io/post/functional-php/</link>
       <pubDate>Sun, 03 Dec 2017 21:07:32 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/functional-php/</guid>
+      <guid>https://reallyli.github.io/post/functional-php/</guid>
       
         <description>
 
@@ -1877,10 +1877,10 @@ $wrappedInput = Container::of(&#39;abc); $validatableContainer(&#39;is_numeric&#
     
     <item>
       <title>Linux Rsync</title>
-      <link>http://localhost:1313/post/linux-rsync/</link>
+      <link>https://reallyli.github.io/post/linux-rsync/</link>
       <pubDate>Sat, 02 Dec 2017 17:08:12 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/linux-rsync/</guid>
+      <guid>https://reallyli.github.io/post/linux-rsync/</guid>
       
         <description>
 

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>函数式编程 on reallyli - 那些道听途说</title>
-    <link>http://localhost:1313/tags/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/</link>
+    <link>https://reallyli.github.io/tags/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/</link>
     <description>Recent content in 函数式编程 on reallyli - 那些道听途说</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 03 Dec 2017 21:07:32 +0800</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/tags/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://reallyli.github.io/tags/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>PHP 函数式编程初步笔记</title>
-      <link>http://localhost:1313/post/functional-php/</link>
+      <link>https://reallyli.github.io/post/functional-php/</link>
       <pubDate>Sun, 03 Dec 2017 21:07:32 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/functional-php/</guid>
+      <guid>https://reallyli.github.io/post/functional-php/</guid>
       <description>最近朋友推荐这本书：Functional PHP ，很多对于程序设计方面的思路值得多思考和借鉴。函数式编程不是一个框架或工具，而是一种编写代码的方式</description>
     </item>
     

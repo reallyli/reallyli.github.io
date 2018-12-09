@@ -1,491 +1,491 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<?xml-stylesheet type="text/xsl" href="http://localhost:1313/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="https://reallyli.github.io/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://reallyli.github.io/about/</loc>
     <lastmod>2018-08-28T21:41:52+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/2018-ending/</loc>
+    <loc>https://reallyli.github.io/post/2018-ending/</loc>
     <lastmod>2018-12-09T21:14:28+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/profile-summary-for-github.com/</loc>
+    <loc>https://reallyli.github.io/post/profile-summary-for-github.com/</loc>
     <lastmod>2018-09-12T23:17:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/docker-note1/</loc>
+    <loc>https://reallyli.github.io/post/docker-note1/</loc>
     <lastmod>2018-09-11T22:42:34+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/ldap-use-shadow-account/</loc>
+    <loc>https://reallyli.github.io/post/ldap-use-shadow-account/</loc>
     <lastmod>2018-09-04T10:29:04+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/just-back-home/</loc>
+    <loc>https://reallyli.github.io/post/just-back-home/</loc>
     <lastmod>2018-09-02T20:40:36+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/laravel-best-practices/</loc>
+    <loc>https://reallyli.github.io/post/laravel-best-practices/</loc>
     <lastmod>2018-08-29T22:44:40+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/event-loop/</loc>
+    <loc>https://reallyli.github.io/post/event-loop/</loc>
     <lastmod>2018-08-24T13:34:52+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/go-github-note/</loc>
+    <loc>https://reallyli.github.io/post/go-github-note/</loc>
     <lastmod>2018-08-19T14:44:08+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/go-tutorial-note-5/</loc>
+    <loc>https://reallyli.github.io/post/go-tutorial-note-5/</loc>
     <lastmod>2018-08-19T11:59:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/tanabata-2018/</loc>
+    <loc>https://reallyli.github.io/post/tanabata-2018/</loc>
     <lastmod>2018-08-17T22:18:50+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/go-tutorial-note-4/</loc>
+    <loc>https://reallyli.github.io/post/go-tutorial-note-4/</loc>
     <lastmod>2018-08-11T12:29:20+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/go-tutorial-note-3/</loc>
+    <loc>https://reallyli.github.io/post/go-tutorial-note-3/</loc>
     <lastmod>2018-08-10T09:46:57+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/go-tutorial-note-2/</loc>
+    <loc>https://reallyli.github.io/post/go-tutorial-note-2/</loc>
     <lastmod>2018-08-09T09:46:57+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/go-tutorial-note-1/</loc>
+    <loc>https://reallyli.github.io/post/go-tutorial-note-1/</loc>
     <lastmod>2018-08-05T11:27:27+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/php-deployer/</loc>
+    <loc>https://reallyli.github.io/post/php-deployer/</loc>
     <lastmod>2018-07-18T22:00:41+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/afternoon-cat/</loc>
+    <loc>https://reallyli.github.io/post/afternoon-cat/</loc>
     <lastmod>2018-07-04T22:59:59+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/outlook-2018/</loc>
+    <loc>https://reallyli.github.io/post/outlook-2018/</loc>
     <lastmod>2017-12-31T08:54:57+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/functional-php/</loc>
+    <loc>https://reallyli.github.io/post/functional-php/</loc>
     <lastmod>2017-12-03T21:07:32+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/linux-rsync/</loc>
+    <loc>https://reallyli.github.io/post/linux-rsync/</loc>
     <lastmod>2017-12-02T17:08:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/elasticsearch-note/</loc>
+    <loc>https://reallyli.github.io/post/elasticsearch-note/</loc>
     <lastmod>2017-11-23T10:22:27+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/php7/</loc>
+    <loc>https://reallyli.github.io/post/php7/</loc>
     <lastmod>2017-11-10T10:42:42+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/2017-ending/</loc>
+    <loc>https://reallyli.github.io/post/2017-ending/</loc>
     <lastmod>2018-10-24T23:00:22+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/summer-thinking/</loc>
+    <loc>https://reallyli.github.io/post/summer-thinking/</loc>
     <lastmod>2017-08-08T10:49:35+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/laravel-queue-note/</loc>
+    <loc>https://reallyli.github.io/post/laravel-queue-note/</loc>
     <lastmod>2017-06-04T20:53:02+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/webpack-note/</loc>
+    <loc>https://reallyli.github.io/post/webpack-note/</loc>
     <lastmod>2017-05-28T22:34:52+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/configuration-editor/</loc>
+    <loc>https://reallyli.github.io/post/configuration-editor/</loc>
     <lastmod>2017-07-24T10:19:15+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/similan-travel/</loc>
+    <loc>https://reallyli.github.io/post/similan-travel/</loc>
     <lastmod>2017-05-20T10:30:53+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/php-spl-note/</loc>
+    <loc>https://reallyli.github.io/post/php-spl-note/</loc>
     <lastmod>2017-05-04T10:01:58+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/hibernating-fish/</loc>
+    <loc>https://reallyli.github.io/post/hibernating-fish/</loc>
     <lastmod>2016-11-26T18:31:53+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/hugoisforlovers/</loc>
+    <loc>https://reallyli.github.io/post/hugoisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/1024/</loc>
+    <loc>https://reallyli.github.io/tags/1024/</loc>
     <lastmod>2018-10-24T23:00:22+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/2016%E6%9D%82%E8%AE%B0/</loc>
+    <loc>https://reallyli.github.io/tags/2016%E6%9D%82%E8%AE%B0/</loc>
     <lastmod>2016-11-26T18:31:53+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/2017%E6%97%85%E8%A1%8C/</loc>
+    <loc>https://reallyli.github.io/tags/2017%E6%97%85%E8%A1%8C/</loc>
     <lastmod>2017-05-20T10:30:53+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/2017%E6%9D%82%E8%AE%B0/</loc>
+    <loc>https://reallyli.github.io/tags/2017%E6%9D%82%E8%AE%B0/</loc>
     <lastmod>2017-08-08T10:49:35+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/2018%E6%9D%82%E8%AE%B0/</loc>
+    <loc>https://reallyli.github.io/tags/2018%E6%9D%82%E8%AE%B0/</loc>
     <lastmod>2018-08-17T22:18:50+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/2018%E7%BB%93%E5%B0%BE/</loc>
+    <loc>https://reallyli.github.io/tags/2018%E7%BB%93%E5%B0%BE/</loc>
     <lastmod>2018-12-09T21:14:28+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://reallyli.github.io/categories/</loc>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/deploy/</loc>
+    <loc>https://reallyli.github.io/tags/deploy/</loc>
     <lastmod>2018-07-18T22:00:41+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/development/</loc>
+    <loc>https://reallyli.github.io/tags/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/development/</loc>
+    <loc>https://reallyli.github.io/categories/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/docker/</loc>
+    <loc>https://reallyli.github.io/tags/docker/</loc>
     <lastmod>2018-09-11T22:42:34+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/editor/</loc>
+    <loc>https://reallyli.github.io/tags/editor/</loc>
     <lastmod>2017-07-24T10:19:15+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/elasticsearch/</loc>
+    <loc>https://reallyli.github.io/tags/elasticsearch/</loc>
     <lastmod>2017-11-23T10:22:27+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/go/</loc>
+    <loc>https://reallyli.github.io/tags/go/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://reallyli.github.io/categories/go/</loc>
     <lastmod>2018-08-19T14:44:08+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/go/</loc>
+    <loc>https://reallyli.github.io/tags/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/golang/</loc>
+    <loc>https://reallyli.github.io/categories/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/golang/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/tags/go%E6%95%99%E7%A8%8B/</loc>
+    <loc>https://reallyli.github.io/tags/go%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2018-08-19T11:59:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/go%E7%AC%94%E8%AE%B0/</loc>
+    <loc>https://reallyli.github.io/tags/go%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2018-08-19T14:44:08+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/hugo/</loc>
+    <loc>https://reallyli.github.io/tags/hugo/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/index/</loc>
+    <loc>https://reallyli.github.io/categories/index/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/javascript/</loc>
+    <loc>https://reallyli.github.io/tags/javascript/</loc>
     <lastmod>2018-08-24T13:34:52+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/laravel/</loc>
+    <loc>https://reallyli.github.io/tags/laravel/</loc>
     <lastmod>2018-08-29T22:44:40+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/ldap/</loc>
+    <loc>https://reallyli.github.io/tags/ldap/</loc>
     <lastmod>2018-09-04T10:29:04+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/linux/</loc>
+    <loc>https://reallyli.github.io/tags/linux/</loc>
     <lastmod>2017-12-02T17:08:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/php/</loc>
+    <loc>https://reallyli.github.io/tags/php/</loc>
     <lastmod>2018-07-18T22:00:41+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/</loc>
+    <loc>https://reallyli.github.io/post/</loc>
     <lastmod>2018-12-09T21:14:28+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/spl/</loc>
+    <loc>https://reallyli.github.io/tags/spl/</loc>
     <lastmod>2017-05-04T10:01:58+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://reallyli.github.io/tags/</loc>
     <lastmod>2018-10-24T23:00:22+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/webpack/</loc>
+    <loc>https://reallyli.github.io/tags/webpack/</loc>
     <lastmod>2017-05-28T22:34:52+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://reallyli.github.io/</loc>
     <lastmod>2018-08-28T21:41:52+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/%E5%85%B3%E4%BA%8E/</loc>
+    <loc>https://reallyli.github.io/tags/%E5%85%B3%E4%BA%8E/</loc>
     <lastmod>2018-09-12T23:17:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/</loc>
+    <loc>https://reallyli.github.io/tags/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/</loc>
     <lastmod>2017-12-03T21:07:32+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/%E5%89%8D%E7%AB%AF/</loc>
+    <loc>https://reallyli.github.io/tags/%E5%89%8D%E7%AB%AF/</loc>
     <lastmod>2017-05-28T22:34:52+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/%E5%9B%9E%E5%AE%B6/</loc>
+    <loc>https://reallyli.github.io/tags/%E5%9B%9E%E5%AE%B6/</loc>
     <lastmod>2018-09-02T20:40:36+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/%E6%8A%80%E6%9C%AF%E6%9D%82%E8%AE%B0/</loc>
+    <loc>https://reallyli.github.io/categories/%E6%8A%80%E6%9C%AF%E6%9D%82%E8%AE%B0/</loc>
     <lastmod>2018-09-12T23:17:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/%E6%97%85%E8%A1%8C%E6%9D%82%E8%AE%B0/</loc>
+    <loc>https://reallyli.github.io/categories/%E6%97%85%E8%A1%8C%E6%9D%82%E8%AE%B0/</loc>
     <lastmod>2017-05-20T10:30:53+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/%E7%94%9F%E6%B4%BB%E6%9D%82%E8%AE%B0/</loc>
+    <loc>https://reallyli.github.io/categories/%E7%94%9F%E6%B4%BB%E6%9D%82%E8%AE%B0/</loc>
     <lastmod>2018-12-09T21:14:28+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/</loc>
+    <loc>https://reallyli.github.io/categories/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/</loc>
     <lastmod>2018-08-17T22:18:50+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>

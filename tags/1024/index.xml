@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>1024 on reallyli - 那些道听途说</title>
-    <link>http://localhost:1313/tags/1024/</link>
+    <link>https://reallyli.github.io/tags/1024/</link>
     <description>Recent content in 1024 on reallyli - 那些道听途说</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 24 Oct 2017 23:00:22 +0800</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/tags/1024/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://reallyli.github.io/tags/1024/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>2017 Ending</title>
-      <link>http://localhost:1313/post/2017-ending/</link>
+      <link>https://reallyli.github.io/post/2017-ending/</link>
       <pubDate>Tue, 24 Oct 2017 23:00:22 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/2017-ending/</guid>
+      <guid>https://reallyli.github.io/post/2017-ending/</guid>
       <description>今天1024程序员节，自己干程序这一行才刚开始一段时间，希望每年的程序员节都总结一下此阶段的小感悟。 不知不觉已经慢慢的习惯这样的生活，在这个</description>
     </item>
     
