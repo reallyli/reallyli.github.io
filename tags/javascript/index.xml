@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Javascript on Jane - A super concise theme for Hugo</title>
+    <title>Javascript on reallyli - 那些道听途说</title>
     <link>http://localhost:1313/tags/javascript/</link>
-    <description>Recent content in Javascript on Jane - A super concise theme for Hugo</description>
+    <description>Recent content in Javascript on reallyli - 那些道听途说</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 24 Aug 2018 13:34:52 +0800</lastBuildDate>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Jane - A super concise theme for Hugo</title>
+    <title>Tags on reallyli - 那些道听途说</title>
     <link>http://localhost:1313/tags/</link>
-    <description>Recent content in Tags on Jane - A super concise theme for Hugo</description>
+    <description>Recent content in Tags on reallyli - 那些道听途说</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 24 Oct 2017 23:00:22 +0800</lastBuildDate>
@@ -57,6 +57,15 @@
     </item>
     
     <item>
+      <title>2018结尾</title>
+      <link>http://localhost:1313/tags/2018%E7%BB%93%E5%B0%BE/</link>
+      <pubDate>Sun, 09 Dec 2018 21:14:28 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/2018%E7%BB%93%E5%B0%BE/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Deploy</title>
       <link>http://localhost:1313/tags/deploy/</link>
       <pubDate>Wed, 18 Jul 2018 22:00:41 +0800</pubDate>
@@ -68,7 +77,7 @@
     <item>
       <title>Development</title>
       <link>http://localhost:1313/tags/development/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/development/</guid>
       <description></description>
@@ -102,27 +111,9 @@
     </item>
     
     <item>
-      <title>English</title>
-      <link>http://localhost:1313/tags/english/</link>
-      <pubDate>Thu, 31 Aug 2017 15:43:48 +0800</pubDate>
-      
-      <guid>http://localhost:1313/tags/english/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Footnote</title>
-      <link>http://localhost:1313/tags/footnote/</link>
-      <pubDate>Thu, 01 Mar 2018 16:01:23 +0800</pubDate>
-      
-      <guid>http://localhost:1313/tags/footnote/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Go</title>
       <link>http://localhost:1313/tags/go/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/go/</guid>
       <description></description>
@@ -131,7 +122,7 @@
     <item>
       <title>Golang</title>
       <link>http://localhost:1313/tags/golang/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/golang/</guid>
       <description></description>
@@ -165,15 +156,6 @@
     </item>
     
     <item>
-      <title>Image</title>
-      <link>http://localhost:1313/tags/image/</link>
-      <pubDate>Sat, 03 Mar 2018 16:01:23 +0800</pubDate>
-      
-      <guid>http://localhost:1313/tags/image/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Javascript</title>
       <link>http://localhost:1313/tags/javascript/</link>
       <pubDate>Fri, 24 Aug 2018 13:34:52 +0800</pubDate>
@@ -183,11 +165,29 @@
     </item>
     
     <item>
-      <title>Jekyll</title>
-      <link>http://localhost:1313/tags/jekyll/</link>
-      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
+      <title>Laravel</title>
+      <link>http://localhost:1313/tags/laravel/</link>
+      <pubDate>Wed, 29 Aug 2018 22:44:40 +0800</pubDate>
       
-      <guid>http://localhost:1313/tags/jekyll/</guid>
+      <guid>http://localhost:1313/tags/laravel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ldap</title>
+      <link>http://localhost:1313/tags/ldap/</link>
+      <pubDate>Tue, 04 Sep 2018 10:29:04 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/ldap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>http://localhost:1313/tags/linux/</link>
+      <pubDate>Sat, 02 Dec 2017 17:08:12 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/linux/</guid>
       <description></description>
     </item>
     
