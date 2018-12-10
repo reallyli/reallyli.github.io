@@ -10,6 +10,13 @@
   </url>
   
   <url>
+    <loc>https://reallyli.github.io/post/laravel-image-upload-failed/</loc>
+    <lastmod>2018-12-10T22:21:24+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://reallyli.github.io/post/2018-ending/</loc>
     <lastmod>2018-12-09T21:14:28+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -374,7 +381,7 @@
   
   <url>
     <loc>https://reallyli.github.io/tags/laravel/</loc>
-    <lastmod>2018-08-29T22:44:40+08:00</lastmod>
+    <lastmod>2018-12-10T22:21:24+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -402,7 +409,7 @@
   
   <url>
     <loc>https://reallyli.github.io/post/</loc>
-    <lastmod>2018-12-09T21:14:28+08:00</lastmod>
+    <lastmod>2018-12-10T22:21:24+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -465,7 +472,7 @@
   
   <url>
     <loc>https://reallyli.github.io/categories/%E6%8A%80%E6%9C%AF%E6%9D%82%E8%AE%B0/</loc>
-    <lastmod>2018-09-12T23:17:47+08:00</lastmod>
+    <lastmod>2018-12-10T22:21:24+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>

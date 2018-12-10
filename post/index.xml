@@ -6,10 +6,19 @@
     <description>Recent content in Posts on reallyli - 那些道听途说</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 09 Dec 2018 21:14:28 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 10 Dec 2018 22:21:24 +0800</lastBuildDate>
     
 	<atom:link href="https://reallyli.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Laravel 表单验证提示 The file failed to upload.</title>
+      <link>https://reallyli.github.io/post/laravel-image-upload-failed/</link>
+      <pubDate>Mon, 10 Dec 2018 22:21:24 +0800</pubDate>
+      
+      <guid>https://reallyli.github.io/post/laravel-image-upload-failed/</guid>
+      <description>基于 Laravel 框架开发 图片上传 Api，FormRequest 中配置表单验证值为 &amp;ldquo;required|image&amp;rdquo;，前端多次上传</description>
+    </item>
     
     <item>
       <title>2018 Ending</title>
@@ -180,15 +189,6 @@
       
       <guid>https://reallyli.github.io/post/linux-rsync/</guid>
       <description>Rsync（remote synchronize） 是一个远程数据同步工具，可以使用“ Rsync 算法”同步本地和远程主机之间的文件。Rsync 的好处是只</description>
-    </item>
-    
-    <item>
-      <title>Elasticsearch 工作笔记</title>
-      <link>https://reallyli.github.io/post/elasticsearch-note/</link>
-      <pubDate>Thu, 23 Nov 2017 10:22:27 +0800</pubDate>
-      
-      <guid>https://reallyli.github.io/post/elasticsearch-note/</guid>
-      <description>实际公司后台管理系统中使用了elasticsearch作为首选搜索引擎，使用传统的mysql like的确给服务器造成了不少性能压力，目前根据</description>
     </item>
     
   </channel>

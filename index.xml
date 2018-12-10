@@ -22,7 +22,28 @@
 
 &lt;ul&gt;
 &lt;li&gt;2018 努力跳出舒适区，展望2019&lt;/li&gt;
+&lt;li&gt;2018.10 技术分享![《浅谈软件设计原则之 SOLID》]()&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>Laravel 表单验证提示 The file failed to upload.</title>
+      <link>https://reallyli.github.io/post/laravel-image-upload-failed/</link>
+      <pubDate>Mon, 10 Dec 2018 22:21:24 +0800</pubDate>
+      
+      <guid>https://reallyli.github.io/post/laravel-image-upload-failed/</guid>
+      
+        <description>&lt;blockquote&gt;
+&lt;p&gt;基于 Laravel 框架开发 图片上传 Api，FormRequest 中配置表单验证值为 &amp;ldquo;required|image&amp;rdquo;，前端多次上传有成功也有失败的情况&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;在实际项目开发中，常常会遇到很多疑惑的问题，本次对于 图片上传接口的问题定位，经过多次排查，基本上锁定在图片大小上，通过系统功能表单验证类抛出的422异常：&lt;code&gt;The file failed to upload.&lt;/code&gt;，通过查看 &lt;code&gt;resources/lang/en/validation&lt;/code&gt; 文件可以看到，实际框架层调用的是 &lt;code&gt;uploaded&lt;/code&gt; 验证。&lt;/p&gt;
+
+&lt;p&gt;查看测试服务器 php 系统版本，&lt;code&gt;php -i&lt;/code&gt; 查看系统配置项，当前服务器 php 版本是 7.2.*，当前服务器是 ubuntu 系统， 通过 apt-get 安装的 php 环境，php 默认 &lt;code&gt;upload_max_filesize=2M&lt;/code&gt; ，以及 &lt;code&gt;post_max_size=8M&lt;/code&gt;, 修改其合适的限制大小后，图片上传问题成功解决。&lt;/p&gt;
+
+&lt;p&gt;在实际开发过程中，还是建议限制图片上传的大小，比如表单验证值可改为 &amp;ldquo;require|image|max:20000&amp;rdquo;，限制图片最大不能超过20M，不过最终还是要结合实际需求为准。&lt;/p&gt;
 </description>
       
     </item>
@@ -1870,92 +1891,6 @@ $wrappedInput = Container::of(&#39;abc); $validatableContainer(&#39;is_numeric&#
 
 &lt;blockquote&gt;
 &lt;p&gt;本质上这本书我还没有看完，翻译起来很多地方确实词不达意，我还是根据实际的举例逐个去理解的，此文章后续还会继续补充和追加学习心得。 Go PHP!&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>Linux Rsync</title>
-      <link>https://reallyli.github.io/post/linux-rsync/</link>
-      <pubDate>Sat, 02 Dec 2017 17:08:12 +0800</pubDate>
-      
-      <guid>https://reallyli.github.io/post/linux-rsync/</guid>
-      
-        <description>
-
-&lt;blockquote&gt;
-&lt;p&gt;Rsync（remote synchronize） 是一个远程数据同步工具，可以使用“ Rsync 算法”同步本地和远程主机之间的文件。Rsync 的好处是只同步两个文件不同的部分，相同的部分不在传递。类似于增量备份，这使的在服务器传递备份文件或者同步文件，比起 scp 工具要省好多时间。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&#34;服务器端&#34;&gt;服务器端&lt;/h1&gt;
-
-&lt;p&gt;ubuntu 系统默认已经安装了 rsync，rsync 服务默认不是启动的&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;vim /etc/default/rsync  
-RSYNC_ENABLE=true   #false改true
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;修改配置文件&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cp /usr/share/doc/rsync/examples/rsyncd.conf /etc
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;配置文件注意项，模块配置，需要同步的 server 端模块名称（必填），&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# MODULE OPTIONS
-
-path [指定路径，如果没有这个目录自己建]
-auth users [rsyn c连接时的用户名，要和客户端 rsync 的命令一致]
-secrets file [这里是保存密码的地方，如果屏蔽掉就不用密码了]
-hosts allow [允许某个客户端同步文件的ip]
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;创建密钥文件&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;vim /etc/rsyncd.secrets  
-
-your_name:your_pass
-
-chmod 0600 /etc/rsyncd.secrets
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;启动 rsync&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;/etc/init.d/rsync start
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h1 id=&#34;客户端&#34;&gt;客户端&lt;/h1&gt;
-
-&lt;p&gt;快速同步服务器端数据文件命令&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;rsync -vzrtopg --progress  your_name@your_server_ip::module_name .
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;将远程服务器的文件同步到本地 [端口如果不是默认22端口的情况2]&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;rsync -avz your_ssh_name@your_ssh_ip:remote_path local_path  
-
-rsync -avz &#39;-e ssh -p your_ssh_port&#39; ssh_name@ssh_ip:remote_path local_path
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;从本地同步文件到远程服务器&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;rsync -avz local_path your_ssh_name@your_ssh_ip:remote_path
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;快捷跳转 Linux 命令速查，趁有时间总结一波 &lt;a href=&#34;http://man.linuxde.net/rsync&#34;&gt;rsync&lt;/a&gt;，服务器数据增量备份&lt;/p&gt;
-
-&lt;p&gt;或许短暂的积累就是能在未来的某一天派上用场，厚积薄发，实际应用中经常使用的才能记得更牢靠。&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
       
