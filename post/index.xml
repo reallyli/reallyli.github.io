@@ -6,10 +6,19 @@
     <description>Recent content in Posts on reallyli - 那些道听途说</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 10 Dec 2018 22:21:24 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 11 Dec 2018 23:48:49 +0800</lastBuildDate>
     
 	<atom:link href="https://reallyli.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>收集短视频制作素材</title>
+      <link>https://reallyli.github.io/post/material-providers/</link>
+      <pubDate>Tue, 11 Dec 2018 23:48:49 +0800</pubDate>
+      
+      <guid>https://reallyli.github.io/post/material-providers/</guid>
+      <description>记录几个视频制作的素材和工具网站，以便于后续查阅和补充 无损音乐下载 https://www.91flac.com 音乐剪辑 https://mp3cut.net/cn/beta Youtube 视频下载 https://y2mate.com 高质量图片素材 https://www.pexels.com</description>
+    </item>
     
     <item>
       <title>Laravel 表单验证提示 The file failed to upload.</title>
@@ -180,15 +189,6 @@
       
       <guid>https://reallyli.github.io/post/functional-php/</guid>
       <description>最近朋友推荐这本书：Functional PHP ，很多对于程序设计方面的思路值得多思考和借鉴。函数式编程不是一个框架或工具，而是一种编写代码的方式</description>
-    </item>
-    
-    <item>
-      <title>Linux Rsync</title>
-      <link>https://reallyli.github.io/post/linux-rsync/</link>
-      <pubDate>Sat, 02 Dec 2017 17:08:12 +0800</pubDate>
-      
-      <guid>https://reallyli.github.io/post/linux-rsync/</guid>
-      <description>Rsync（remote synchronize） 是一个远程数据同步工具，可以使用“ Rsync 算法”同步本地和远程主机之间的文件。Rsync 的好处是只</description>
     </item>
     
   </channel>
