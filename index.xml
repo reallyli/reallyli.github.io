@@ -6,10 +6,30 @@
     <description>Recent content on reallyli - 那些道听途说</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 20 Aug 2018 21:38:52 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 14 Dec 2018 00:19:14 +0800</lastBuildDate>
     
         <atom:link href="https://reallyli.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>沙漏</title>
+      <link>https://reallyli.github.io/post/hourglass/</link>
+      <pubDate>Fri, 14 Dec 2018 00:19:14 +0800</pubDate>
+      
+      <guid>https://reallyli.github.io/post/hourglass/</guid>
+      
+        <description>
+
+&lt;h1 id=&#34;wade-and-james-final-battle&#34;&gt;Wade And James Final Battle&lt;/h1&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//player.vimeo.com/video/306211495&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+</description>
+      
+    </item>
     
     <item>
       <title>关于</title>
@@ -18,12 +38,20 @@
       
       <guid>https://reallyli.github.io/about/</guid>
       
-        <description>&lt;iframe src=&#34;https://githubbadge.appspot.com/reallyli&#34; style=&#34;border: 0;height: 142px;width: 200px;overflow: hidden;&#34; frameBorder=&#34;0&#34;&gt;&lt;/iframe&gt;
+        <description>
 
-&lt;ul&gt;
-&lt;li&gt;2018 努力跳出舒适区，展望2019&lt;/li&gt;
-&lt;li&gt;2018.10 技术分享![《浅谈软件设计原则之 SOLID》]()&lt;/li&gt;
-&lt;li&gt;2018.12 年前看两本书 《Vue.js 实战》，《PHP 7底层设计与源码实现》&lt;/li&gt;
+&lt;iframe src=&#34;https://githubbadge.appspot.com/reallyli&#34; style=&#34;border: 0;height: 142px;width: 200px;overflow: hidden;&#34; frameBorder=&#34;0&#34;&gt;&lt;/iframe&gt;
+
+&lt;h1 id=&#34;我的2018&#34;&gt;我的2018&lt;/h1&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;关于下半年的小计划，付之于行动&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; 完成技术分享 &lt;a href=&#34;https://www.slideshare.net/ssuser05c065/sloid-share&#34;&gt;《浅谈软件设计原则之 SOLID》&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; 年前看两本书 《Vue.js 实战》，《PHP 7底层设计与源码实现》&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; 网站新域名上线，社区网站上线&lt;/label&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
       
@@ -1591,63 +1619,6 @@ ssh-add ~/.ssh/id_rsa
       height=&#34;86&#34;
       src=&#34;//music.163.com/outchain/player?type=2&amp;id=86849&amp;auto=0&amp;height=66&#34;&gt;
     &lt;/iframe&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>展望2018</title>
-      <link>https://reallyli.github.io/post/outlook-2018/</link>
-      <pubDate>Sun, 31 Dec 2017 08:54:57 +0800</pubDate>
-      
-      <guid>https://reallyli.github.io/post/outlook-2018/</guid>
-      
-        <description>&lt;blockquote&gt;
-&lt;p&gt;2017即将结束，总想记录点什么，于是开始歇斯底里，记忆如丝。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;2017开始接近尾声了，崭新的2018年即将到来，转眼间我在北京已经呆了2年半的时间有余。搬过好几次家，不过都是住在6环边上，这里像我一样的打工族数不胜数，早晚高峰的地铁总是人满为患，在这里工作生活的人都早已经习以为常，下班回家，群租房里飘满油烟的味道，我猜今晚可能是尖椒肉丝。又到月初交房租的时间了，用手机手电筒照了下电表的数据，比上个月多了不少电费，严重怀疑电表有问题。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.hixiaogan.cn/img/outlook-2018/puji-env.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;总结一下今年的生活状况，2月份去了趟泰国，萨瓦迪卡的海岛游一波。6月份制定了自己的健身目标，9月份拍完了婚纱照，12月份就是现在的状态，明年2月份我将完成一项人生大事，有些路看起来很近走去却很远的，缺少耐心永远走不到头。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.hixiaogan.cn/img/outlook-2018/puji2.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;前有科比的凌晨4点，后有33岁老汉依旧巅峰的6点晨练，生活的海岸线一眼望到天际，走起来却异常艰难，大道理好像都懂，事件动机总是驱使着我们去完成内心想完成的事。凌晨5点的圣诞大战困意绵绵，不是想象中的对攻大战，而是一场时间线很长的拉锯战。当一个人内心期待着某一件事情的时候，忧伤还是快乐，生理闹钟随时准备叫醒你去迎接你原本想要的答案。结果或许不太令人满意，但某一时刻的敏感神经总会促使提醒我们，这是一件很重要的事。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.hixiaogan.cn/img/outlook-2018/lbj2.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;年中我开始尝试健身，半年有余，变化不多，但确实改了了自己的很多习惯，&lt;a href=&#34;https://weibo.com/u/2414700103&#34;&gt;微博&lt;/a&gt;里记录着这半年来的点点滴滴。刚开始很茫然，很多人告诉自己，坚持不了几天的。卸下一天的疲惫，在跑步机上挥洒汗水，每一次的到来和每一次的结束都告诉自己，坚持下去就会看到变化。期间认识了志同道合的朋友，上大重量的时候互相辅助一把，每周胸背肩手腿的轮番轰炸，见证一点一滴的变化。9点半的991，一直等不到，闲来无聊掏出手机快照，我想我的目标，他也有他的爱好。生活的乐趣远不止于此，期待下一个节点的蜕变。&lt;/p&gt;
-
-
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://reallyli.github.io/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  class=&#34;center&#34;  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.hixiaogan.cn/img/outlook-2018/fitness-process.jpg&#34; alt=&#34;daily fitness&#34;/&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.hixiaogan.cn/img/outlook-2018/fitness-process.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-      &lt;figcaption&gt;&lt;h4&gt;健身之路&lt;/h4&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-
-&lt;p&gt;9月拍完了婚纱，记得那天从早上九点一直到凌晨12点半才到家，外景太庙拍摄出来的中国风果然大气，早上零星下起了小雨，前几周看天气预报这周没有雨的，看来老天和我们开了个玩笑，但是搭车到了场地却刮起了微风，拍摄过程还是挺顺利的，感谢CD的服务，虽然在选择后期处理时超出了一点预算，但是拿到照片后全局看整体的风格还是很不错的。很多年后回忆翻开每本相册，更多的是关于北京，关于太庙的点点滴滴。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.hixiaogan.cn/img/outlook-2018/love3.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;年底最后一周，我即将搬到新住处，6号线我又回来了，这里每个时段好像都是人满为患，比去年不太一样的是雾霾天越来越少，之前住过的公寓早已被清理DD人口强制拆除了，突然回忆起，寒风下早高峰地铁外里三圈外三圈的人流和卖卷饼的摊子，清晨的摆渡车里的破喇叭放着一首“光辉岁月”，破灯在迷漫的雾霾天里起不到太大作用，把身子蜷缩在车尾的靠里位置，戴不戴口罩好像不打紧了，几分钟的车程却承接起了地铁与家的距离。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.hixiaogan.cn/img/outlook-2018/my-love.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;对于2017的得与失，生活告诉自己要泰然处之，一件小事总可以看出人与人之间相处的融洽度，在这个日益复杂，强调关系的社会，多一丝端倪都会被放大。新博客已经从 reallyli.xin 迁移到新域名 hixiaogan.cn，hi 我的家乡董永故里!&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;对于崭新的2018，我和大多数普通人一样，期待更好的机遇，并努力把握住。&lt;/p&gt;
-&lt;/blockquote&gt;
 </description>
       
     </item>
