@@ -6,10 +6,19 @@
     <description>Recent content in 技术杂记 on reallyli - 那些道听途说</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 10 Dec 2018 22:21:24 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 15 Dec 2018 21:56:54 +0800</lastBuildDate>
     
 	<atom:link href="https://reallyli.github.io/categories/%E6%8A%80%E6%9C%AF%E6%9D%82%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Vuejs 实战学习笔记1</title>
+      <link>https://reallyli.github.io/post/vuejs-practical-book-note-1/</link>
+      <pubDate>Sat, 15 Dec 2018 21:56:54 +0800</pubDate>
+      
+      <guid>https://reallyli.github.io/post/vuejs-practical-book-note-1/</guid>
+      <description>关于 Vue.js 简单小巧的核心（代码压缩后大小仅为 17KB），渐进式技术栈，足以应付任何规模的应用 书中简单的介绍现代 Web 开发中常见的高级功能，个人觉得不</description>
+    </item>
     
     <item>
       <title>Laravel 表单验证提示 The file failed to upload.</title>

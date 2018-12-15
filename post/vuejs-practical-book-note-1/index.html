@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>reallyli - 那些道听途说</title>
+  <title>Vuejs 实战学习笔记1 - reallyli - 那些道听途说</title>
   
 
 <meta name="renderer" content="webkit" />
@@ -22,9 +22,9 @@
 
 <meta name="mobile-web-app-capable" content="yes">
 
-<meta name="author" content="reallyli" />
-  <meta name="description" content="reallyli poros blog" />
-  <meta name="keywords" content="reallyli, poros, phpreallyli" />
+<meta name="author" content="reallyli" /><meta name="description" content="VueJs实战学习笔记" />
+<meta name="keywords" content="Vuejs, Javascript, Js 学习笔记, Js 学习教程" />
+
 
 
 <meta name="baidu-site-verification" content="splFzazQJF" />
@@ -34,8 +34,7 @@
 <meta name="generator" content="Hugo 0.52" />
 
 
-<link rel="canonical" href="https://reallyli.github.io/" />
-<link href="https://reallyli.github.io/index.xml" rel="alternate" type="application/rss+xml" title="reallyli - 那些道听途说" />
+<link rel="canonical" href="https://reallyli.github.io/post/vuejs-practical-book-note-1/" />
 
 
 
@@ -57,18 +56,26 @@
 
 
 
-<meta property="og:title" content="reallyli - 那些道听途说" />
-<meta property="og:description" content="reallyli poros blog" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://reallyli.github.io/" />
-<meta property="og:updated_time" content="2017-12-03T21:07:32&#43;08:00"/>
+<meta property="og:title" content="Vuejs 实战学习笔记1" />
+<meta property="og:description" content="VueJs实战学习笔记" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://reallyli.github.io/post/vuejs-practical-book-note-1/" /><meta property="article:published_time" content="2018-12-15T21:56:54&#43;08:00"/>
+<meta property="article:modified_time" content="2018-12-15T21:56:54&#43;08:00"/>
 
-<meta itemprop="name" content="reallyli - 那些道听途说">
-<meta itemprop="description" content="reallyli poros blog">
+<meta itemprop="name" content="Vuejs 实战学习笔记1">
+<meta itemprop="description" content="VueJs实战学习笔记">
 
+
+<meta itemprop="datePublished" content="2018-12-15T21:56:54&#43;08:00" />
+<meta itemprop="dateModified" content="2018-12-15T21:56:54&#43;08:00" />
+<meta itemprop="wordCount" content="903">
+
+
+
+<meta itemprop="keywords" content="vuejs," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="reallyli - 那些道听途说"/>
-<meta name="twitter:description" content="reallyli poros blog"/>
+<meta name="twitter:title" content="Vuejs 实战学习笔记1"/>
+<meta name="twitter:description" content="VueJs实战学习笔记"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -230,7 +237,7 @@ if (!doNotTrack) {
   <ul id="menu" class="menu">
     
     
-        <li class="menu-item active">
+        <li class="menu-item">
         
           
           
@@ -306,186 +313,139 @@ if (!doNotTrack) {
     <main id="main" class="main bg-llight">
       <div class="content-wrapper">
         <div id="content" class="content container">
-          
-  <section id="posts" class="posts">
+          <article class="post bg-white">
+    
+    <header class="post-header">
+      <h1 class="post-title">Vuejs 实战学习笔记1</h1>
+      
+      <div class="post-meta">
+        <time datetime="2018-12-15" class="post-time">
+          2018-12-15
+        </time>
+        <div class="post-category">
+            <a href="https://reallyli.github.io/categories/%E6%8A%80%E6%9C%AF%E6%9D%82%E8%AE%B0/"> 技术杂记 </a>
+            
+          </div>
+        <span class="more-meta"> 约 903 字 </span>
+          <span class="more-meta"> 预计阅读 2 分钟 </span>
+
+        
+        
+          <span id="busuanzi_container_page_pv">
+            | 阅读 <span id="busuanzi_value_page_pv"></span>
+          </span>
+        
+
+        
+        
+      </div>
+    </header>
+
     
     
+
     
-      <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/functional-php/">PHP 函数式编程初步笔记</a></h1>
+    <div class="post-content">
+      
+
+<h1 id="关于-vue-js">关于 Vue.js</h1>
+
+<blockquote>
+<p>简单小巧的核心（代码压缩后大小仅为 17KB），渐进式技术栈，足以应付任何规模的应用</p>
+</blockquote>
+
+<p>书中简单的介绍现代 Web 开发中常见的高级功能，个人觉得不管是前端还是后端，技术不断更新和迭代的过程，都是包含了很多软件设计思想在里面，如何去解决高内聚，低耦合问题，如何在复杂的软件设计流程中，去写出易于维护的代码。还有一点比较重要的是，如何在快速迭代的软件开发周期内，去解放生产力。于是就会大量涌现很多优秀的开源框架和扩展库，去解决现实生活中的实际问题。</p>
+
+<ul>
+<li>解耦视图与数据</li>
+<li>可复用的组件</li>
+<li>前端路由</li>
+<li>状态管理</li>
+<li>虚拟 Dom</li>
+</ul>
+
+<p>谈谈 Vue.js 在设计上使用 MVVM， 也就是 Model-View-ViewModel。作为在后端道路上工作几年的我来说，对于 MVC 可谓再熟悉不过了，对于 MVVM 作为 MVC 衍生出来的架构思想，独到之处便是 View 与 ViewModel 之间的数据双向绑定。这个时候我会想到在使用 PHP 框架构建 Web 项目的时候，控制器层从数据仓库中获取视图数据，并将数据绑定到指定模板上，通过 PHP 模板输出到浏览器中，往往我们在中间会加入一层 Presenter，类似 构建 Api 项目的 Transformer 层，当数据层发生更新时，对应的模板数据也会更新。</p>
+
+<p>对于传统的前端开发模式，Jqeury + SeaJS 等，想想那些前端框架还未百花齐放的时候，，追加 Dom 节点，修改子节点，拼接 Dom 节点，移除 Dom 节点等一大串逻辑复杂且臃肿肥大的代码，随着项目的不断迭代，技术人员的逐步更换，项目越来越变得难以维护，视图代码和业务逻辑紧耦合在一起。但是现在下新的概念越来越多，ES6，前端工程化，NodeJS，NPM 等，越来越能体现出技术的革新之迅速。而这一切都是在朝着提高开发效率，降低维护成本而前进。</p>
+
+<p>那么再回头看看 Vue.js，本身通过初次学习的时候，对于这种代码结构很熟悉，视图与数据的解耦恰恰能够让代码更加清晰，更加易于维护和扩展。</p>
+
+<p>初步了解构建一个 Vue 项目，就像搭建一个 Laravel Web 项目一样，一个基本的思路的 Maybe</p>
+
+<ul>
+<li>结合实际需求，引入适合的第三方库</li>
+<li>配置文件构建</li>
+<li>项目路由命名</li>
+<li>项目部署和测试</li>
+<li>项目发布</li>
+</ul>
+
+<p>那么发布一个 Vue 项目的基本思路也应该大致是</p>
+
+<ul>
+<li>Vue-cli 脚手架初始化项目</li>
+<li>引入合适的前端工具库</li>
+<li>配置文件构建</li>
+<li>打包文件配置</li>
+<li>Vuex 管理状态，vue-router 管理路由文件</li>
+<li>语法检查，项目部署和测试</li>
+<li>项目发布</li>
+</ul>
+
+    </div>
+
     
-    <div class="post-meta">
-      <time datetime="2017-12-03" class="post-time">
-        2017-12-03
-      </time>
-      <div class="post-category">
-          <a href="https://reallyli.github.io/categories/%E6%8A%80%E6%9C%AF%E6%9D%82%E8%AE%B0/"> 技术杂记 </a>
+    
+
+
+    
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          <a href="https://reallyli.github.io/tags/vuejs/">vuejs</a>
           
         </div>
-      <span class="more-meta"> 约 2582 字 </span>
-      <span class="more-meta"> 预计阅读 6 分钟 </span>
-      
-      
-      
-    </div>
-  </header>
-  
-  <div class="post-content">
-    
-    <div class="post-summary">
-      最近朋友推荐这本书：Functional PHP ，很多对于程序设计方面的思路值得多思考和借鉴。函数式编程不是一个框架或工具，而是一种编写代码的方式
-    </div>
-    <div class="read-more">
-      <a href="/post/functional-php/" class="read-more-link">阅读全文</a>
-    </div>
-    
-  </div>
-</article>
 
-    
-      <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/linux-rsync/">Linux Rsync</a></h1>
-    
-    <div class="post-meta">
-      <time datetime="2017-12-02" class="post-time">
-        2017-12-02
-      </time>
-      <div class="post-category">
-          <a href="https://reallyli.github.io/categories/%E6%8A%80%E6%9C%AF%E6%9D%82%E8%AE%B0/"> 技术杂记 </a>
-          
-        </div>
-      <span class="more-meta"> 约 506 字 </span>
-      <span class="more-meta"> 预计阅读 2 分钟 </span>
       
-      
-      
-    </div>
-  </header>
-  
-  <div class="post-content">
-    
-    <div class="post-summary">
-      Rsync（remote synchronize） 是一个远程数据同步工具，可以使用“ Rsync 算法”同步本地和远程主机之间的文件。Rsync 的好处是只
-    </div>
-    <div class="read-more">
-      <a href="/post/linux-rsync/" class="read-more-link">阅读全文</a>
-    </div>
-    
-  </div>
-</article>
+      <nav class="post-nav">
+        
+          <a class="prev" href="/post/hourglass/">
+            
+            <i class="iconfont">
+              <svg  class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="18" height="18">
+  <path d="M691.908486 949.511495l75.369571-89.491197c10.963703-12.998035 10.285251-32.864502-1.499144-44.378743L479.499795 515.267417 757.434875 204.940602c11.338233-12.190647 11.035334-32.285311-0.638543-44.850487l-80.46666-86.564541c-11.680017-12.583596-30.356378-12.893658-41.662889-0.716314L257.233596 494.235404c-11.332093 12.183484-11.041474 32.266891 0.657986 44.844348l80.46666 86.564541c1.772366 1.910513 3.706415 3.533476 5.750981 4.877077l306.620399 321.703933C662.505829 963.726242 680.945807 962.528973 691.908486 949.511495z"></path>
+</svg>
 
-    
-      <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/elasticsearch-note/">Elasticsearch 工作笔记</a></h1>
-    
-    <div class="post-meta">
-      <time datetime="2017-11-23" class="post-time">
-        2017-11-23
-      </time>
-      <div class="post-category">
-          <a href="https://reallyli.github.io/categories/%E6%8A%80%E6%9C%AF%E6%9D%82%E8%AE%B0/"> 技术杂记 </a>
-          
-        </div>
-      <span class="more-meta"> 约 1181 字 </span>
-      <span class="more-meta"> 预计阅读 3 分钟 </span>
-      
-      
-      
-    </div>
-  </header>
-  
-  <div class="post-content">
-    
-    <div class="post-summary">
-      实际公司后台管理系统中使用了elasticsearch作为首选搜索引擎，使用传统的mysql like的确给服务器造成了不少性能压力，目前根据
-    </div>
-    <div class="read-more">
-      <a href="/post/elasticsearch-note/" class="read-more-link">阅读全文</a>
-    </div>
-    
-  </div>
-</article>
+            </i>
+            <span class="prev-text nav-default">沙漏</span>
+            <span class="prev-text nav-mobile">上一篇</span>
+          </a>
+        
+          <a class="next" href="/post/material-providers/">
+            <span class="next-text nav-default">收集短视频制作素材</span>
+            <span class="prev-text nav-mobile">下一篇</span>
+            
+            <i class="iconfont">
+              <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="18" height="18">
+  <path d="M332.091514 74.487481l-75.369571 89.491197c-10.963703 12.998035-10.285251 32.864502 1.499144 44.378743l286.278095 300.375162L266.565125 819.058374c-11.338233 12.190647-11.035334 32.285311 0.638543 44.850487l80.46666 86.564541c11.680017 12.583596 30.356378 12.893658 41.662889 0.716314l377.434212-421.426145c11.332093-12.183484 11.041474-32.266891-0.657986-44.844348l-80.46666-86.564541c-1.772366-1.910513-3.706415-3.533476-5.750981-4.877077L373.270379 71.774697C361.493148 60.273758 343.054193 61.470003 332.091514 74.487481z"></path>
+</svg>
 
-    
-  </section>
-
-  
-  
-
-
-
-  
-  
-  
+            </i>
+          </a>
+      </nav>
+    </footer>
+  </article>
 
   
   
 
   
   
-
-  
-  
-
-  
-  
-  <nav class="pagination">
-    <ul>
-      
-      <li >
-        <a href="/">1</a>
-      </li>
-      
-      <li >
-        <a href="/page/2/">2</a>
-      </li>
-      
-      <li >
-        <a href="/page/3/">3</a>
-      </li>
-      
-      <li >
-        <a href="/page/4/">4</a>
-      </li>
-      
-      <li >
-        <a href="/page/5/">5</a>
-      </li>
-      
-      <li >
-        <a href="/page/6/">6</a>
-      </li>
-      
-      <li >
-        <a href="/page/7/">7</a>
-      </li>
-      
-      <li  class="active" >
-        <a href="/page/8/">8</a>
-      </li>
-      
-      <li >
-        <a href="/page/9/">9</a>
-      </li>
-      
-      <li >
-        <a href="/page/10/">10</a>
-      </li>
-      
-      <li >
-        <a href="/page/11/">11</a>
-      </li>
-      
-    </ul>
-  </nav>
-
-  
-  
-
-
 
 
 
