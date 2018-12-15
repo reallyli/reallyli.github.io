@@ -66,6 +66,62 @@
     </item>
     
     <item>
+      <title>Vuejs 实战学习笔记1</title>
+      <link>https://reallyli.github.io/post/vuejs-practical-book-note-1/</link>
+      <pubDate>Sat, 15 Dec 2018 21:56:54 +0800</pubDate>
+      
+      <guid>https://reallyli.github.io/post/vuejs-practical-book-note-1/</guid>
+      
+        <description>
+
+&lt;h1 id=&#34;关于-vue-js&#34;&gt;关于 Vue.js&lt;/h1&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;简单小巧的核心（代码压缩后大小仅为 17KB），渐进式技术栈，足以应付任何规模的应用&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;书中简单的介绍现代 Web 开发中常见的高级功能，个人觉得不管是前端还是后端，技术不断更新和迭代的过程，都是包含了很多软件设计思想在里面，如何去解决高内聚，低耦合问题，如何在复杂的软件设计流程中，去写出易于维护的代码。还有一点比较重要的是，如何在快速迭代的软件开发周期内，去解放生产力。于是就会大量涌现很多优秀的开源框架和扩展库，去解决现实生活中的实际问题。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;解耦视图与数据&lt;/li&gt;
+&lt;li&gt;可复用的组件&lt;/li&gt;
+&lt;li&gt;前端路由&lt;/li&gt;
+&lt;li&gt;状态管理&lt;/li&gt;
+&lt;li&gt;虚拟 Dom&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;谈谈 Vue.js 在设计上使用 MVVM， 也就是 Model-View-ViewModel。作为在后端道路上工作几年的我来说，对于 MVC 可谓再熟悉不过了，对于 MVVM 作为 MVC 衍生出来的架构思想，独到之处便是 View 与 ViewModel 之间的数据双向绑定。这个时候我会想到在使用 PHP 框架构建 Web 项目的时候，控制器层从数据仓库中获取视图数据，并将数据绑定到指定模板上，通过 PHP 模板输出到浏览器中，往往我们在中间会加入一层 Presenter，类似 构建 Api 项目的 Transformer 层，当数据层发生更新时，对应的模板数据也会更新。&lt;/p&gt;
+
+&lt;p&gt;对于传统的前端开发模式，Jqeury + SeaJS 等，想想那些前端框架还未百花齐放的时候，，追加 Dom 节点，修改子节点，拼接 Dom 节点，移除 Dom 节点等一大串逻辑复杂且臃肿肥大的代码，随着项目的不断迭代，技术人员的逐步更换，项目越来越变得难以维护，视图代码和业务逻辑紧耦合在一起。但是现在下新的概念越来越多，ES6，前端工程化，NodeJS，NPM 等，越来越能体现出技术的革新之迅速。而这一切都是在朝着提高开发效率，降低维护成本而前进。&lt;/p&gt;
+
+&lt;p&gt;那么再回头看看 Vue.js，本身通过初次学习的时候，对于这种代码结构很熟悉，视图与数据的解耦恰恰能够让代码更加清晰，更加易于维护和扩展。&lt;/p&gt;
+
+&lt;p&gt;初步了解构建一个 Vue 项目，就像搭建一个 Laravel Web 项目一样，一个基本的思路的 Maybe&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;结合实际需求，引入适合的第三方库&lt;/li&gt;
+&lt;li&gt;配置文件构建&lt;/li&gt;
+&lt;li&gt;项目路由命名&lt;/li&gt;
+&lt;li&gt;项目部署和测试&lt;/li&gt;
+&lt;li&gt;项目发布&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;那么发布一个 Vue 项目的基本思路也应该大致是&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Vue-cli 脚手架初始化项目&lt;/li&gt;
+&lt;li&gt;引入合适的前端工具库&lt;/li&gt;
+&lt;li&gt;配置文件构建&lt;/li&gt;
+&lt;li&gt;打包文件配置&lt;/li&gt;
+&lt;li&gt;Vuex 管理状态，vue-router 管理路由文件&lt;/li&gt;
+&lt;li&gt;语法检查，项目部署和测试&lt;/li&gt;
+&lt;li&gt;项目发布&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      
+    </item>
+    
+    <item>
       <title>收集短视频制作素材</title>
       <link>https://reallyli.github.io/post/material-providers/</link>
       <pubDate>Tue, 11 Dec 2018 23:48:49 +0800</pubDate>
@@ -1961,90 +2017,6 @@ ssh-add ~/.ssh/id_rsa&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&g
 &lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.uniqueway.com&#34;&gt;无二之旅&lt;/a&gt;，定制有温度的旅行，今年的目标之一是定制自己的 &lt;code&gt;uni-package&lt;/code&gt;，实践是成长最好的方式，等待周五的好消息，因为余生有你，才有更大的动力和信心。🌙&lt;/p&gt;
 &lt;/blockquote&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>午后的猫</title>
-      <link>https://reallyli.github.io/post/afternoon-cat/</link>
-      <pubDate>Wed, 04 Jul 2018 22:59:59 +0800</pubDate>
-      
-      <guid>https://reallyli.github.io/post/afternoon-cat/</guid>
-      
-        <description>&lt;blockquote&gt;
-&lt;p&gt;来自我的 QQ &lt;a href=&#34;https://user.qzone.qq.com/1025070092&#34;&gt;空间&lt;/a&gt;日志，记载于 2013-9-12 22:41&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;突然发现很久没有打球了，或许是到了九月秋初这个季节才开始想起。没有时间，没有精力看上去只是心灵上的阻碍，我发现再也找不回以前的那种感觉才是最恰如其份的理由。一大群人走在路上，周围的异度空间若隐若现，欣赏完一片风景，你发现再也找不回重复的路，明天的太阳还是会升起，我只是想怀恋一下曾经的5,5，5和小半场兄弟们。&lt;/p&gt;
-
-
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://reallyli.github.io/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  class=&#34;center&#34;  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://a2.qpic.cn/psb?/e22bce0d-c189-4c81-be5c-fe7638b1b99e/U2eenee42sthtaoA5cWgII3*FhXTqgZgt87xpgFXwL0!/b/dO8i3Jb8IwAA&amp;amp;ek=1&amp;amp;kp=1&amp;amp;pt=0&amp;amp;bo=vAIAAgAAAAABAJs!&amp;amp;tl=3&amp;amp;su=3148428961&amp;amp;tm=1530712800&amp;amp;sce=0-12-12&amp;amp;rf=2-9&#34; alt=&#34;Miami Storm&#34;/&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;http://a2.qpic.cn/psb?/e22bce0d-c189-4c81-be5c-fe7638b1b99e/U2eenee42sthtaoA5cWgII3*FhXTqgZgt87xpgFXwL0!/b/dO8i3Jb8IwAA&amp;amp;ek=1&amp;amp;kp=1&amp;amp;pt=0&amp;amp;bo=vAIAAgAAAAABAJs!&amp;amp;tl=3&amp;amp;su=3148428961&amp;amp;tm=1530712800&amp;amp;sce=0-12-12&amp;amp;rf=2-9&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-      &lt;figcaption&gt;&lt;h4&gt;热火时期的三巨头&lt;/h4&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-
-&lt;p&gt;我觉得我会有所转变，我想时间会说明一切。老照片里的&lt;code&gt;SKAM&lt;/code&gt;，永远都不会从我的生活里消失，明仔离开XG的那一天，我好像记得要写一篇日志纪念有5号的日子，只是一年多了才突然想起。那次你给我看的数据本(关于&lt;code&gt;BOSTON&lt;/code&gt;），就像看到了一种信仰，那是骨子里的痴迷与忠诚。永远的绿色，铁血的魂，，只要有那么一股劲在，有故事的人永远都不曾老去&lt;/p&gt;
-
-
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  class=&#34;center&#34;  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://a1.qpic.cn/psb?/e22bce0d-c189-4c81-be5c-fe7638b1b99e/yaTa8a1HLQHkb57syc71E5H7gQhHXqIXvAO1.m5jwLs!/b/dBDJO5bkDAAA&amp;amp;ek=1&amp;amp;kp=1&amp;amp;pt=0&amp;amp;bo=IANYAgAAAAABAF4!&amp;amp;tl=3&amp;amp;su=010320545&amp;amp;tm=1530712800&amp;amp;sce=0-12-12&amp;amp;rf=2-9&#34; alt=&#34;Boston Storm&#34;/&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;http://a1.qpic.cn/psb?/e22bce0d-c189-4c81-be5c-fe7638b1b99e/yaTa8a1HLQHkb57syc71E5H7gQhHXqIXvAO1.m5jwLs!/b/dBDJO5bkDAAA&amp;amp;ek=1&amp;amp;kp=1&amp;amp;pt=0&amp;amp;bo=IANYAgAAAAABAF4!&amp;amp;tl=3&amp;amp;su=010320545&amp;amp;tm=1530712800&amp;amp;sce=0-12-12&amp;amp;rf=2-9&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-      &lt;figcaption&gt;&lt;h4&gt;铁血绿色军团&lt;/h4&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-
-&lt;p&gt;我发现我都出来三个月了，很多思想还是没有转变过来，依旧我行我素，或许该经得住时间的考验了。从南山，东莞再到沙井，退路的问题一直成为我前进的方向。是时候静下心来做好当下的事了，从14到&lt;code&gt;Shuai&lt;/code&gt;到&lt;code&gt;Tang&lt;/code&gt;，南山街头疲惫等公交的场景和景宏模具夕阳下的篮球场，再到眼前每天打交道的电镀。我只想说，一切很DB。我已经开始忘记堂哥什么时候飞往虹桥的，我只是记得·我们一路走来的带点点滴滴，热火夺冠的那一天，模具厂里只是新来了几个球迷而已。开了午饭的食堂里只能看到颁奖仪式的尾声，至今还未曾想起当时是怎样的饭菜，只是今天越来越记挂罢了，原来那也是一种简单的知足。我已经开始忘了帅是什么时候去往佛山的，我只是记得走的那一天包夜的开黑三人组，第二天拖着行李的时候，我已经不记得当时是什么样的状态。每到九点半超市门口的风景，只是永远有你我的城市缩影。热火夺冠的那一天，我们还在惋惜年老的马刺和总冠军仅有一步之遥，老照片里的SKAM，有篮球的日子总会让我想起些什么，只是微薄的想起，在某一瞬间，或者某一时刻。&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;叮噹可否不要老FA：画面感很强！那段记忆犹新的日子依然在脑海。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  class=&#34;center&#34;  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://a3.qpic.cn/psb?/e22bce0d-c189-4c81-be5c-fe7638b1b99e/XJ6jJHZ90W.q0vWPwooAltaIjD2aZ1IuX*BidJzRhAo!/b/dDlFD5VCDQAA&amp;amp;ek=1&amp;amp;kp=1&amp;amp;pt=0&amp;amp;bo=mAFSAgAAAAABAO4!&amp;amp;tl=3&amp;amp;su=0158197121&amp;amp;tm=1530712800&amp;amp;sce=0-12-12&amp;amp;rf=2-9&#34; alt=&#34;Devin Wade&#34;/&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;http://a3.qpic.cn/psb?/e22bce0d-c189-4c81-be5c-fe7638b1b99e/XJ6jJHZ90W.q0vWPwooAltaIjD2aZ1IuX*BidJzRhAo!/b/dDlFD5VCDQAA&amp;amp;ek=1&amp;amp;kp=1&amp;amp;pt=0&amp;amp;bo=mAFSAgAAAAABAO4!&amp;amp;tl=3&amp;amp;su=0158197121&amp;amp;tm=1530712800&amp;amp;sce=0-12-12&amp;amp;rf=2-9&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-      &lt;figcaption&gt;&lt;h4&gt;闪电侠韦德&lt;/h4&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-
-&lt;blockquote&gt;
-&lt;p&gt;结尾送上一首爱与诚，往事可堪回首，希望兄弟们今年都能找到各自心里的另一半，向着美好奋进！&lt;/p&gt;
-&lt;/blockquote&gt;
-
-  &lt;iframe style=&#34;max-width: 100%&#34;
-      class=&#34;music163&#34;
-      frameborder=&#34;no&#34;
-      border=&#34;0&#34;
-      marginwidth=&#34;0&#34;
-      marginheight=&#34;0&#34;
-      width=&#34;330&#34;
-      height=&#34;86&#34;
-      src=&#34;//music.163.com/outchain/player?type=2&amp;id=86849&amp;auto=0&amp;height=66&#34;&gt;
-    &lt;/iframe&gt;
 </description>
       
     </item>
