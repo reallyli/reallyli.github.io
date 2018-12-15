@@ -26,7 +26,7 @@
       <pubDate>Sat, 11 Aug 2018 12:29:20 +0800</pubDate>
       
       <guid>https://reallyli.github.io/post/go-tutorial-note-4/</guid>
-      <description>变量的基本类型 Bool Numeric Types String Bool bool类型表示布尔值，为true或false。 package main import &amp;quot;fmt&amp;quot; func main() { a := true b := false fmt.Println(&amp;quot;a:&amp;quot;, a, &amp;quot;b:&amp;quot;, b) c := a &amp;amp;&amp;amp; b fmt.Println(&amp;quot;c:&amp;quot;, c) d := a || b fmt.Println(&amp;quot;d;&amp;quot;, d) } Numeric 有</description>
+      <description>变量的基本类型 Bool Numeric Types String Bool bool类型表示布尔值，为true或false。 1 2 3 4 5 6 7 8 9 10 11 12 13 package main import &amp;#34;fmt&amp;#34; func main() { a := true b := false fmt.Println(&amp;#34;a:&amp;#34;, a, &amp;#34;b:&amp;#34;, b) c := a &amp;amp;&amp;amp;</description>
     </item>
     
     <item>
@@ -35,7 +35,7 @@
       <pubDate>Fri, 10 Aug 2018 09:46:57 +0800</pubDate>
       
       <guid>https://reallyli.github.io/post/go-tutorial-note-3/</guid>
-      <description>变量是为存储特定类型的值的内存位置指定的名称。在 go 中声明变量有各种语法。 声明一个变量 比如声明一个 name 的变量 package main import fmt func main() { var name int fmt.Println(&amp;quot;My age is&amp;quot;, name) } 该语句</description>
+      <description>变量是为存储特定类型的值的内存位置指定的名称。在 go 中声明变量有各种语法。 声明一个变量 比如声明一个 name 的变量 1 2 3 4 5 6 7 8 package main import fmt func main() { var name int</description>
     </item>
     
     <item>

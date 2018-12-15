@@ -27,7 +27,7 @@
 
 
 
-
+<meta name="baidu-site-verification" content="splFzazQJF" />
 
 
 
@@ -68,7 +68,7 @@
 
 <meta itemprop="datePublished" content="2018-08-11T12:29:20&#43;08:00" />
 <meta itemprop="dateModified" content="2018-08-11T12:29:20&#43;08:00" />
-<meta itemprop="wordCount" content="1188">
+<meta itemprop="wordCount" content="1272">
 
 
 
@@ -326,9 +326,14 @@ if (!doNotTrack) {
             <a href="https://reallyli.github.io/categories/go/"> Go </a>
             
           </div>
-        
+        <span class="more-meta"> 约 1272 字 </span>
+          <span class="more-meta"> 预计阅读 3 分钟 </span>
 
         
+        
+          <span id="busuanzi_container_page_pv">
+            | 阅读 <span id="busuanzi_value_page_pv"></span>
+          </span>
         
 
         
@@ -379,22 +384,38 @@ if (!doNotTrack) {
 <h2 id="bool">Bool</h2>
 
 <p>bool类型表示布尔值，为true或false。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-go" data-lang="go"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-go" data-lang="go"><span class="kn">package</span> <span class="nx">main</span>
 
-<pre><code class="language-go">package main
+<span class="kn">import</span> <span class="s">&#34;fmt&#34;</span>
 
-import &quot;fmt&quot;
-
-func main() {
-    a := true
-    b := false
-    fmt.Println(&quot;a:&quot;, a, &quot;b:&quot;, b)
-    c := a &amp;&amp; b
-    fmt.Println(&quot;c:&quot;, c)
-    d := a || b
-    fmt.Println(&quot;d;&quot;, d)
-}
-</code></pre>
-
+<span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+    <span class="nx">a</span> <span class="o">:=</span> <span class="kc">true</span>
+    <span class="nx">b</span> <span class="o">:=</span> <span class="kc">false</span>
+    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;a:&#34;</span><span class="p">,</span> <span class="nx">a</span><span class="p">,</span> <span class="s">&#34;b:&#34;</span><span class="p">,</span> <span class="nx">b</span><span class="p">)</span>
+    <span class="nx">c</span> <span class="o">:=</span> <span class="nx">a</span> <span class="o">&amp;&amp;</span> <span class="nx">b</span>
+    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;c:&#34;</span><span class="p">,</span> <span class="nx">c</span><span class="p">)</span>
+    <span class="nx">d</span> <span class="o">:=</span> <span class="nx">a</span> <span class="o">||</span> <span class="nx">b</span>
+    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;d;&#34;</span><span class="p">,</span> <span class="nx">d</span><span class="p">)</span>
+<span class="p">}</span></code></pre></td></tr></table>
+</div>
+</div>
 <h2 id="numeric">Numeric</h2>
 
 <h3 id="有符号整数">有符号整数</h3>
@@ -440,35 +461,63 @@ func main() {
 </tr>
 </tbody>
 </table>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-go" data-lang="go"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-go" data-lang="go"><span class="kn">package</span> <span class="nx">main</span>
 
-<pre><code class="language-go">package main
+<span class="kn">import</span> <span class="s">&#34;fmt&#34;</span>
 
-import &quot;fmt&quot;
-
-func main() {
-    var a int = 9
-    b := 10
-    fmt.Println(&quot;value of a is&quot;, a, &quot;and b is&quot;, b)
-}
-</code></pre>
-
+<span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">a</span> <span class="kt">int</span> <span class="p">=</span> <span class="mi">9</span>
+    <span class="nx">b</span> <span class="o">:=</span> <span class="mi">10</span>
+    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;value of a is&#34;</span><span class="p">,</span> <span class="nx">a</span><span class="p">,</span> <span class="s">&#34;and b is&#34;</span><span class="p">,</span> <span class="nx">b</span><span class="p">)</span>
+<span class="p">}</span></code></pre></td></tr></table>
+</div>
+</div>
 <p>可以使用 Printf 方法中的 ％T 格式说明符打印变量的类型。Go 有一个不安全的包，它有一个 Sizeof 函数，它以字节为单位返回传递给它的变量的大小。应谨慎使用不安全的软件包，因为使用它的代码可能存在可移植性问题，以下代码中使用它只是举例说明。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-go" data-lang="go"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-go" data-lang="go"><span class="kn">package</span> <span class="nx">main</span>
 
-<pre><code class="language-go">package main
+<span class="kn">import</span> <span class="p">(</span>
+    <span class="s">&#34;fmt&#34;</span>
+    <span class="s">&#34;unsafe&#34;</span>
+<span class="p">)</span>
 
-import (
-    &quot;fmt&quot;
-    &quot;unsafe&quot;
-)
-
-func main() {
-    var a int = 10
-    b := 20
-    fmt.Printf(&quot;type of a is %T, size of a is %d&quot;, a, unsafe.Sizeof(a)) //type and size of a
-    fmt.Printf(&quot;\ntype of b is %T, size of b is %d&quot;, b, unsafe.Sizeof(b)) //type and size of b
-}
-</code></pre>
-
+<span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">a</span> <span class="kt">int</span> <span class="p">=</span> <span class="mi">10</span>
+    <span class="nx">b</span> <span class="o">:=</span> <span class="mi">20</span>
+    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Printf</span><span class="p">(</span><span class="s">&#34;type of a is %T, size of a is %d&#34;</span><span class="p">,</span> <span class="nx">a</span><span class="p">,</span> <span class="nx">unsafe</span><span class="p">.</span><span class="nf">Sizeof</span><span class="p">(</span><span class="nx">a</span><span class="p">))</span> <span class="c1">//type and size of a
+</span><span class="c1"></span>    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Printf</span><span class="p">(</span><span class="s">&#34;\ntype of b is %T, size of b is %d&#34;</span><span class="p">,</span> <span class="nx">b</span><span class="p">,</span> <span class="nx">unsafe</span><span class="p">.</span><span class="nf">Sizeof</span><span class="p">(</span><span class="nx">b</span><span class="p">))</span> <span class="c1">//type and size of b
+</span><span class="c1"></span><span class="p">}</span></code></pre></td></tr></table>
+</div>
+</div>
 <h3 id="无符号整数">无符号整数</h3>
 
 <table>
@@ -524,83 +573,147 @@ float64： 64位浮点数</p>
 complex128：具有float64实部和虚部的复数</p>
 
 <p>内置函数复合体用于构造具有实部和虚部的复数。复杂函数具有以下定义</p>
-
-<pre><code class="language-go">func complex(r, i FloatType) ComplexType  
-</code></pre>
-
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-go" data-lang="go"><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-go" data-lang="go"><span class="kd">func</span> <span class="nb">complex</span><span class="p">(</span><span class="nx">r</span><span class="p">,</span> <span class="nx">i</span> <span class="nx">FloatType</span><span class="p">)</span> <span class="nx">ComplexType</span>  </code></pre></td></tr></table>
+</div>
+</div>
 <p>它将实部和虚部作为参数并返回复杂类型。实部和虚部都应该是相同的类型。即float32或float64。如果实部和虚部都是float32，则此函数返回complex64类型的复数值。如果实部和虚部都是float64类型，则此函数返回complex128类型的复数值</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-go" data-lang="go"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-go" data-lang="go"><span class="kn">package</span> <span class="nx">main</span>
 
-<pre><code class="language-go">package main
+<span class="kn">import</span> <span class="p">(</span>
+    <span class="s">&#34;fmt&#34;</span>
+<span class="p">)</span>
 
-import (
-    &quot;fmt&quot;
-)
-
-func main() {
-    a := complex(1, 2)
-    b := 3 + 4i
-    sum := a + b
-    fmt.Println(&quot;sum:&quot;, sum)
-}
-</code></pre>
-
+<span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+    <span class="nx">a</span> <span class="o">:=</span> <span class="nb">complex</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+    <span class="nx">b</span> <span class="o">:=</span> <span class="mi">3</span> <span class="o">+</span> <span class="m">4i</span>
+    <span class="nx">sum</span> <span class="o">:=</span> <span class="nx">a</span> <span class="o">+</span> <span class="nx">b</span>
+    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;sum:&#34;</span><span class="p">,</span> <span class="nx">sum</span><span class="p">)</span>
+<span class="p">}</span></code></pre></td></tr></table>
+</div>
+</div>
 <h2 id="其他数字类型">其他数字类型</h2>
 
 <p>byte 是 unit8 的别名
 符文是 int32 的别名</p>
 
 <h2 id="字符串类型">字符串类型</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-go" data-lang="go"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-go" data-lang="go"><span class="kn">package</span> <span class="nx">main</span>
 
-<pre><code class="language-go">package main
+<span class="kn">import</span> <span class="p">(</span>
+    <span class="s">&#34;fmt&#34;</span>
+<span class="p">)</span>
 
-import (
-    &quot;fmt&quot;
-)
-
-func main() {
-    name := &quot;reallyli&quot;
-    ago := 26
-    fmt.Println(&quot;My name is &quot;, name, &quot;, ago is&quot;, ago)
-}
-</code></pre>
-
+<span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+    <span class="nx">name</span> <span class="o">:=</span> <span class="s">&#34;reallyli&#34;</span>
+    <span class="nx">ago</span> <span class="o">:=</span> <span class="mi">26</span>
+    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;My name is &#34;</span><span class="p">,</span> <span class="nx">name</span><span class="p">,</span> <span class="s">&#34;, ago is&#34;</span><span class="p">,</span> <span class="nx">ago</span><span class="p">)</span>
+<span class="p">}</span></code></pre></td></tr></table>
+</div>
+</div>
 <h2 id="类型转换">类型转换</h2>
 
 <p>Go 对显式输入非常严格。没有自动类型转换，两个不同类型的变量进行运算需要进行强制转换</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-go" data-lang="go"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-go" data-lang="go"><span class="kn">package</span> <span class="nx">main</span>
 
-<pre><code class="language-go">package main
+<span class="kn">import</span> <span class="p">(</span>
+    <span class="s">&#34;fmt&#34;</span>
+<span class="p">)</span>
 
-import (
-    &quot;fmt&quot;
-)
-
-func main() {
-    a := 1.22
-    b := 2
-    sum := a + b
-    // sum := int(a) + b //yes
-    fmt.Println(&quot;sum:&quot;, sum)
-}
-</code></pre>
-
+<span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+    <span class="nx">a</span> <span class="o">:=</span> <span class="mf">1.22</span>
+    <span class="nx">b</span> <span class="o">:=</span> <span class="mi">2</span>
+    <span class="nx">sum</span> <span class="o">:=</span> <span class="nx">a</span> <span class="o">+</span> <span class="nx">b</span>
+    <span class="c1">// sum := int(a) + b //yes
+</span><span class="c1"></span>    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;sum:&#34;</span><span class="p">,</span> <span class="nx">sum</span><span class="p">)</span>
+<span class="p">}</span></code></pre></td></tr></table>
+</div>
+</div>
 <blockquote>
 <p>invalid operation: a + b (mismatched types float64 and int)</p>
 </blockquote>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-go" data-lang="go"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-go" data-lang="go"><span class="kn">package</span> <span class="nx">main</span>
 
-<pre><code class="language-go">package main
+<span class="kn">import</span> <span class="p">(</span>  
+    <span class="s">&#34;fmt&#34;</span>
+<span class="p">)</span>
 
-import (  
-    &quot;fmt&quot;
-)
-
-func main() {  
-    i := 10
-    var j int = float64(i) //this statement will not work without explicit conversion
-    // var j float64 = float64(i) // yes
-    fmt.Println(&quot;j&quot;, j)
-}
-</code></pre>
-
+<span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>  
+    <span class="nx">i</span> <span class="o">:=</span> <span class="mi">10</span>
+    <span class="kd">var</span> <span class="nx">j</span> <span class="kt">int</span> <span class="p">=</span> <span class="nb">float64</span><span class="p">(</span><span class="nx">i</span><span class="p">)</span> <span class="c1">//this statement will not work without explicit conversion
+</span><span class="c1"></span>    <span class="c1">// var j float64 = float64(i) // yes
+</span><span class="c1"></span>    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;j&#34;</span><span class="p">,</span> <span class="nx">j</span><span class="p">)</span>
+<span class="p">}</span></code></pre></td></tr></table>
+</div>
+</div>
     </div>
 
     
@@ -671,6 +784,15 @@ func main() {
   
 
   
+  
+    <div class="post bg-white">
+      <script src="https://utteranc.es/client.js"
+            repo= "xianmin/comments-for-hugo-theme-jane"
+            issue-term="pathname"
+            crossorigin="anonymous"
+            async>
+      </script>
+    </div>
   
 
   
@@ -757,6 +879,10 @@ func main() {
 
   
   
+    <span id="busuanzi_container">
+      访客数/访问量：<span id="busuanzi_value_site_uv"></span>/<span id="busuanzi_value_site_pv"></span>
+    </span>
+  
 </div>
 
     </footer>
@@ -781,9 +907,32 @@ func main() {
 
 
 <script type="text/javascript" src="/js/main.638251f4230630f0335d8c6748e53a96f94b72670920b60c09a56fdc8bece214.js" integrity="sha256-Y4JR9CMGMPAzXYxnSOU6lvlLcmcJILYMCaVv3Ivs4hQ="></script>
+<script id="baidu_analytics">
+  var _hmt = _hmt || [];
+  (function() {
+    if (window.location.hostname === 'localhost') return;
+    var hm = document.createElement("script"); hm.async = true;
+    hm.src = "https://hm.baidu.com/hm.js?fddaf43423219df835caef10ea185fa8";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+</script>
 
-
-
+<script id="baidu_push">
+  (function(){
+    if (window.location.hostname === 'localhost') return;
+    var bp = document.createElement('script'); bp.async = true;
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+      bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+      bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+  })();
+</script>
 
 
 
@@ -795,6 +944,8 @@ func main() {
 
 
 
+
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
 

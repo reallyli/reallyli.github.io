@@ -27,7 +27,7 @@
 
 
 
-
+<meta name="baidu-site-verification" content="splFzazQJF" />
 
 
 
@@ -68,7 +68,7 @@
 
 <meta itemprop="datePublished" content="2017-12-02T17:08:12&#43;08:00" />
 <meta itemprop="dateModified" content="2017-12-02T17:08:12&#43;08:00" />
-<meta itemprop="wordCount" content="486">
+<meta itemprop="wordCount" content="506">
 
 
 
@@ -326,9 +326,14 @@ if (!doNotTrack) {
             <a href="https://reallyli.github.io/categories/%E6%8A%80%E6%9C%AF%E6%9D%82%E8%AE%B0/"> 技术杂记 </a>
             
           </div>
-        
+        <span class="more-meta"> 约 506 字 </span>
+          <span class="more-meta"> 预计阅读 2 分钟 </span>
 
         
+        
+          <span id="busuanzi_container_page_pv">
+            | 阅读 <span id="busuanzi_value_page_pv"></span>
+          </span>
         
 
         
@@ -361,67 +366,103 @@ if (!doNotTrack) {
 <h1 id="服务器端">服务器端</h1>
 
 <p>ubuntu 系统默认已经安装了 rsync，rsync 服务默认不是启动的</p>
-
-<pre><code class="language-bash">vim /etc/default/rsync  
-RSYNC_ENABLE=true   #false改true
-
-</code></pre>
-
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">vim /etc/default/rsync  
+<span class="nv">RSYNC_ENABLE</span><span class="o">=</span><span class="nb">true</span>   <span class="c1">#false改true</span></code></pre></td></tr></table>
+</div>
+</div>
 <p>修改配置文件</p>
-
-<pre><code class="language-bash">cp /usr/share/doc/rsync/examples/rsyncd.conf /etc
-
-</code></pre>
-
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">cp /usr/share/doc/rsync/examples/rsyncd.conf /etc</code></pre></td></tr></table>
+</div>
+</div>
 <p>配置文件注意项，模块配置，需要同步的 server 端模块名称（必填），</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># MODULE OPTIONS</span>
 
-<pre><code class="language-bash"># MODULE OPTIONS
-
-path [指定路径，如果没有这个目录自己建]
-auth users [rsyn c连接时的用户名，要和客户端 rsync 的命令一致]
-secrets file [这里是保存密码的地方，如果屏蔽掉就不用密码了]
-hosts allow [允许某个客户端同步文件的ip]
-
-</code></pre>
-
+path <span class="o">[</span>指定路径，如果没有这个目录自己建<span class="o">]</span>
+auth users <span class="o">[</span>rsyn c连接时的用户名，要和客户端 rsync 的命令一致<span class="o">]</span>
+secrets file <span class="o">[</span>这里是保存密码的地方，如果屏蔽掉就不用密码了<span class="o">]</span>
+hosts allow <span class="o">[</span>允许某个客户端同步文件的ip<span class="o">]</span></code></pre></td></tr></table>
+</div>
+</div>
 <p>创建密钥文件</p>
-
-<pre><code class="language-bash">vim /etc/rsyncd.secrets  
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">vim /etc/rsyncd.secrets  
 
 your_name:your_pass
 
-chmod 0600 /etc/rsyncd.secrets
-
-</code></pre>
-
+chmod <span class="m">0600</span> /etc/rsyncd.secrets</code></pre></td></tr></table>
+</div>
+</div>
 <p>启动 rsync</p>
-
-<pre><code class="language-bash">/etc/init.d/rsync start
-
-</code></pre>
-
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">/etc/init.d/rsync start</code></pre></td></tr></table>
+</div>
+</div>
 <h1 id="客户端">客户端</h1>
 
 <p>快速同步服务器端数据文件命令</p>
-
-<pre><code class="language-bash">rsync -vzrtopg --progress  your_name@your_server_ip::module_name .
-
-</code></pre>
-
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">rsync -vzrtopg --progress  your_name@your_server_ip::module_name .</code></pre></td></tr></table>
+</div>
+</div>
 <p>将远程服务器的文件同步到本地 [端口如果不是默认22端口的情况2]</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">rsync -avz your_ssh_name@your_ssh_ip:remote_path local_path  
 
-<pre><code class="language-bash">rsync -avz your_ssh_name@your_ssh_ip:remote_path local_path  
-
-rsync -avz '-e ssh -p your_ssh_port' ssh_name@ssh_ip:remote_path local_path
-
-</code></pre>
-
+rsync -avz <span class="s1">&#39;-e ssh -p your_ssh_port&#39;</span> ssh_name@ssh_ip:remote_path local_path</code></pre></td></tr></table>
+</div>
+</div>
 <p>从本地同步文件到远程服务器</p>
-
-<pre><code class="language-bash">rsync -avz local_path your_ssh_name@your_ssh_ip:remote_path
-
-</code></pre>
-
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">rsync -avz local_path your_ssh_name@your_ssh_ip:remote_path</code></pre></td></tr></table>
+</div>
+</div>
 <blockquote>
 <p>快捷跳转 Linux 命令速查，趁有时间总结一波 <a href="http://man.linuxde.net/rsync">rsync</a>，服务器数据增量备份</p>
 
@@ -499,6 +540,15 @@ rsync -avz '-e ssh -p your_ssh_port' ssh_name@ssh_ip:remote_path local_path
   
 
   
+  
+    <div class="post bg-white">
+      <script src="https://utteranc.es/client.js"
+            repo= "xianmin/comments-for-hugo-theme-jane"
+            issue-term="pathname"
+            crossorigin="anonymous"
+            async>
+      </script>
+    </div>
   
 
   
@@ -585,6 +635,10 @@ rsync -avz '-e ssh -p your_ssh_port' ssh_name@ssh_ip:remote_path local_path
 
   
   
+    <span id="busuanzi_container">
+      访客数/访问量：<span id="busuanzi_value_site_uv"></span>/<span id="busuanzi_value_site_pv"></span>
+    </span>
+  
 </div>
 
     </footer>
@@ -609,9 +663,32 @@ rsync -avz '-e ssh -p your_ssh_port' ssh_name@ssh_ip:remote_path local_path
 
 
 <script type="text/javascript" src="/js/main.638251f4230630f0335d8c6748e53a96f94b72670920b60c09a56fdc8bece214.js" integrity="sha256-Y4JR9CMGMPAzXYxnSOU6lvlLcmcJILYMCaVv3Ivs4hQ="></script>
+<script id="baidu_analytics">
+  var _hmt = _hmt || [];
+  (function() {
+    if (window.location.hostname === 'localhost') return;
+    var hm = document.createElement("script"); hm.async = true;
+    hm.src = "https://hm.baidu.com/hm.js?fddaf43423219df835caef10ea185fa8";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+</script>
 
-
-
+<script id="baidu_push">
+  (function(){
+    if (window.location.hostname === 'localhost') return;
+    var bp = document.createElement('script'); bp.async = true;
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+      bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+      bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+  })();
+</script>
 
 
 
@@ -623,6 +700,8 @@ rsync -avz '-e ssh -p your_ssh_port' ssh_name@ssh_ip:remote_path local_path
 
 
 
+
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
 

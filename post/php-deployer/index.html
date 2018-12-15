@@ -27,7 +27,7 @@
 
 
 
-
+<meta name="baidu-site-verification" content="splFzazQJF" />
 
 
 
@@ -68,7 +68,7 @@
 
 <meta itemprop="datePublished" content="2018-07-18T22:00:41&#43;08:00" />
 <meta itemprop="dateModified" content="2018-07-18T22:00:41&#43;08:00" />
-<meta itemprop="wordCount" content="1047">
+<meta itemprop="wordCount" content="1057">
 
 
 
@@ -326,9 +326,14 @@ if (!doNotTrack) {
             <a href="https://reallyli.github.io/categories/%E6%8A%80%E6%9C%AF%E6%9D%82%E8%AE%B0/"> 技术杂记 </a>
             
           </div>
-        
+        <span class="more-meta"> 约 1057 字 </span>
+          <span class="more-meta"> 预计阅读 3 分钟 </span>
 
         
+        
+          <span id="busuanzi_container_page_pv">
+            | 阅读 <span id="busuanzi_value_page_pv"></span>
+          </span>
         
 
         
@@ -383,47 +388,75 @@ if (!doNotTrack) {
 <h2 id="问题一">问题一</h2>
 
 <p>acl 未安装，下面如下 shell 返回空</p>
-
-<pre><code class="language-shell">if hash setfacl 2&gt;/dev/null; then echo 'true'; fi
-</code></pre>
-
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="k">if</span> <span class="nb">hash</span> setfacl <span class="m">2</span>&gt;/dev/null<span class="p">;</span> <span class="k">then</span> <span class="nb">echo</span> <span class="s1">&#39;true&#39;</span><span class="p">;</span> <span class="k">fi</span></code></pre></td></tr></table>
+</div>
+</div>
 <p>解决方案</p>
-
-<pre><code class="language-shell">sudo apt-get install acl
-</code></pre>
-
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">sudo apt-get install acl</code></pre></td></tr></table>
+</div>
+</div>
 <p>参考 <a href="https://github.com/deployphp/deployer/issues/1118">issues</a>，Unable to setup correct permissions for writable dirs</p>
 
 <h2 id="问题二">问题二</h2>
 
 <p>reload php-fpm 没有权限</p>
-
-<pre><code class="language-shell">sudo need to enter a password
-</code></pre>
-
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">sudo need to enter a password</code></pre></td></tr></table>
+</div>
+</div>
 <p>解决方案</p>
-
-<pre><code class="language-shell">sudo vi /etc/sudoers
-your_user_name ALL=(ALL) NOPASSWD: ALL
-</code></pre>
-
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">sudo vi /etc/sudoers
+your_user_name <span class="nv">ALL</span><span class="o">=(</span>ALL<span class="o">)</span> NOPASSWD: ALL</code></pre></td></tr></table>
+</div>
+</div>
 <p>需要特别注意的地方是 将部署账号的 sudo 配置在文件的最后一行，避免有*覆盖*的情况，可以配置完执行 <code>sudo cat /etc/sudoers</code> 看看是否有权限</p>
 
 <h2 id="问题三">问题三</h2>
 
 <p>git deploy failed</p>
-
-<pre><code class="language-shell">Fetching origin
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">Fetching origin
 ERROR: Repository not found.
-fatal: Could not read from remote repository.
-</code></pre>
-
+fatal: Could not <span class="nb">read</span> from remote repository.</code></pre></td></tr></table>
+</div>
+</div>
 <p>解决方案</p>
-
-<pre><code class="language-shell">eval `ssh-agent -s` &amp;&amp;
-ssh-add ~/.ssh/id_rsa
-</code></pre>
-
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="nb">eval</span> <span class="sb">`</span>ssh-agent -s<span class="sb">`</span> <span class="o">&amp;&amp;</span>
+ssh-add ~/.ssh/id_rsa</code></pre></td></tr></table>
+</div>
+</div>
 <p>项目部署的主机配置中设置 forwardAgent 为 true，本地 ssh-add 自己的私钥，因为部署过程中需要与服务器保持会话</p>
 
 <blockquote>
@@ -508,6 +541,15 @@ ssh-add ~/.ssh/id_rsa
   
 
   
+  
+    <div class="post bg-white">
+      <script src="https://utteranc.es/client.js"
+            repo= "xianmin/comments-for-hugo-theme-jane"
+            issue-term="pathname"
+            crossorigin="anonymous"
+            async>
+      </script>
+    </div>
   
 
   
@@ -594,6 +636,10 @@ ssh-add ~/.ssh/id_rsa
 
   
   
+    <span id="busuanzi_container">
+      访客数/访问量：<span id="busuanzi_value_site_uv"></span>/<span id="busuanzi_value_site_pv"></span>
+    </span>
+  
 </div>
 
     </footer>
@@ -618,9 +664,32 @@ ssh-add ~/.ssh/id_rsa
 
 
 <script type="text/javascript" src="/js/main.638251f4230630f0335d8c6748e53a96f94b72670920b60c09a56fdc8bece214.js" integrity="sha256-Y4JR9CMGMPAzXYxnSOU6lvlLcmcJILYMCaVv3Ivs4hQ="></script>
+<script id="baidu_analytics">
+  var _hmt = _hmt || [];
+  (function() {
+    if (window.location.hostname === 'localhost') return;
+    var hm = document.createElement("script"); hm.async = true;
+    hm.src = "https://hm.baidu.com/hm.js?fddaf43423219df835caef10ea185fa8";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+</script>
 
-
-
+<script id="baidu_push">
+  (function(){
+    if (window.location.hostname === 'localhost') return;
+    var bp = document.createElement('script'); bp.async = true;
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+      bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+      bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+  })();
+</script>
 
 
 
@@ -632,6 +701,8 @@ ssh-add ~/.ssh/id_rsa
 
 
 
+
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
 

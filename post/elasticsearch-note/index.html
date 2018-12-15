@@ -27,7 +27,7 @@
 
 
 
-
+<meta name="baidu-site-verification" content="splFzazQJF" />
 
 
 
@@ -68,7 +68,7 @@
 
 <meta itemprop="datePublished" content="2017-11-23T10:22:27&#43;08:00" />
 <meta itemprop="dateModified" content="2017-11-23T10:22:27&#43;08:00" />
-<meta itemprop="wordCount" content="1132">
+<meta itemprop="wordCount" content="1181">
 
 
 
@@ -326,9 +326,14 @@ if (!doNotTrack) {
             <a href="https://reallyli.github.io/categories/%E6%8A%80%E6%9C%AF%E6%9D%82%E8%AE%B0/"> 技术杂记 </a>
             
           </div>
-        
+        <span class="more-meta"> 约 1181 字 </span>
+          <span class="more-meta"> 预计阅读 3 分钟 </span>
 
         
+        
+          <span id="busuanzi_container_page_pv">
+            | 阅读 <span id="busuanzi_value_page_pv"></span>
+          </span>
         
 
         
@@ -367,59 +372,110 @@ if (!doNotTrack) {
 <p>推荐web端<a href="https://github.com/mobz/elasticsearch-head">elasticsearch-head</a>本地连接es集群，实时查看集群节点状态和数据同步是否异常，随时查看对应的index/mapping数据。如果使用谷歌浏览器的话强烈推荐其Elasticsearch Head 扩展程序，填入server地址即可连接es集群</p>
 
 <h1 id="记下几个官方文档的命令">记下几个官方文档的命令</h1>
-
-<pre><code class="language-shell">// 删除索引
-$ curl -XDELETE 'http://server-domain:9200/index
-
-// 创建type test
-$ curl -XPUT 'http://server-domain:9200/index/_mapping/test' -d '{
-  &quot;properties&quot; : {
-    &quot;timestamp&quot; : {
-      &quot;type&quot; : &quot;date&quot;
-    },
-    &quot;message&quot; : {
-      &quot;type&quot; : &quot;string&quot;
-    }
-  }
-}'
-
-// 查看索引
-$ curl 'server-domain:9200/_cat'
-
-// 查看type的mapping
-$ curl -XGET 'http://server-domain:9200/index/_mapping/type'
-
-// 创建索引及type
-$ curl -XPUT 'http://server-domain:9200/index/' -d '
-{
-  &quot;settings&quot;:{
-      &quot;index&quot;:{
-          &quot;number_of_shards&quot;:1,
-          &quot;number_of_replicas&quot;:0
-      }
-  },
-  &quot;mappings&quot;: {
-    &quot;type_one&quot;: {
-      &quot;properties&quot;: {
-        &quot;text&quot;: {
-          &quot;type&quot;: &quot;string&quot;,
-          &quot;analyzer&quot;: &quot;standard&quot;
-        }
-      }
-    },
-    &quot;type_two&quot;: {
-      &quot;properties&quot;: {
-        &quot;text&quot;: {
-          &quot;type&quot;: &quot;string&quot;,
-          &quot;analyzer&quot;: &quot;standard&quot;
-        }
-      }
-    }
-  }
-}'
-
-</code></pre>
-
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span><span class="lnt">49
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">// 删除索引
+$ curl -XDELETE <span class="s1">&#39;http://server-domain:9200/index
+</span><span class="s1">
+</span><span class="s1">// 创建type test
+</span><span class="s1">$ curl -XPUT &#39;</span>http://server-domain:9200/index/_mapping/test<span class="s1">&#39; -d &#39;</span><span class="o">{</span>
+  <span class="s2">&#34;properties&#34;</span> : <span class="o">{</span>
+    <span class="s2">&#34;timestamp&#34;</span> : <span class="o">{</span>
+      <span class="s2">&#34;type&#34;</span> : <span class="s2">&#34;date&#34;</span>
+    <span class="o">}</span>,
+    <span class="s2">&#34;message&#34;</span> : <span class="o">{</span>
+      <span class="s2">&#34;type&#34;</span> : <span class="s2">&#34;string&#34;</span>
+    <span class="o">}</span>
+  <span class="o">}</span>
+<span class="o">}</span><span class="s1">&#39;
+</span><span class="s1">
+</span><span class="s1">// 查看索引
+</span><span class="s1">$ curl &#39;</span>server-domain:9200/_cat<span class="s1">&#39;
+</span><span class="s1">
+</span><span class="s1">// 查看type的mapping
+</span><span class="s1">$ curl -XGET &#39;</span>http://server-domain:9200/index/_mapping/type<span class="s1">&#39;
+</span><span class="s1">
+</span><span class="s1">// 创建索引及type
+</span><span class="s1">$ curl -XPUT &#39;</span>http://server-domain:9200/index/<span class="s1">&#39; -d &#39;</span>
+<span class="o">{</span>
+  <span class="s2">&#34;settings&#34;</span>:<span class="o">{</span>
+      <span class="s2">&#34;index&#34;</span>:<span class="o">{</span>
+          <span class="s2">&#34;number_of_shards&#34;</span>:1,
+          <span class="s2">&#34;number_of_replicas&#34;</span>:0
+      <span class="o">}</span>
+  <span class="o">}</span>,
+  <span class="s2">&#34;mappings&#34;</span>: <span class="o">{</span>
+    <span class="s2">&#34;type_one&#34;</span>: <span class="o">{</span>
+      <span class="s2">&#34;properties&#34;</span>: <span class="o">{</span>
+        <span class="s2">&#34;text&#34;</span>: <span class="o">{</span>
+          <span class="s2">&#34;type&#34;</span>: <span class="s2">&#34;string&#34;</span>,
+          <span class="s2">&#34;analyzer&#34;</span>: <span class="s2">&#34;standard&#34;</span>
+        <span class="o">}</span>
+      <span class="o">}</span>
+    <span class="o">}</span>,
+    <span class="s2">&#34;type_two&#34;</span>: <span class="o">{</span>
+      <span class="s2">&#34;properties&#34;</span>: <span class="o">{</span>
+        <span class="s2">&#34;text&#34;</span>: <span class="o">{</span>
+          <span class="s2">&#34;type&#34;</span>: <span class="s2">&#34;string&#34;</span>,
+          <span class="s2">&#34;analyzer&#34;</span>: <span class="s2">&#34;standard&#34;</span>
+        <span class="o">}</span>
+      <span class="o">}</span>
+    <span class="o">}</span>
+  <span class="o">}</span>
+<span class="o">}</span><span class="err">&#39;</span></code></pre></td></tr></table>
+</div>
+</div>
 <h1 id="尝试解决数据不同步的问题">尝试解决数据不同步的问题</h1>
 
 <p>方案一 使用了网上不太成熟的npm包，顶一波<a href="https://github.com/parksben/mysql_2_elasticsearch">mysql_2_elasticsearch</a>，但是也有些许问题没能知道为什么，mysql表的自增 id自动替换为了表名+_id 的格式，如：users_id；但是对于异常捕获还是做得很好，预留可扩展配置exception_handler过滤不规则内容导致的同步失败问题，个人觉得还是很不错的，数据导入效率高，支持多张表同时导入。</p>
@@ -508,6 +564,15 @@ $ curl -XPUT 'http://server-domain:9200/index/' -d '
 
   
   
+    <div class="post bg-white">
+      <script src="https://utteranc.es/client.js"
+            repo= "xianmin/comments-for-hugo-theme-jane"
+            issue-term="pathname"
+            crossorigin="anonymous"
+            async>
+      </script>
+    </div>
+  
 
   
 
@@ -593,6 +658,10 @@ $ curl -XPUT 'http://server-domain:9200/index/' -d '
 
   
   
+    <span id="busuanzi_container">
+      访客数/访问量：<span id="busuanzi_value_site_uv"></span>/<span id="busuanzi_value_site_pv"></span>
+    </span>
+  
 </div>
 
     </footer>
@@ -617,9 +686,32 @@ $ curl -XPUT 'http://server-domain:9200/index/' -d '
 
 
 <script type="text/javascript" src="/js/main.638251f4230630f0335d8c6748e53a96f94b72670920b60c09a56fdc8bece214.js" integrity="sha256-Y4JR9CMGMPAzXYxnSOU6lvlLcmcJILYMCaVv3Ivs4hQ="></script>
+<script id="baidu_analytics">
+  var _hmt = _hmt || [];
+  (function() {
+    if (window.location.hostname === 'localhost') return;
+    var hm = document.createElement("script"); hm.async = true;
+    hm.src = "https://hm.baidu.com/hm.js?fddaf43423219df835caef10ea185fa8";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+</script>
 
-
-
+<script id="baidu_push">
+  (function(){
+    if (window.location.hostname === 'localhost') return;
+    var bp = document.createElement('script'); bp.async = true;
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+      bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+      bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+  })();
+</script>
 
 
 
@@ -631,6 +723,8 @@ $ curl -XPUT 'http://server-domain:9200/index/' -d '
 
 
 
+
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
 

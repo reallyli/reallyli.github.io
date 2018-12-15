@@ -27,7 +27,7 @@
 
 
 
-
+<meta name="baidu-site-verification" content="splFzazQJF" />
 
 
 
@@ -68,7 +68,7 @@
 
 <meta itemprop="datePublished" content="2017-06-04T20:53:02&#43;08:00" />
 <meta itemprop="dateModified" content="2017-06-04T20:53:02&#43;08:00" />
-<meta itemprop="wordCount" content="544">
+<meta itemprop="wordCount" content="552">
 
 
 
@@ -326,9 +326,14 @@ if (!doNotTrack) {
             <a href="https://reallyli.github.io/categories/%E6%8A%80%E6%9C%AF%E6%9D%82%E8%AE%B0/"> 技术杂记 </a>
             
           </div>
-        
+        <span class="more-meta"> 约 552 字 </span>
+          <span class="more-meta"> 预计阅读 2 分钟 </span>
 
         
+        
+          <span id="busuanzi_container_page_pv">
+            | 阅读 <span id="busuanzi_value_page_pv"></span>
+          </span>
         
 
         
@@ -403,18 +408,28 @@ if (!doNotTrack) {
 <li>重新读取新的配置文件执行 <code>sudo supervisorctl reread</code> <code>sudo supervisorctl update</code></li>
 <li>启动对应配置项worker执行 <code>sudo supervisorctl start demo:*</code></li>
 </ol>
-
-<pre><code class="language-bash">[program:demo]
-process_name=%(program_name)s_%(process_num)02d
-command=php /your-project-path/artisan queue:listen --tries=3
-autostart=true
-autorestart=true
-numprocs=8
-redirect_stderr=true
-stdout_logfile=/your-project-path/storage/logs/worker.log
-
-</code></pre>
-
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="o">[</span>program:demo<span class="o">]</span>
+<span class="nv">process_name</span><span class="o">=</span>%<span class="o">(</span>program_name<span class="o">)</span>s_%<span class="o">(</span>process_num<span class="o">)</span>02d
+<span class="nv">command</span><span class="o">=</span>php /your-project-path/artisan queue:listen --tries<span class="o">=</span><span class="m">3</span>
+<span class="nv">autostart</span><span class="o">=</span><span class="nb">true</span>
+<span class="nv">autorestart</span><span class="o">=</span><span class="nb">true</span>
+<span class="nv">numprocs</span><span class="o">=</span><span class="m">8</span>
+<span class="nv">redirect_stderr</span><span class="o">=</span><span class="nb">true</span>
+<span class="nv">stdout_logfile</span><span class="o">=</span>/your-project-path/storage/logs/worker.log</code></pre></td></tr></table>
+</div>
+</div>
     </div>
 
     
@@ -486,6 +501,15 @@ stdout_logfile=/your-project-path/storage/logs/worker.log
   
 
   
+  
+    <div class="post bg-white">
+      <script src="https://utteranc.es/client.js"
+            repo= "xianmin/comments-for-hugo-theme-jane"
+            issue-term="pathname"
+            crossorigin="anonymous"
+            async>
+      </script>
+    </div>
   
 
   
@@ -572,6 +596,10 @@ stdout_logfile=/your-project-path/storage/logs/worker.log
 
   
   
+    <span id="busuanzi_container">
+      访客数/访问量：<span id="busuanzi_value_site_uv"></span>/<span id="busuanzi_value_site_pv"></span>
+    </span>
+  
 </div>
 
     </footer>
@@ -596,9 +624,32 @@ stdout_logfile=/your-project-path/storage/logs/worker.log
 
 
 <script type="text/javascript" src="/js/main.638251f4230630f0335d8c6748e53a96f94b72670920b60c09a56fdc8bece214.js" integrity="sha256-Y4JR9CMGMPAzXYxnSOU6lvlLcmcJILYMCaVv3Ivs4hQ="></script>
+<script id="baidu_analytics">
+  var _hmt = _hmt || [];
+  (function() {
+    if (window.location.hostname === 'localhost') return;
+    var hm = document.createElement("script"); hm.async = true;
+    hm.src = "https://hm.baidu.com/hm.js?fddaf43423219df835caef10ea185fa8";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+</script>
 
-
-
+<script id="baidu_push">
+  (function(){
+    if (window.location.hostname === 'localhost') return;
+    var bp = document.createElement('script'); bp.async = true;
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+      bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+      bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+  })();
+</script>
 
 
 
@@ -610,6 +661,8 @@ stdout_logfile=/your-project-path/storage/logs/worker.log
 
 
 
+
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
 

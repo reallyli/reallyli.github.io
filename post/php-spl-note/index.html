@@ -27,7 +27,7 @@
 
 
 
-
+<meta name="baidu-site-verification" content="splFzazQJF" />
 
 
 
@@ -68,7 +68,7 @@
 
 <meta itemprop="datePublished" content="2017-05-04T10:01:58&#43;08:00" />
 <meta itemprop="dateModified" content="2017-05-04T10:01:58&#43;08:00" />
-<meta itemprop="wordCount" content="1745">
+<meta itemprop="wordCount" content="1905">
 
 
 
@@ -326,9 +326,14 @@ if (!doNotTrack) {
             <a href="https://reallyli.github.io/categories/%E6%8A%80%E6%9C%AF%E6%9D%82%E8%AE%B0/"> 技术杂记 </a>
             
           </div>
-        
+        <span class="more-meta"> 约 1905 字 </span>
+          <span class="more-meta"> 预计阅读 4 分钟 </span>
 
         
+        
+          <span id="busuanzi_container_page_pv">
+            | 阅读 <span id="busuanzi_value_page_pv"></span>
+          </span>
         
 
         
@@ -366,11 +371,32 @@ if (!doNotTrack) {
 <h1 id="说说比较熟悉的spl函数">说说比较熟悉的SPL函数</h1>
 
 <p>同级目录下有<code>index.php</code>、<code>src</code>文件夹（第三方SDK），<code>src</code>下都是以<code>.php</code>结尾的文件</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-php" data-lang="php"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-php" data-lang="php">// index.php
 
-<pre><code class="language-php">// index.php
-
-spl_autoload_extensions('.php');//注册搜索后缀
-set_include_path(get_include_path().PATH_SEPARATOR.'src/');//注册搜索路径
+spl_autoload_extensions(&#39;.php&#39;);//注册搜索后缀
+set_include_path(get_include_path().PATH_SEPARATOR.&#39;src/&#39;);//注册搜索路径
 spl_autoload_register();//注册spl_autoload自动装方式
 new Start();
 
@@ -379,14 +405,14 @@ class Start
 {
     public function __construct()
     {
-        echo 'autoload complete!'；
+        echo &#39;autoload complete!&#39;；
     }
 }
 
 // localhost$: php index.php
-// localhost$: autoload complete!
-</code></pre>
-
+// localhost$: autoload complete!</code></pre></td></tr></table>
+</div>
+</div>
 <p>自动加载指定目录下的指定类型文件，Include any files you want！</p>
 
 <blockquote>
@@ -397,20 +423,34 @@ class Start
 <li><code>SplFileInfo</code>用户获取文件的基本信息，比如修改时间，拥有者</li>
 <li><code>SplFileObject</code>用户操作文件，比如文件的读取，写入</li>
 </ol>
-
-<pre><code class="language-php">// 1.获取文件的基本属性信息
-$file = new SplFileInfo('demo.php);
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-php" data-lang="php"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-php" data-lang="php">// 1.获取文件的基本属性信息
+$file = new SplFileInfo(&#39;demo.php);
 echo $file-&gt;getCTime();//获取文件创建时间
 echo $file-&gt;getMTime();//获取文件修改时间
 
 // 2.操作文件信息
-$file = new SplFileObject('demo.php');
+$file = new SplFileObject(&#39;demo.php&#39;);
 //读取
 while ($file-&gt;valid()){
     echo $file-&gt;fgets();
-}
-</code></pre>
-
+}</code></pre></td></tr></table>
+</div>
+</div>
 <blockquote>
 <p>谈谈数据结构</p>
 </blockquote>
@@ -422,11 +462,44 @@ while ($file-&gt;valid()){
 </ol>
 
 <p><a href="http://php.net/manual/zh/class.spldoublylinkedlist.php">SplDoublyLinkedList</a></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-php" data-lang="php"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-php" data-lang="php">$obj = new SplDoublyLinkedList();
 
-<pre><code class="language-php">$obj = new SplDoublyLinkedList();
-
-$obj-&gt;push('top_num_1');//插入到顶部
-$obj-&gt;unshift('bottom_num_1');//插入到底部
+$obj-&gt;push(&#39;top_num_1&#39;);//插入到顶部
+$obj-&gt;unshift(&#39;bottom_num_1&#39;);//插入到底部
 $obj-&gt;shift();   //删除bottom（头部）所在位置的值  
 $obj-&gt;pop();    // 弹出top的值   
 $obj-&gt;rewind();//把指针指向底部 移动到bottom(头部)位置
@@ -444,20 +517,36 @@ $obj-&gt;prev();   //返回上一个节点
 //循环遍历链表  
 $obj-&gt;rewind(); 
 while($name=$obj-&gt;current()){  
-   echo $name.&quot;\n&quot;;  
+   echo $name.&#34;\n&#34;;  
    $obj-&gt;next();  
 }  
 for ($obj-&gt;rewind(); $obj-&gt;valid(); $obj-&gt;next()) {  
-   echo $obj-&gt;current().&quot;\n&quot;;  
+   echo $obj-&gt;current().&#34;\n&#34;;  
 }  
   
 var_dump($obj-&gt;valid()); //如果节点是有效节点返回true,否则返回false  
-//当$obj-&gt;current(), $obj-&gt;valid()之前必须$obj-&gt;rewind(); 否则指向空节点
-</code></pre>
-
+//当$obj-&gt;current(), $obj-&gt;valid()之前必须$obj-&gt;rewind(); 否则指向空节点</code></pre></td></tr></table>
+</div>
+</div>
 <p><a href="http://php.net/manual/zh/class.splstack.php">Stack</a></p>
-
-<pre><code class="language-php">$obj = new SplStack();
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-php" data-lang="php"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-php" data-lang="php">$obj = new SplStack();
 
 $obj-&gt;push(0); //进栈  等同于$obj[] = 0
 $obj-&gt;push(1); //进栈  等同于$obj[] = 1
@@ -467,22 +556,30 @@ echo $obj-&gt;pop(); //出栈 ，输出1
 //循环遍历
 //判断节点是否有效
 while ($stack-&gt;valid()) {
-    echo  $stack-&gt;key().'=&gt;'.$stack-&gt;current().'****';  
+    echo  $stack-&gt;key().&#39;=&gt;&#39;.$stack-&gt;current().&#39;****&#39;;  
     $stack-&gt;next();  
-}  
-</code></pre>
-
+}  </code></pre></td></tr></table>
+</div>
+</div>
 <p><a href="http://php.net/manual/zh/class.splqueue.php">queue</a></p>
-
-<pre><code class="language-php">$obj = new SplQueue();
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-php" data-lang="php"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-php" data-lang="php">$obj = new SplQueue();
 $obj-&gt;enqueue(0);//对队列
 $obj-&gt;enqueue(1);//进队列
-$queue-&gt;offsetSet(1,'demo_1');  //修改第二个数据
+$queue-&gt;offsetSet(1,&#39;demo_1&#39;);  //修改第二个数据
 $queue-&gt;rewind(); //指向bottom(头部)，和双向链表指向相同，和栈相反
-echo $obj-&gt;dequeue();//出队列 输出0
-
-</code></pre>
-
+echo $obj-&gt;dequeue();//出队列 输出0</code></pre></td></tr></table>
+</div>
+</div>
 <blockquote>
 <p>SPL迭代器用法</p>
 </blockquote>
@@ -492,12 +589,61 @@ echo $obj-&gt;dequeue();//出队列 输出0
 <li>php中关于文件处理的方法很多，递归查找居多，现在同样可以尝试一下<code>FilesystemIterator</code></li>
 <li><code>AppendIterator</code>(遍历多个迭代器)</li>
 </ol>
-
-<pre><code class="language-php">//example 1
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-php" data-lang="php"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-php" data-lang="php">//example 1
 
 $arr = [
-    'name' =&gt; 'reallyli',
-    'sex' =&gt; 0;
+    &#39;name&#39; =&gt; &#39;reallyli&#39;,
+    &#39;sex&#39; =&gt; 0;
 ]
 
 //获取数组迭代器$it
@@ -506,28 +652,28 @@ $it = $obj-&gt;getIterator();
 //使用迭代器遍历
 $it-&gt;rewind();
 while ($it-&gt;valid()){
-    echo $it-&gt;key().&quot;=&quot;.$it-&gt;current().&quot;&lt;br&gt;&quot;;
+    echo $it-&gt;key().&#34;=&#34;.$it-&gt;current().&#34;<span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span>&#34;;
     $it-&gt;next();
 }
 
 //example 2
 
 //获取文件系统的迭代器
-$it = new FilesystemIterator('.');
+$it = new FilesystemIterator(&#39;.&#39;);
 //遍历当前文件
 foreach ($it as $fileInfo){
     $fileName = $fileInfo-&gt;getFilename();
-    $lastModifyTime = date(&quot;Y-m-d H:i:s&quot;, $fileInfo-&gt;getMTime());
-    $isDir = $fileInfo-&gt;isDir() ? &quot;DIR&quot; : '';
+    $lastModifyTime = date(&#34;Y-m-d H:i:s&#34;, $fileInfo-&gt;getMTime());
+    $isDir = $fileInfo-&gt;isDir() ? &#34;DIR&#34; : &#39;&#39;;
     $size = $fileInfo-&gt;getSize();
-    echo $fileName . ' '. $lastModifyTime. &quot; &quot;. $isDir . &quot; &quot;. $size .&quot;&lt;br&gt;&quot;;
+    echo $fileName . &#39; &#39;. $lastModifyTime. &#34; &#34;. $isDir . &#34; &#34;. $size .&#34;<span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span>&#34;;
 }
 
 //example 3
 
 // AppendIterator 迭代器    一次性遍历出多个数组迭代器  
-$arr1= new ArrayIterator([0=&gt;'a',1=&gt;'b',2=&gt;'c']);  
-$array2=new ArrayIterator([1=&gt;'z','2'=&gt;'k','sdf'=&gt;'y']);  
+$arr1= new ArrayIterator([0=&gt;&#39;a&#39;,1=&gt;&#39;b&#39;,2=&gt;&#39;c&#39;]);  
+$array2=new ArrayIterator([1=&gt;&#39;z&#39;,&#39;2&#39;=&gt;&#39;k&#39;,&#39;sdf&#39;=&gt;&#39;y&#39;]);  
   
 $obj=new AppendIterator();  
 $obj-&gt;append($array_a);  
@@ -537,11 +683,10 @@ $obj-&gt;next();
 echo $obj-&gt;key();  //1
 echo $obj-&gt;current(); //b
 foreach ($obj as $key =&gt; $value) {  
-    echo $key.'-----&gt;'.$value.'&lt;br/&gt;';  
-}
-
-</code></pre>
-
+    echo $key.&#39;-----&gt;&#39;.$value.&#39;<span class="p">&lt;</span><span class="nt">br</span><span class="p">/&gt;</span>&#39;;  
+}</code></pre></td></tr></table>
+</div>
+</div>
     </div>
 
     
@@ -614,6 +759,15 @@ foreach ($obj as $key =&gt; $value) {
   
 
   
+  
+    <div class="post bg-white">
+      <script src="https://utteranc.es/client.js"
+            repo= "xianmin/comments-for-hugo-theme-jane"
+            issue-term="pathname"
+            crossorigin="anonymous"
+            async>
+      </script>
+    </div>
   
 
   
@@ -700,6 +854,10 @@ foreach ($obj as $key =&gt; $value) {
 
   
   
+    <span id="busuanzi_container">
+      访客数/访问量：<span id="busuanzi_value_site_uv"></span>/<span id="busuanzi_value_site_pv"></span>
+    </span>
+  
 </div>
 
     </footer>
@@ -724,9 +882,32 @@ foreach ($obj as $key =&gt; $value) {
 
 
 <script type="text/javascript" src="/js/main.638251f4230630f0335d8c6748e53a96f94b72670920b60c09a56fdc8bece214.js" integrity="sha256-Y4JR9CMGMPAzXYxnSOU6lvlLcmcJILYMCaVv3Ivs4hQ="></script>
+<script id="baidu_analytics">
+  var _hmt = _hmt || [];
+  (function() {
+    if (window.location.hostname === 'localhost') return;
+    var hm = document.createElement("script"); hm.async = true;
+    hm.src = "https://hm.baidu.com/hm.js?fddaf43423219df835caef10ea185fa8";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+</script>
 
-
-
+<script id="baidu_push">
+  (function(){
+    if (window.location.hostname === 'localhost') return;
+    var bp = document.createElement('script'); bp.async = true;
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+      bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+      bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+  })();
+</script>
 
 
 
@@ -738,6 +919,8 @@ foreach ($obj as $key =&gt; $value) {
 
 
 
+
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
 

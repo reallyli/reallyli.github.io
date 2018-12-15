@@ -27,7 +27,7 @@
 
 
 
-
+<meta name="baidu-site-verification" content="splFzazQJF" />
 
 
 
@@ -68,7 +68,7 @@
 
 <meta itemprop="datePublished" content="2018-08-09T09:46:57&#43;08:00" />
 <meta itemprop="dateModified" content="2018-08-09T09:46:57&#43;08:00" />
-<meta itemprop="wordCount" content="781">
+<meta itemprop="wordCount" content="812">
 
 
 
@@ -326,9 +326,14 @@ if (!doNotTrack) {
             <a href="https://reallyli.github.io/categories/go/"> Go </a>
             
           </div>
-        
+        <span class="more-meta"> 约 812 字 </span>
+          <span class="more-meta"> 预计阅读 2 分钟 </span>
 
         
+        
+          <span id="busuanzi_container_page_pv">
+            | 阅读 <span id="busuanzi_value_page_pv"></span>
+          </span>
         
 
         
@@ -368,31 +373,54 @@ if (!doNotTrack) {
 <p>准备工作之一就是需要设置 go 工作区。</p>
 
 <p>对于 Mac 或 Linux ，go 工作区应位于 <code>$ HOME / go</code> 中，对于 Windows， 工作区应该位于 <code>C：\ Users \ YourName \ go</code> 中。实际开发过程中，通过设置 <code>GOPATH</code> 环境变量，可以设置不同的工作区。 通常 go 的所有源文件应该位于工作区内名为 src 的目录中。因此我们需要在原有工作区的基础上创建子文件夹 src ，目录结构应如下所示。</p>
-
-<pre><code class="language-shell">  go
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">  go
     src
-      hello
-</code></pre>
-
+      hello</code></pre></td></tr></table>
+</div>
+</div>
 <p>开始编写 helloworld.go 文件</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-go" data-lang="go"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-go" data-lang="go"><span class="kn">package</span> <span class="nx">main</span>
 
-<pre><code class="language-go">package main
+<span class="kn">import</span> <span class="s">&#34;fmt&#34;</span>
 
-import &quot;fmt&quot;
-
-func main() {
-  fmt.Println(&quot;Hello World&quot;)
-}
-</code></pre>
-
+<span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+  <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Hello World&#34;</span><span class="p">)</span>
+<span class="p">}</span></code></pre></td></tr></table>
+</div>
+</div>
 <p>那么现在的目录结构应该是如下图所示</p>
-
-<pre><code class="language-shell">  go
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">  go
     src
       hello
-        helloworld.go
-</code></pre>
-
+        helloworld.go</code></pre></td></tr></table>
+</div>
+</div>
 <h1 id="运行-go">运行 go</h1>
 
 <p>通常运行 go 有几种不同的方法</p>
@@ -408,15 +436,24 @@ func main() {
 <blockquote>
 <p>当你输入 <code>go install hello</code> 时，go 会在工作区内搜索 hello 包（ hello 被称为包，系列教程后面将会详细介绍包）。然后它在工作区的 bin 目录中创建一个名为 hello（ windows 环境下为 hello.exe 文件）的二进制文件。运行 <code>go install hello</code> 后，目录结构如下所示</p>
 </blockquote>
-
-<pre><code class="language-shell">  go
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">  go
     bin
       hello
     src
       hello
-        helloworld.go
-</code></pre>
-
+        helloworld.go</code></pre></td></tr></table>
+</div>
+</div>
 <h1 id="hello-world-简易-go-程序代码分析">hello world 简易 go 程序代码分析</h1>
 
 <ul>
@@ -424,21 +461,34 @@ func main() {
 <li>import &ldquo;fmt&rdquo; - 导入 fmt 包，它将在 main 函数中用于将文本打印到标准输出</li>
 <li>func main() - 主要是一个特殊的功能。程序执行从 main 函数开始。main函数应始终位于主包中。该 { 和 } 表示主要功能的开始和结束。</li>
 </ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-go" data-lang="go"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-go" data-lang="go"><span class="err">#</span> <span class="nx">每个</span> <span class="k">go</span> <span class="nx">文件必须以</span> <span class="kn">package</span> <span class="nx">name</span> <span class="nx">语句开头</span><span class="err">。</span><span class="nx">包用于提供代码分区和可重用性</span><span class="err">。</span><span class="nx">这里使用的包名是</span> <span class="nx">main</span>
+<span class="kn">package</span> <span class="nx">main</span>
 
-<pre><code class="language-go"># 每个 go 文件必须以 package name 语句开头。包用于提供代码分区和可重用性。这里使用的包名是 main
-package main
+<span class="err">#</span> <span class="nx">导入</span> <span class="nx">fmt</span> <span class="nx">包</span><span class="err">，</span><span class="nx">它将在</span> <span class="nx">main</span> <span class="nx">函数中用于将文本打印到标准输出</span>
+<span class="kn">import</span> <span class="s">&#34;fmt&#34;</span>
 
-# 导入 fmt 包，它将在 main 函数中用于将文本打印到标准输出
-import &quot;fmt&quot;
-
-# 函数体
-func main() {
-  # fmt 包的 Println 函数用于将文本写入标准输出。
-  fmt.Println(&quot;Hello World&quot;)
-}
-
-</code></pre>
-
+<span class="err">#</span> <span class="nx">函数体</span>
+<span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+  <span class="err">#</span> <span class="nx">fmt</span> <span class="nx">包的</span> <span class="nx">Println</span> <span class="nx">函数用于将文本写入标准输出</span><span class="err">。</span>
+  <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Hello World&#34;</span><span class="p">)</span>
+<span class="p">}</span></code></pre></td></tr></table>
+</div>
+</div>
     </div>
 
     
@@ -509,6 +559,15 @@ func main() {
   
 
   
+  
+    <div class="post bg-white">
+      <script src="https://utteranc.es/client.js"
+            repo= "xianmin/comments-for-hugo-theme-jane"
+            issue-term="pathname"
+            crossorigin="anonymous"
+            async>
+      </script>
+    </div>
   
 
   
@@ -595,6 +654,10 @@ func main() {
 
   
   
+    <span id="busuanzi_container">
+      访客数/访问量：<span id="busuanzi_value_site_uv"></span>/<span id="busuanzi_value_site_pv"></span>
+    </span>
+  
 </div>
 
     </footer>
@@ -619,9 +682,32 @@ func main() {
 
 
 <script type="text/javascript" src="/js/main.638251f4230630f0335d8c6748e53a96f94b72670920b60c09a56fdc8bece214.js" integrity="sha256-Y4JR9CMGMPAzXYxnSOU6lvlLcmcJILYMCaVv3Ivs4hQ="></script>
+<script id="baidu_analytics">
+  var _hmt = _hmt || [];
+  (function() {
+    if (window.location.hostname === 'localhost') return;
+    var hm = document.createElement("script"); hm.async = true;
+    hm.src = "https://hm.baidu.com/hm.js?fddaf43423219df835caef10ea185fa8";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+</script>
 
-
-
+<script id="baidu_push">
+  (function(){
+    if (window.location.hostname === 'localhost') return;
+    var bp = document.createElement('script'); bp.async = true;
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+      bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+      bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+  })();
+</script>
 
 
 
@@ -633,6 +719,8 @@ func main() {
 
 
 
+
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
 

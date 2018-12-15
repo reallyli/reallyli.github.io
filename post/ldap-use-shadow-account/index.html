@@ -27,7 +27,7 @@
 
 
 
-
+<meta name="baidu-site-verification" content="splFzazQJF" />
 
 
 
@@ -68,7 +68,7 @@
 
 <meta itemprop="datePublished" content="2018-09-04T10:29:04&#43;08:00" />
 <meta itemprop="dateModified" content="2018-09-04T10:29:04&#43;08:00" />
-<meta itemprop="wordCount" content="591">
+<meta itemprop="wordCount" content="610">
 
 
 
@@ -326,9 +326,14 @@ if (!doNotTrack) {
             <a href="https://reallyli.github.io/categories/%E6%8A%80%E6%9C%AF%E6%9D%82%E8%AE%B0/"> 技术杂记 </a>
             
           </div>
-        
+        <span class="more-meta"> 约 610 字 </span>
+          <span class="more-meta"> 预计阅读 2 分钟 </span>
 
         
+        
+          <span id="busuanzi_container_page_pv">
+            | 阅读 <span id="busuanzi_value_page_pv"></span>
+          </span>
         
 
         
@@ -383,32 +388,57 @@ if (!doNotTrack) {
 </ul>
 
 <h1 id="laravel-使用-ldap-设置-objectclass-shadowaccount-条目-下面举例向-ldap-server-中添加一个新成员">Laravel 使用 LDAP，设置 objectclass shadowAccount 条目，下面举例向 LDAP Server 中添加一个新成员</h1>
-
-<pre><code class="language-php">$user = Adldap::make()-&gt;user(
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-php" data-lang="php"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-php" data-lang="php">$user = Adldap::make()-&gt;user(
   [
-    'mail' =&gt; $data['email'],
-    'uid' =&gt; $data['uid'],
-    'cn' =&gt; $data['uid'],
-    'sn' =&gt; $data['uid'],
-    'userpassword' =&gt; $data['password'],
+    &#39;mail&#39; =&gt; $data[&#39;email&#39;],
+    &#39;uid&#39; =&gt; $data[&#39;uid&#39;],
+    &#39;cn&#39; =&gt; $data[&#39;uid&#39;],
+    &#39;sn&#39; =&gt; $data[&#39;uid&#39;],
+    &#39;userpassword&#39; =&gt; $data[&#39;password&#39;],
   ]
 );
-$user-&gt;setAttribute('objectclass',
+$user-&gt;setAttribute(&#39;objectclass&#39;,
   [
-    'shadowAccount',
-    'inetOrgPerson'
+    &#39;shadowAccount&#39;,
+    &#39;inetOrgPerson&#39;
   ]
 );
-$user-&gt;setDn('uid=' . $data['uid'] . ',' . $user-&gt;getDnBuilder()-&gt;get());
-</code></pre>
-
+$user-&gt;setDn(&#39;uid=&#39; . $data[&#39;uid&#39;] . &#39;,&#39; . $user-&gt;getDnBuilder()-&gt;get());</code></pre></td></tr></table>
+</div>
+</div>
 <h1 id="给某个成员设置账号失效时间">给某个成员设置账号失效时间</h1>
-
-<pre><code class="language-php">$user = Adldap::search()-&gt;where('mail', 'xxx@xx.com')-&gt;first();
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-php" data-lang="php"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-php" data-lang="php">$user = Adldap::search()-&gt;where(&#39;mail&#39;, &#39;xxx@xx.com&#39;)-&gt;first();
 $user-&gt;shadowExpire = 100;
-$user-&gt;save();
-</code></pre>
-
+$user-&gt;save();</code></pre></td></tr></table>
+</div>
+</div>
     </div>
 
     
@@ -480,6 +510,15 @@ $user-&gt;save();
   
 
   
+  
+    <div class="post bg-white">
+      <script src="https://utteranc.es/client.js"
+            repo= "xianmin/comments-for-hugo-theme-jane"
+            issue-term="pathname"
+            crossorigin="anonymous"
+            async>
+      </script>
+    </div>
   
 
   
@@ -566,6 +605,10 @@ $user-&gt;save();
 
   
   
+    <span id="busuanzi_container">
+      访客数/访问量：<span id="busuanzi_value_site_uv"></span>/<span id="busuanzi_value_site_pv"></span>
+    </span>
+  
 </div>
 
     </footer>
@@ -590,9 +633,32 @@ $user-&gt;save();
 
 
 <script type="text/javascript" src="/js/main.638251f4230630f0335d8c6748e53a96f94b72670920b60c09a56fdc8bece214.js" integrity="sha256-Y4JR9CMGMPAzXYxnSOU6lvlLcmcJILYMCaVv3Ivs4hQ="></script>
+<script id="baidu_analytics">
+  var _hmt = _hmt || [];
+  (function() {
+    if (window.location.hostname === 'localhost') return;
+    var hm = document.createElement("script"); hm.async = true;
+    hm.src = "https://hm.baidu.com/hm.js?fddaf43423219df835caef10ea185fa8";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+</script>
 
-
-
+<script id="baidu_push">
+  (function(){
+    if (window.location.hostname === 'localhost') return;
+    var bp = document.createElement('script'); bp.async = true;
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+      bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+      bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+  })();
+</script>
 
 
 
@@ -604,6 +670,8 @@ $user-&gt;save();
 
 
 
+
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
 

@@ -27,7 +27,7 @@
 
 
 
-
+<meta name="baidu-site-verification" content="splFzazQJF" />
 
 
 
@@ -68,7 +68,7 @@
 
 <meta itemprop="datePublished" content="2017-05-28T22:34:52&#43;08:00" />
 <meta itemprop="dateModified" content="2017-05-28T22:34:52&#43;08:00" />
-<meta itemprop="wordCount" content="1070">
+<meta itemprop="wordCount" content="1166">
 
 
 
@@ -326,9 +326,14 @@ if (!doNotTrack) {
             <a href="https://reallyli.github.io/categories/%E6%8A%80%E6%9C%AF%E6%9D%82%E8%AE%B0/"> 技术杂记 </a>
             
           </div>
-        
+        <span class="more-meta"> 约 1166 字 </span>
+          <span class="more-meta"> 预计阅读 3 分钟 </span>
 
         
+        
+          <span id="busuanzi_container_page_pv">
+            | 阅读 <span id="busuanzi_value_page_pv"></span>
+          </span>
         
 
         
@@ -387,18 +392,32 @@ if (!doNotTrack) {
 <li>执行 webpack ，编译入口文件 entry.js 并打包到 bundle.js， <code>webpack entry.js bundle.js</code></li>
 <li>编译配置文件 webpack.config.js，去配置 entry.js 文件和 bundle.js 文件路径</li>
 </ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-js" data-lang="js"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-js" data-lang="js"><span class="kd">var</span> <span class="nx">webpack</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;webpack&#39;</span><span class="p">)</span>
 
-<pre><code class="language-js">var webpack = require('webpack')
-
-module.exports = {
-  entry: './entry.js',
-  output: {
-    path: __dirname,
-    filename: 'bundle.js'
-  }
-}
-</code></pre>
-
+<span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="nx">entry</span><span class="o">:</span> <span class="s1">&#39;./entry.js&#39;</span><span class="p">,</span>
+  <span class="nx">output</span><span class="o">:</span> <span class="p">{</span>
+    <span class="nx">path</span><span class="o">:</span> <span class="nx">__dirname</span><span class="p">,</span>
+    <span class="nx">filename</span><span class="o">:</span> <span class="s1">&#39;bundle.js&#39;</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div>
 <h1 id="library">Library</h1>
 
 <ol>
@@ -417,47 +436,93 @@ module.exports = {
 <li>在 webpack.config.js 里配置 babel</li>
 <li>排除匹配文件夹可提高执行速度，多个文件夹写法<code>exclude: /(node_modules|bower_components)/,</code></li>
 </ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-js" data-lang="js"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-js" data-lang="js"><span class="nx">babel</span><span class="o">:</span> <span class="p">{</span>
+    <span class="nx">presets</span><span class="o">:</span> <span class="p">[</span><span class="s1">&#39;es2015&#39;</span><span class="p">,</span> <span class="s1">&#39;stage-0&#39;</span><span class="p">],</span>
+    <span class="nx">plugins</span><span class="o">:</span> <span class="p">[</span><span class="s1">&#39;transform-runtime&#39;</span><span class="p">]</span>
+<span class="p">}</span>
 
-<pre><code class="language-js">babel: {
-    presets: ['es2015', 'stage-0'],
-    plugins: ['transform-runtime']
-}
+<span class="c1">//或者放在 .babelrc文件中
+</span><span class="c1"></span><span class="p">{</span>
+    <span class="nx">presets</span><span class="o">:</span> <span class="p">[</span><span class="s1">&#39;es2015&#39;</span><span class="p">,</span> <span class="s1">&#39;stage-0&#39;</span><span class="p">],</span>
+    <span class="nx">plugins</span><span class="o">:</span> <span class="p">[</span><span class="s1">&#39;transform-runtime&#39;</span><span class="p">]</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-js" data-lang="js"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-js" data-lang="js"><span class="kd">var</span> <span class="nx">webpack</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;webpack&#39;</span><span class="p">);</span>
 
-//或者放在 .babelrc文件中
-{
-    presets: ['es2015', 'stage-0'],
-    plugins: ['transform-runtime']
-}
-</code></pre>
-
-<pre><code class="language-js">var webpack = require('webpack');
-
-module.exports = {
-  entry: './entry.js',
-  output: {
-    path: __dirname,
-    filename: 'bundle.js'
-  },
-  module:{
-    loaders: [
-        {
-            test: /\.css$/,
-            loader: &quot;style-loader!css-loader&quot;
-        },
-        {
-          test: /\.js$/,
-          loader: &quot;babel-loader&quot;,
-          exclude:/node_modules/,
-          query: {
-            presets: ['es2015', 'stage-0'],
-            plugins: ['transform-runtime']
-          }
-        }
-    ]
-  }
-}
-</code></pre>
-
+<span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="nx">entry</span><span class="o">:</span> <span class="s1">&#39;./entry.js&#39;</span><span class="p">,</span>
+  <span class="nx">output</span><span class="o">:</span> <span class="p">{</span>
+    <span class="nx">path</span><span class="o">:</span> <span class="nx">__dirname</span><span class="p">,</span>
+    <span class="nx">filename</span><span class="o">:</span> <span class="s1">&#39;bundle.js&#39;</span>
+  <span class="p">},</span>
+  <span class="nx">module</span><span class="o">:</span><span class="p">{</span>
+    <span class="nx">loaders</span><span class="o">:</span> <span class="p">[</span>
+        <span class="p">{</span>
+            <span class="nx">test</span><span class="o">:</span> <span class="sr">/\.css$/</span><span class="p">,</span>
+            <span class="nx">loader</span><span class="o">:</span> <span class="s2">&#34;style-loader!css-loader&#34;</span>
+        <span class="p">},</span>
+        <span class="p">{</span>
+          <span class="nx">test</span><span class="o">:</span> <span class="sr">/\.js$/</span><span class="p">,</span>
+          <span class="nx">loader</span><span class="o">:</span> <span class="s2">&#34;babel-loader&#34;</span><span class="p">,</span>
+          <span class="nx">exclude</span><span class="o">:</span><span class="sr">/node_modules/</span><span class="p">,</span>
+          <span class="nx">query</span><span class="o">:</span> <span class="p">{</span>
+            <span class="nx">presets</span><span class="o">:</span> <span class="p">[</span><span class="s1">&#39;es2015&#39;</span><span class="p">,</span> <span class="s1">&#39;stage-0&#39;</span><span class="p">],</span>
+            <span class="nx">plugins</span><span class="o">:</span> <span class="p">[</span><span class="s1">&#39;transform-runtime&#39;</span><span class="p">]</span>
+          <span class="p">}</span>
+        <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div>
 <h1 id="结合vue进行组件化开发">结合vue进行组件化开发</h1>
 
 <ol>
@@ -465,44 +530,84 @@ module.exports = {
 <li>在 webpack.config.js 中引入 vue-loader</li>
 <li>需要实时编译模板，而非使用自带的runtime-only，需要引入如下<a href="https://vuejs.org/v2/guide/installation.html#Runtime-Compiler-vs-Runtime-only">配置</a></li>
 </ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-js" data-lang="js"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-js" data-lang="js"><span class="kd">var</span> <span class="nx">webpack</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;webpack&#39;</span><span class="p">);</span>
 
-<pre><code class="language-js">var webpack = require('webpack');
-
-module.exports = {
-  entry: './entry.js',
-  output: {
-    path: __dirname,
-    filename: 'bundle.js'
-  },
-  module:{
-    loaders: [
-        {
-            test: /\.css$/,
-            loader: &quot;style-loader!css-loader&quot;
-        },
-        {
-          test: /\.js$/,
-          loader: &quot;babel-loader&quot;,
-          exclude:/node_modules/,
-          query: {
-            presets: ['es2015', 'stage-0'],
-            plugins: ['transform-runtime']
-          }
-        },
-        {
-          test: /\.vue$/,
-          loader: &quot;vue-loader&quot;
-        }
-    ]
-  },
-  resolve: {
-    alias: {
-      'vue$': 'vue/dist/vue.esm.js' // 'vue/dist/vue.common.js' for webpack 1
-    }
-  }
-}
-</code></pre>
-
+<span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="nx">entry</span><span class="o">:</span> <span class="s1">&#39;./entry.js&#39;</span><span class="p">,</span>
+  <span class="nx">output</span><span class="o">:</span> <span class="p">{</span>
+    <span class="nx">path</span><span class="o">:</span> <span class="nx">__dirname</span><span class="p">,</span>
+    <span class="nx">filename</span><span class="o">:</span> <span class="s1">&#39;bundle.js&#39;</span>
+  <span class="p">},</span>
+  <span class="nx">module</span><span class="o">:</span><span class="p">{</span>
+    <span class="nx">loaders</span><span class="o">:</span> <span class="p">[</span>
+        <span class="p">{</span>
+            <span class="nx">test</span><span class="o">:</span> <span class="sr">/\.css$/</span><span class="p">,</span>
+            <span class="nx">loader</span><span class="o">:</span> <span class="s2">&#34;style-loader!css-loader&#34;</span>
+        <span class="p">},</span>
+        <span class="p">{</span>
+          <span class="nx">test</span><span class="o">:</span> <span class="sr">/\.js$/</span><span class="p">,</span>
+          <span class="nx">loader</span><span class="o">:</span> <span class="s2">&#34;babel-loader&#34;</span><span class="p">,</span>
+          <span class="nx">exclude</span><span class="o">:</span><span class="sr">/node_modules/</span><span class="p">,</span>
+          <span class="nx">query</span><span class="o">:</span> <span class="p">{</span>
+            <span class="nx">presets</span><span class="o">:</span> <span class="p">[</span><span class="s1">&#39;es2015&#39;</span><span class="p">,</span> <span class="s1">&#39;stage-0&#39;</span><span class="p">],</span>
+            <span class="nx">plugins</span><span class="o">:</span> <span class="p">[</span><span class="s1">&#39;transform-runtime&#39;</span><span class="p">]</span>
+          <span class="p">}</span>
+        <span class="p">},</span>
+        <span class="p">{</span>
+          <span class="nx">test</span><span class="o">:</span> <span class="sr">/\.vue$/</span><span class="p">,</span>
+          <span class="nx">loader</span><span class="o">:</span> <span class="s2">&#34;vue-loader&#34;</span>
+        <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="nx">resolve</span><span class="o">:</span> <span class="p">{</span>
+    <span class="nx">alias</span><span class="o">:</span> <span class="p">{</span>
+      <span class="s1">&#39;vue$&#39;</span><span class="o">:</span> <span class="s1">&#39;vue/dist/vue.esm.js&#39;</span> <span class="c1">// &#39;vue/dist/vue.common.js&#39; for webpack 1
+</span><span class="c1"></span>    <span class="p">}</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div>
 <h1 id="命令">命令</h1>
 
 <ol>
@@ -527,20 +632,36 @@ module.exports = {
 <li>修改配置文件如下</li>
 <li>生成json文件 <code>webpack -- profile --json &gt; demo.js</code>，使用 <a href="webpack.github.io/analyse">webpack-analyse</a>上传你的json文件进行分析，或者推荐使用另外一种比较不错的插件<a href="chrisbateman.github.io/webpack-visualizer">webpack-visualizer</a></li>
 </ol>
-
-<pre><code class="language-js">//是否生成sourcemap
-//线上引用插件相关 https://github.com/webpack/docs/wiki/list-of-plugins
-{
-    debug = process.env.NODE_ENV !== &quot;production
-    &quot;devtools&quot;: debug ? &quot;sourcemap&quot; : null,
-    &quot;plugins&quot;: debug ? [] : [
-        new webpack.optimize.DedupePlugin(),
-        new webpack.optimize.OccurenceOrderPlugin(),
-        new webpack.optimize.UgifyJsPlugin({mangle: false, sourcemap: false}),
-    ]
-}
-</code></pre>
-
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-js" data-lang="js"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-js" data-lang="js"><span class="c1">//是否生成sourcemap
+</span><span class="c1">//线上引用插件相关 https://github.com/webpack/docs/wiki/list-of-plugins
+</span><span class="c1"></span><span class="p">{</span>
+    <span class="nx">debug</span> <span class="o">=</span> <span class="nx">process</span><span class="p">.</span><span class="nx">env</span><span class="p">.</span><span class="nx">NODE_ENV</span> <span class="o">!==</span> <span class="s2">&#34;production
+</span><span class="s2">    &#34;</span><span class="nx">devtools</span><span class="s2">&#34;: debug ? &#34;</span><span class="nx">sourcemap</span><span class="s2">&#34; : null,
+</span><span class="s2">    &#34;</span><span class="nx">plugins</span><span class="err">&#34;</span><span class="o">:</span> <span class="nx">debug</span> <span class="o">?</span> <span class="p">[]</span> <span class="o">:</span> <span class="p">[</span>
+        <span class="k">new</span> <span class="nx">webpack</span><span class="p">.</span><span class="nx">optimize</span><span class="p">.</span><span class="nx">DedupePlugin</span><span class="p">(),</span>
+        <span class="k">new</span> <span class="nx">webpack</span><span class="p">.</span><span class="nx">optimize</span><span class="p">.</span><span class="nx">OccurenceOrderPlugin</span><span class="p">(),</span>
+        <span class="k">new</span> <span class="nx">webpack</span><span class="p">.</span><span class="nx">optimize</span><span class="p">.</span><span class="nx">UgifyJsPlugin</span><span class="p">({</span><span class="nx">mangle</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span> <span class="nx">sourcemap</span><span class="o">:</span> <span class="kc">false</span><span class="p">}),</span>
+    <span class="p">]</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div>
     </div>
 
     
@@ -613,6 +734,15 @@ module.exports = {
   
 
   
+  
+    <div class="post bg-white">
+      <script src="https://utteranc.es/client.js"
+            repo= "xianmin/comments-for-hugo-theme-jane"
+            issue-term="pathname"
+            crossorigin="anonymous"
+            async>
+      </script>
+    </div>
   
 
   
@@ -699,6 +829,10 @@ module.exports = {
 
   
   
+    <span id="busuanzi_container">
+      访客数/访问量：<span id="busuanzi_value_site_uv"></span>/<span id="busuanzi_value_site_pv"></span>
+    </span>
+  
 </div>
 
     </footer>
@@ -723,9 +857,32 @@ module.exports = {
 
 
 <script type="text/javascript" src="/js/main.638251f4230630f0335d8c6748e53a96f94b72670920b60c09a56fdc8bece214.js" integrity="sha256-Y4JR9CMGMPAzXYxnSOU6lvlLcmcJILYMCaVv3Ivs4hQ="></script>
+<script id="baidu_analytics">
+  var _hmt = _hmt || [];
+  (function() {
+    if (window.location.hostname === 'localhost') return;
+    var hm = document.createElement("script"); hm.async = true;
+    hm.src = "https://hm.baidu.com/hm.js?fddaf43423219df835caef10ea185fa8";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+</script>
 
-
-
+<script id="baidu_push">
+  (function(){
+    if (window.location.hostname === 'localhost') return;
+    var bp = document.createElement('script'); bp.async = true;
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+      bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+      bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+  })();
+</script>
 
 
 
@@ -737,6 +894,8 @@ module.exports = {
 
 
 
+
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
 

@@ -27,7 +27,7 @@
 
 
 
-
+<meta name="baidu-site-verification" content="splFzazQJF" />
 
 
 
@@ -68,7 +68,7 @@
 
 <meta itemprop="datePublished" content="2018-08-10T09:46:57&#43;08:00" />
 <meta itemprop="dateModified" content="2018-08-10T09:46:57&#43;08:00" />
-<meta itemprop="wordCount" content="766">
+<meta itemprop="wordCount" content="846">
 
 
 
@@ -326,9 +326,14 @@ if (!doNotTrack) {
             <a href="https://reallyli.github.io/categories/go/"> Go </a>
             
           </div>
-        
+        <span class="more-meta"> 约 846 字 </span>
+          <span class="more-meta"> 预计阅读 2 分钟 </span>
 
         
+        
+          <span id="busuanzi_container_page_pv">
+            | 阅读 <span id="busuanzi_value_page_pv"></span>
+          </span>
         
 
         
@@ -366,135 +371,245 @@ if (!doNotTrack) {
 <h1 id="声明一个变量">声明一个变量</h1>
 
 <p>比如声明一个 name 的变量</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-go" data-lang="go"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-go" data-lang="go"><span class="kn">package</span> <span class="nx">main</span>
 
-<pre><code class="language-go">package main
+<span class="kn">import</span> <span class="nx">fmt</span>
 
-import fmt
-
-func main() {
-  var name int
-  fmt.Println(&quot;My age is&quot;, name)
-}
-</code></pre>
-
+<span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+  <span class="kd">var</span> <span class="nx">name</span> <span class="kt">int</span>
+  <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;My age is&#34;</span><span class="p">,</span> <span class="nx">name</span><span class="p">)</span>
+<span class="p">}</span></code></pre></td></tr></table>
+</div>
+</div>
 <p>该语句 <code>var age int</code> 声明了一个变量类型为 int 的变量。我们没有为变量分配任何值。一般情况下没有为变量赋值，那么改变量的初始值默认为0。运行上面程序会输出如下结果。</p>
-
-<pre><code class="language-go">My ago is 0
-</code></pre>
-
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-go" data-lang="go"><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-go" data-lang="go"><span class="nx">My</span> <span class="nx">ago</span> <span class="nx">is</span> <span class="mi">0</span></code></pre></td></tr></table>
+</div>
+</div>
 <p>当然实际应用中也可以给变量赋其他类型的值，就上面的例子而言， 我们可以给变量 name 赋予任何整数值</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-go" data-lang="go"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-go" data-lang="go"><span class="kn">package</span> <span class="nx">main</span>
 
-<pre><code class="language-go">package main
+<span class="kn">import</span> <span class="s">&#34;fmt&#34;</span>
 
-import &quot;fmt&quot;
-
-func main() {  
-    var age int // variable declaration
-    fmt.Println(&quot;my age is &quot;, age)
-    age = 29 //assignment
-    fmt.Println(&quot;my age is&quot;, age)
-    age = 54 //assignment
-    fmt.Println(&quot;my new age is&quot;, age)
-}
-</code></pre>
-
+<span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>  
+    <span class="kd">var</span> <span class="nx">age</span> <span class="kt">int</span> <span class="c1">// variable declaration
+</span><span class="c1"></span>    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;my age is &#34;</span><span class="p">,</span> <span class="nx">age</span><span class="p">)</span>
+    <span class="nx">age</span> <span class="p">=</span> <span class="mi">29</span> <span class="c1">//assignment
+</span><span class="c1"></span>    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;my age is&#34;</span><span class="p">,</span> <span class="nx">age</span><span class="p">)</span>
+    <span class="nx">age</span> <span class="p">=</span> <span class="mi">54</span> <span class="c1">//assignment
+</span><span class="c1"></span>    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;my new age is&#34;</span><span class="p">,</span> <span class="nx">age</span><span class="p">)</span>
+<span class="p">}</span></code></pre></td></tr></table>
+</div>
+</div>
 <h1 id="声明具有初始值的变量">声明具有初始值的变量</h1>
 
 <blockquote>
 <p>变量在声明的时候也可以赋予初始值，基本语法是 <code>var name type = initialvalue</code></p>
 </blockquote>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-go" data-lang="go"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-go" data-lang="go"><span class="kn">package</span> <span class="nx">main</span>
 
-<pre><code class="language-go">package main
+<span class="kn">import</span> <span class="s">&#34;fmt&#34;</span>
 
-import &quot;fmt&quot;
-
-func main() {  
-    var age int = 29 // variable declaration with initial value
-
-    fmt.Println(&quot;my age is&quot;, age)
-}
-</code></pre>
-
+<span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>  
+    <span class="kd">var</span> <span class="nx">age</span> <span class="kt">int</span> <span class="p">=</span> <span class="mi">29</span> <span class="c1">// variable declaration with initial value
+</span><span class="c1"></span>
+    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;my age is&#34;</span><span class="p">,</span> <span class="nx">age</span><span class="p">)</span>
+<span class="p">}</span></code></pre></td></tr></table>
+</div>
+</div>
 <h1 id="类型推断">类型推断</h1>
 
 <p>如果变量在声明的时候已经赋予了初始值，Go 将自动根据该初始值推断该变量的类型。因此，如果变量具有初始值，则可以*省略*变量声明中的类型。基本语法是 <code>var name = initialvalue</code></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-go" data-lang="go"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-go" data-lang="go"><span class="kn">package</span> <span class="nx">main</span>
 
-<pre><code class="language-go">package main
+<span class="kn">import</span> <span class="s">&#34;fmt&#34;</span>
 
-import &quot;fmt&quot;
-
-func main() {  
-    var age = 29 // type will be inferred
-
-    fmt.Println(&quot;my age is&quot;, age)
-}
-</code></pre>
-
+<span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>  
+    <span class="kd">var</span> <span class="nx">age</span> <span class="p">=</span> <span class="mi">29</span> <span class="c1">// type will be inferred
+</span><span class="c1"></span>
+    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;my age is&#34;</span><span class="p">,</span> <span class="nx">age</span><span class="p">)</span>
+<span class="p">}</span></code></pre></td></tr></table>
+</div>
+</div>
 <h1 id="多变量声明">多变量声明</h1>
 
 <p>可以在单个语句中声明多个变量。基本语法是 <code>var name1，name2 type = initialvalue1，initialvalue2</code>。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-go" data-lang="go"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-go" data-lang="go"><span class="kn">package</span> <span class="nx">main</span>
 
-<pre><code class="language-go">package main
+<span class="kn">import</span> <span class="nx">fmt</span>
 
-import fmt
-
-func main() {
-  var width,height = 100, 200, //declaring multiple variables, &quot;int&quot; is dropped
-
-  fmt.Println(&quot;Width is&quot;, width, &quot;Height is&quot;, height)
-}
-</code></pre>
-
+<span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+  <span class="kd">var</span> <span class="nx">width</span><span class="p">,</span><span class="nx">height</span> <span class="p">=</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">200</span><span class="p">,</span> <span class="c1">//declaring multiple variables, &#34;int&#34; is dropped
+</span><span class="c1"></span>
+  <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Width is&#34;</span><span class="p">,</span> <span class="nx">width</span><span class="p">,</span> <span class="s">&#34;Height is&#34;</span><span class="p">,</span> <span class="nx">height</span><span class="p">)</span>
+<span class="p">}</span></code></pre></td></tr></table>
+</div>
+</div>
 <p>在某些情况下，我们可能希望在单个语句中声明属于不同类型的变量。基本语法如下</p>
-
-<pre><code class="language-go">var (  
-      name1 = initialvalue1,
-      name2 = initialvalue2
-)
-</code></pre>
-
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-go" data-lang="go"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-go" data-lang="go"><span class="kd">var</span> <span class="p">(</span>  
+      <span class="nx">name1</span> <span class="p">=</span> <span class="nx">initialvalue1</span><span class="p">,</span>
+      <span class="nx">name2</span> <span class="p">=</span> <span class="nx">initialvalue2</span>
+<span class="p">)</span></code></pre></td></tr></table>
+</div>
+</div>
 <p>再看看下面的例子</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-go" data-lang="go"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-go" data-lang="go"><span class="kn">package</span> <span class="nx">main</span>
 
-<pre><code class="language-go">package main
+<span class="kn">import</span> <span class="s">&#34;fmt&#34;</span>
 
-import &quot;fmt&quot;
-
-func main() {  
-    var (
-        name   = &quot;naveen&quot;
-        age    = 29
-        height int
-    )
-    fmt.Println(&quot;my name is&quot;, name, &quot;, age is&quot;, age, &quot;and height is&quot;, height)
-    // output my name is naveen, age is 29 and height is 0
-}
-</code></pre>
-
+<span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>  
+    <span class="kd">var</span> <span class="p">(</span>
+        <span class="nx">name</span>   <span class="p">=</span> <span class="s">&#34;naveen&#34;</span>
+        <span class="nx">age</span>    <span class="p">=</span> <span class="mi">29</span>
+        <span class="nx">height</span> <span class="kt">int</span>
+    <span class="p">)</span>
+    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;my name is&#34;</span><span class="p">,</span> <span class="nx">name</span><span class="p">,</span> <span class="s">&#34;, age is&#34;</span><span class="p">,</span> <span class="nx">age</span><span class="p">,</span> <span class="s">&#34;and height is&#34;</span><span class="p">,</span> <span class="nx">height</span><span class="p">)</span>
+    <span class="c1">// output my name is naveen, age is 29 and height is 0
+</span><span class="c1"></span><span class="p">}</span></code></pre></td></tr></table>
+</div>
+</div>
 <h1 id="简短的声明">简短的声明</h1>
 
 <p>Go还提供了另一种简洁的方式来声明变量。这称为简写声明，它使用 ：= 运算符。基本语法是 <code>name：= initialvalue</code></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-go" data-lang="go"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-go" data-lang="go"><span class="kn">package</span> <span class="nx">main</span>
 
-<pre><code class="language-go">package main
+<span class="kn">import</span> <span class="s">&#34;fmt&#34;</span>
 
-import &quot;fmt&quot;
-
-func main() {  
-    name, age := &quot;naveen&quot;, 29 //short hand declaration
-
-    fmt.Println(&quot;my name is&quot;, name, &quot;age is&quot;, age)
-}
-</code></pre>
-
+<span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>  
+    <span class="nx">name</span><span class="p">,</span> <span class="nx">age</span> <span class="o">:=</span> <span class="s">&#34;naveen&#34;</span><span class="p">,</span> <span class="mi">29</span> <span class="c1">//short hand declaration
+</span><span class="c1"></span>
+    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;my name is&#34;</span><span class="p">,</span> <span class="nx">name</span><span class="p">,</span> <span class="s">&#34;age is&#34;</span><span class="p">,</span> <span class="nx">age</span><span class="p">)</span>
+<span class="p">}</span></code></pre></td></tr></table>
+</div>
+</div>
 <p>由于 Go 是强类型的，因此声明属于一种类型的变量不能分配另一种类型的值。以下程序将抛出一个错误，<code>cannot use &quot;naveen&quot; (type string) as type int in assignment</code> 因为 age 被声明为 int 类型，不能赋予其他类型的值。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-go" data-lang="go"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-go" data-lang="go"><span class="kn">package</span> <span class="nx">main</span>
 
-<pre><code class="language-go">package main
-
-func main() {
-    age := 10
-    age = &quot;Bob&quot; //error since we are trying to assign a string to a variable of type int
-}
-</code></pre>
-
+<span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+    <span class="nx">age</span> <span class="o">:=</span> <span class="mi">10</span>
+    <span class="nx">age</span> <span class="p">=</span> <span class="s">&#34;Bob&#34;</span> <span class="c1">//error since we are trying to assign a string to a variable of type int
+</span><span class="c1"></span><span class="p">}</span></code></pre></td></tr></table>
+</div>
+</div>
     </div>
 
     
@@ -565,6 +680,15 @@ func main() {
   
 
   
+  
+    <div class="post bg-white">
+      <script src="https://utteranc.es/client.js"
+            repo= "xianmin/comments-for-hugo-theme-jane"
+            issue-term="pathname"
+            crossorigin="anonymous"
+            async>
+      </script>
+    </div>
   
 
   
@@ -651,6 +775,10 @@ func main() {
 
   
   
+    <span id="busuanzi_container">
+      访客数/访问量：<span id="busuanzi_value_site_uv"></span>/<span id="busuanzi_value_site_pv"></span>
+    </span>
+  
 </div>
 
     </footer>
@@ -675,9 +803,32 @@ func main() {
 
 
 <script type="text/javascript" src="/js/main.638251f4230630f0335d8c6748e53a96f94b72670920b60c09a56fdc8bece214.js" integrity="sha256-Y4JR9CMGMPAzXYxnSOU6lvlLcmcJILYMCaVv3Ivs4hQ="></script>
+<script id="baidu_analytics">
+  var _hmt = _hmt || [];
+  (function() {
+    if (window.location.hostname === 'localhost') return;
+    var hm = document.createElement("script"); hm.async = true;
+    hm.src = "https://hm.baidu.com/hm.js?fddaf43423219df835caef10ea185fa8";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+</script>
 
-
-
+<script id="baidu_push">
+  (function(){
+    if (window.location.hostname === 'localhost') return;
+    var bp = document.createElement('script'); bp.async = true;
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+      bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+      bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+  })();
+</script>
 
 
 
@@ -689,6 +840,8 @@ func main() {
 
 
 
+
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
 
