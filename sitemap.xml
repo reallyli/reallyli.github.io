@@ -234,13 +234,6 @@
   </url>
   
   <url>
-    <loc>https://reallyli.github.io/post/hugoisforlovers/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://reallyli.github.io/tags/1024/</loc>
     <lastmod>2018-10-24T23:00:22+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -296,20 +289,6 @@
   </url>
   
   <url>
-    <loc>https://reallyli.github.io/tags/development/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://reallyli.github.io/categories/development/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://reallyli.github.io/tags/docker/</loc>
     <lastmod>2018-09-11T22:42:34+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -331,29 +310,8 @@
   </url>
   
   <url>
-    <loc>https://reallyli.github.io/tags/go/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://reallyli.github.io/categories/go/</loc>
     <lastmod>2018-08-19T14:44:08+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://reallyli.github.io/tags/golang/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://reallyli.github.io/categories/golang/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -368,20 +326,6 @@
   <url>
     <loc>https://reallyli.github.io/tags/go%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2018-08-19T14:44:08+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://reallyli.github.io/tags/hugo/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://reallyli.github.io/categories/index/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>

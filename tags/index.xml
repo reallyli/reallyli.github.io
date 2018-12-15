@@ -75,15 +75,6 @@
     </item>
     
     <item>
-      <title>Development</title>
-      <link>https://reallyli.github.io/tags/development/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://reallyli.github.io/tags/development/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Docker</title>
       <link>https://reallyli.github.io/tags/docker/</link>
       <pubDate>Tue, 11 Sep 2018 22:42:34 +0800</pubDate>
@@ -111,24 +102,6 @@
     </item>
     
     <item>
-      <title>Go</title>
-      <link>https://reallyli.github.io/tags/go/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://reallyli.github.io/tags/go/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Golang</title>
-      <link>https://reallyli.github.io/tags/golang/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://reallyli.github.io/tags/golang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Go教程</title>
       <link>https://reallyli.github.io/tags/go%E6%95%99%E7%A8%8B/</link>
       <pubDate>Sun, 19 Aug 2018 11:59:29 +0800</pubDate>
@@ -143,15 +116,6 @@
       <pubDate>Sun, 19 Aug 2018 14:44:08 +0800</pubDate>
       
       <guid>https://reallyli.github.io/tags/go%E7%AC%94%E8%AE%B0/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hugo</title>
-      <link>https://reallyli.github.io/tags/hugo/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://reallyli.github.io/tags/hugo/</guid>
       <description></description>
     </item>
     
@@ -188,6 +152,42 @@
       <pubDate>Sat, 02 Dec 2017 17:08:12 +0800</pubDate>
       
       <guid>https://reallyli.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Php</title>
+      <link>https://reallyli.github.io/tags/php/</link>
+      <pubDate>Wed, 18 Jul 2018 22:00:41 +0800</pubDate>
+      
+      <guid>https://reallyli.github.io/tags/php/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spl</title>
+      <link>https://reallyli.github.io/tags/spl/</link>
+      <pubDate>Thu, 04 May 2017 10:01:58 +0800</pubDate>
+      
+      <guid>https://reallyli.github.io/tags/spl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Webpack</title>
+      <link>https://reallyli.github.io/tags/webpack/</link>
+      <pubDate>Sun, 28 May 2017 22:34:52 +0800</pubDate>
+      
+      <guid>https://reallyli.github.io/tags/webpack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>关于</title>
+      <link>https://reallyli.github.io/tags/%E5%85%B3%E4%BA%8E/</link>
+      <pubDate>Wed, 12 Sep 2018 23:17:47 +0800</pubDate>
+      
+      <guid>https://reallyli.github.io/tags/%E5%85%B3%E4%BA%8E/</guid>
       <description></description>
     </item>
     
