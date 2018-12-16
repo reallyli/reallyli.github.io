@@ -6,10 +6,19 @@
     <description>Recent content in Posts on reallyli - 那些道听途说</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 15 Dec 2018 21:56:54 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 16 Dec 2018 23:20:51 +0800</lastBuildDate>
     
 	<atom:link href="https://reallyli.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Laravel Sql General Error 1366</title>
+      <link>https://reallyli.github.io/post/laravel-sql-general-error-1366/</link>
+      <pubDate>Sun, 16 Dec 2018 23:20:51 +0800</pubDate>
+      
+      <guid>https://reallyli.github.io/post/laravel-sql-general-error-1366/</guid>
+      <description>问题出现在执行同步数据脚本的时候，脚本终止，并提示 laravel SQLSTATE[HY000]: General error: 1366 Incorrect string value 分析原因，发现终端上显示字符串乱码问题，然后排查数据库字符集，数据表字段设</description>
+    </item>
     
     <item>
       <title>Vuejs 实战学习笔记 C1</title>
@@ -180,15 +189,6 @@
       
       <guid>https://reallyli.github.io/post/afternoon-cat/</guid>
       <description>来自我的 QQ 空间日志，记载于 2013-9-12 22:41 突然发现很久没有打球了，或许是到了九月秋初这个季节才开始想起。没有时间，没有精力看上去只是心灵上的阻碍，我发现</description>
-    </item>
-    
-    <item>
-      <title>展望2018</title>
-      <link>https://reallyli.github.io/post/outlook-2018/</link>
-      <pubDate>Sun, 31 Dec 2017 08:54:57 +0800</pubDate>
-      
-      <guid>https://reallyli.github.io/post/outlook-2018/</guid>
-      <description>2017即将结束，总想记录点什么，于是开始歇斯底里，记忆如丝。 2017开始接近尾声了，崭新的2018年即将到来，转眼间我在北京已经呆了2年半</description>
     </item>
     
   </channel>
