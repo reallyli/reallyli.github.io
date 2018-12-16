@@ -66,6 +66,47 @@
     </item>
     
     <item>
+      <title>Laravel Sql General Error 1366</title>
+      <link>https://reallyli.github.io/post/laravel-sql-general-error-1366/</link>
+      <pubDate>Sun, 16 Dec 2018 23:20:51 +0800</pubDate>
+      
+      <guid>https://reallyli.github.io/post/laravel-sql-general-error-1366/</guid>
+      
+        <description>&lt;blockquote&gt;
+&lt;p&gt;问题出现在执行同步数据脚本的时候，脚本终止，并提示 &lt;code&gt;laravel SQLSTATE[HY000]: General error: 1366 Incorrect string value&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;分析原因，发现终端上显示字符串乱码问题，然后排查数据库字符集，数据表字段设置情况。由于当前脚本执行的是将 A 数据表数据插入到 B 数据表中，代码操作是 &lt;code&gt;Model::Create($attributes)&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;然后检查 Model 类是否存在当前 fillable 字段的属性修改器，结果发现问题了&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&amp;lt;?php&lt;/span&gt;
+&lt;span class=&#34;k&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;setFieldAttribute&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$value&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+    &lt;span class=&#34;nv&#34;&gt;$this&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;attributes&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;field&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;strtoupper&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$value&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;于是修改将内置转换大小的函数 &lt;code&gt;strtoupper&lt;/code&gt; 替换为 `&lt;code&gt;mb_strtoupper&lt;/code&gt; 问题得到了解决&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;PHP 涉及到字符串操作的时候，优先想到字符编码问题，优先使用 &lt;code&gt;mb_*&lt;/code&gt; 函数代替 &lt;code&gt;*&lt;/code&gt; 函数，包括涉及到计算字符串长度，处理文本文件替换等问题时&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+      
+    </item>
+    
+    <item>
       <title>Vuejs 实战学习笔记 C1</title>
       <link>https://reallyli.github.io/post/vuejs-practical-book-note-c1/</link>
       <pubDate>Sat, 15 Dec 2018 21:56:54 +0800</pubDate>
@@ -1898,124 +1939,6 @@ complex128：具有float64实部和虚部的复数&lt;/p&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;原文地址：&lt;a href=&#34;https://golangbot.com/golang-tutorial-part-1-introduction-and-installation/&#34;&gt;https://golangbot.com/golang-tutorial-part-1-introduction-and-installation/&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>Php Deployer</title>
-      <link>https://reallyli.github.io/post/php-deployer/</link>
-      <pubDate>Wed, 18 Jul 2018 22:00:41 +0800</pubDate>
-      
-      <guid>https://reallyli.github.io/post/php-deployer/</guid>
-      
-        <description>
-
-&lt;p&gt;&lt;img src=&#34;https://eva.hixiaogan.cn/thumb/blog/php_deloyer_side.jpg&#34; alt=&#34;php-deployer&#34; /&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;实际项目开发中，对于自动化部署 php 项目市面上鲜有比较不错的方案，比如瓦力，比如公司 ruby 项目组使用 &lt;a href=&#34;https://capistranorb.com/&#34;&gt;capistrano&lt;/a&gt;，经过少数实践，还是选择使用 pr,issue 比较活跃的 deployer&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;关于 &lt;code&gt;deployer&lt;/code&gt; 部署 &lt;code&gt;Laravel&lt;/code&gt; 项目最初实践方案是比较初级的，&lt;code&gt;composer global&lt;/code&gt; 安装到本地，然后编写符合自己项目的 task , 配置主机，配置共享目录，服务器配置 sudo 免密码账号等等一系列操作。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;刚开始可能遇到的问题比较低级，但是通过翻看 &lt;a href=&#34;https://github.com/deployphp/deployer/issues&#34;&gt;deployer&lt;/a&gt; 的各种 issues，逐步的把问题解决，也算是有一点小进步吧。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;关于使用 deployer 部署 php 项目，我后来在 Laravel-china 社区看到了 Overtrue 的一篇文章，总结的很好，方便以后查阅，再此我记一下&lt;a href=&#34;https://laravel-china.org/articles/13242/another-introduction-to-the-use-of-deployer&#34;&gt;链接&lt;/a&gt;，文中把整个部署过程讲的很通透，下面的评论也有一些可能会在未来遇到的问题，总体来说很赞👍👍&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;关于使用 deployer 部署 Laravel 项目，虽然此 package 已经提前预设了 laravel recipe，包括共享目录 &lt;code&gt;storage&lt;/code&gt;，共享文件 &lt;code&gt;.env&lt;/code&gt;，集成各种 &lt;code&gt;artisan&lt;/code&gt; 等等，但是我们也在试想如何更优雅与 Laravel 贴近，于是想在此基础上封装一个扩展包，起初在此扩展包我们想添加的功能是：添加部署群消息提醒，添加修订日志，自动上传新的 .env 文件等，搜索博大的 github 仓库，果不其然发现了一个 &lt;code&gt;package&lt;/code&gt; 集成 deployer，于是在此基础上我们重新整合了需求，定制自己项目的自动化部署扩展包 &lt;a href=&#34;https://github.com/reallyli/laravel-unideploy&#34;&gt;laravel-unideploy&lt;/a&gt;，目前还在不断完善中，但是大部分代码都是基于 &lt;a href=&#34;https://github.com/lorisleiva/laravel-deployer&#34;&gt;laravel-deployer&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;原来开始叨叨别人包 bug 多，一杯咖啡的时间，冷静下来，总有一些独特的思想在里面，一千的 php 程序员眼中，总有一千种代码实现，怎么去权衡代码精简和代码易读易懂是一个不朽的问题😇&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&#34;总结一下实际项目开发中遇到的一些问题&#34;&gt;总结一下实际项目开发中遇到的一些问题&lt;/h1&gt;
-
-&lt;h2 id=&#34;问题一&#34;&gt;问题一&lt;/h2&gt;
-
-&lt;p&gt;acl 未安装，下面如下 shell 返回空&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;hash&lt;/span&gt; setfacl &lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;&amp;gt;/dev/null&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;then&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;true&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;fi&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;解决方案&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;sudo apt-get install acl&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;参考 &lt;a href=&#34;https://github.com/deployphp/deployer/issues/1118&#34;&gt;issues&lt;/a&gt;，Unable to setup correct permissions for writable dirs&lt;/p&gt;
-
-&lt;h2 id=&#34;问题二&#34;&gt;问题二&lt;/h2&gt;
-
-&lt;p&gt;reload php-fpm 没有权限&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;sudo need to enter a password&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;解决方案&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;sudo vi /etc/sudoers
-your_user_name &lt;span class=&#34;nv&#34;&gt;ALL&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=(&lt;/span&gt;ALL&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; NOPASSWD: ALL&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;需要特别注意的地方是 将部署账号的 sudo 配置在文件的最后一行，避免有*覆盖*的情况，可以配置完执行 &lt;code&gt;sudo cat /etc/sudoers&lt;/code&gt; 看看是否有权限&lt;/p&gt;
-
-&lt;h2 id=&#34;问题三&#34;&gt;问题三&lt;/h2&gt;
-
-&lt;p&gt;git deploy failed&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;Fetching origin
-ERROR: Repository not found.
-fatal: Could not &lt;span class=&#34;nb&#34;&gt;read&lt;/span&gt; from remote repository.&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;解决方案&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;nb&#34;&gt;eval&lt;/span&gt; &lt;span class=&#34;sb&#34;&gt;`&lt;/span&gt;ssh-agent -s&lt;span class=&#34;sb&#34;&gt;`&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt;
-ssh-add ~/.ssh/id_rsa&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;项目部署的主机配置中设置 forwardAgent 为 true，本地 ssh-add 自己的私钥，因为部署过程中需要与服务器保持会话&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;其他的配置还在逐渐实践中，期间在遇到什么问题，随时补充笔记，吾日三省吾身。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;写了这么一段小笔记，现在已经快到12点了，突然发现我电脑的键盘膜上 &lt;code&gt;command + c&lt;/code&gt;已经开始花了，这么多天过去了，往后余生，风雪是你，平淡是你，清贫是你，荣华是你。&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.uniqueway.com&#34;&gt;无二之旅&lt;/a&gt;，定制有温度的旅行，今年的目标之一是定制自己的 &lt;code&gt;uni-package&lt;/code&gt;，实践是成长最好的方式，等待周五的好消息，因为余生有你，才有更大的动力和信心。🌙&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
       

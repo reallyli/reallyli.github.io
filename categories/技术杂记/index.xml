@@ -6,10 +6,19 @@
     <description>Recent content in 技术杂记 on reallyli - 那些道听途说</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 15 Dec 2018 21:56:54 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 16 Dec 2018 23:20:51 +0800</lastBuildDate>
     
 	<atom:link href="https://reallyli.github.io/categories/%E6%8A%80%E6%9C%AF%E6%9D%82%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Laravel Sql General Error 1366</title>
+      <link>https://reallyli.github.io/post/laravel-sql-general-error-1366/</link>
+      <pubDate>Sun, 16 Dec 2018 23:20:51 +0800</pubDate>
+      
+      <guid>https://reallyli.github.io/post/laravel-sql-general-error-1366/</guid>
+      <description>问题出现在执行同步数据脚本的时候，脚本终止，并提示 laravel SQLSTATE[HY000]: General error: 1366 Incorrect string value 分析原因，发现终端上显示字符串乱码问题，然后排查数据库字符集，数据表字段设</description>
+    </item>
     
     <item>
       <title>Vuejs 实战学习笔记 C1</title>
