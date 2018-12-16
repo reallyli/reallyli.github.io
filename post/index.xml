@@ -6,26 +6,17 @@
     <description>Recent content in Posts on reallyli - 那些道听途说</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 14 Dec 2018 00:19:14 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 15 Dec 2018 21:56:54 +0800</lastBuildDate>
     
 	<atom:link href="https://reallyli.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>沙漏</title>
-      <link>https://reallyli.github.io/post/hourglass/</link>
-      <pubDate>Fri, 14 Dec 2018 00:19:14 +0800</pubDate>
-      
-      <guid>https://reallyli.github.io/post/hourglass/</guid>
-      <description>Wade And James Final Battle Playoff 2017 Of Cavs</description>
-    </item>
-    
-    <item>
-      <title>Vuejs 实战学习笔记1</title>
-      <link>https://reallyli.github.io/post/vuejs-practical-book-note-1/</link>
+      <title>Vuejs 实战学习笔记 C1</title>
+      <link>https://reallyli.github.io/post/vuejs-practical-book-note-c1/</link>
       <pubDate>Sat, 15 Dec 2018 21:56:54 +0800</pubDate>
       
-      <guid>https://reallyli.github.io/post/vuejs-practical-book-note-1/</guid>
+      <guid>https://reallyli.github.io/post/vuejs-practical-book-note-c1/</guid>
       <description>关于 Vue.js 简单小巧的核心（代码压缩后大小仅为 17KB），渐进式技术栈，足以应付任何规模的应用 书中简单的介绍现代 Web 开发中常见的高级功能，个人觉得不</description>
     </item>
     
@@ -189,6 +180,15 @@
       
       <guid>https://reallyli.github.io/post/afternoon-cat/</guid>
       <description>来自我的 QQ 空间日志，记载于 2013-9-12 22:41 突然发现很久没有打球了，或许是到了九月秋初这个季节才开始想起。没有时间，没有精力看上去只是心灵上的阻碍，我发现</description>
+    </item>
+    
+    <item>
+      <title>展望2018</title>
+      <link>https://reallyli.github.io/post/outlook-2018/</link>
+      <pubDate>Sun, 31 Dec 2017 08:54:57 +0800</pubDate>
+      
+      <guid>https://reallyli.github.io/post/outlook-2018/</guid>
+      <description>2017即将结束，总想记录点什么，于是开始歇斯底里，记忆如丝。 2017开始接近尾声了，崭新的2018年即将到来，转眼间我在北京已经呆了2年半</description>
     </item>
     
   </channel>
