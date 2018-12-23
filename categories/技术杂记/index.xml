@@ -6,10 +6,19 @@
     <description>Recent content in 技术杂记 on reallyli - 那些道听途说</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 16 Dec 2018 23:20:51 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 23 Dec 2018 15:06:21 +0800</lastBuildDate>
     
 	<atom:link href="https://reallyli.github.io/categories/%E6%8A%80%E6%9C%AF%E6%9D%82%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Vuejs 实战学习笔记 C2</title>
+      <link>https://reallyli.github.io/post/vuejs-practical-book-note-c2/</link>
+      <pubDate>Sun, 23 Dec 2018 15:06:21 +0800</pubDate>
+      
+      <guid>https://reallyli.github.io/post/vuejs-practical-book-note-c2/</guid>
+      <description>本章主要是讲 Vue 的数据绑定实践，以及基本指令、事件与语法糖 在学习本章之前，其实我也在回顾上一章对于 Vue.js 的基本介绍和现代 Web 开发的基本模式，这种 MVVM 的</description>
+    </item>
     
     <item>
       <title>Laravel Sql General Error 1366</title>

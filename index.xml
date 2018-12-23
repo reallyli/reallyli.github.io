@@ -66,6 +66,71 @@
     </item>
     
     <item>
+      <title>Vuejs 实战学习笔记 C2</title>
+      <link>https://reallyli.github.io/post/vuejs-practical-book-note-c2/</link>
+      <pubDate>Sun, 23 Dec 2018 15:06:21 +0800</pubDate>
+      
+      <guid>https://reallyli.github.io/post/vuejs-practical-book-note-c2/</guid>
+      
+        <description>&lt;blockquote&gt;
+&lt;p&gt;本章主要是讲 Vue 的数据绑定实践，以及基本指令、事件与语法糖&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/wiki/reallyli/reallyli.github.io/vuejs_c2.png&#34; alt=&#34;Vue.js-C2&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;在学习本章之前，其实我也在回顾上一章对于 Vue.js 的基本介绍和现代 Web 开发的基本模式，这种 MVVM 的思想逐渐体现出软件设计的分层理念。只要从事软件开发这一行业，不管什么语言，实践践行模式，学习优秀的软件设计模式，合理的运用在日常工作中显得很重要。&lt;/p&gt;
+
+&lt;p&gt;在后端开发中的，我们透过 Model 层去从 DB 获取数据，并整理成 View 所需要的类容，通常包括一个类别或类别阵列，通过 Model 层提供的 Model Object，我们可以获取到 View 层的展示数据。&lt;/p&gt;
+
+&lt;p&gt;那么对于前端开发来说，Dom 层就可以比喻成后端的 View 层，如何做到修改数据层后渲染出不同的画面呢？通过这一章的数据绑定样例介绍，这里我还是结合后端开发的思想去找出设计的共同点，以便于更好理解本框架的设计思想。很显然，我们在开发 Laravel 项目的时候，回忆一下基本的操作，配置路由，从 Controller 获取请求数据，从 Model 中获取数据， 从 Service 中处理业务逻辑，在 Controller 层挂载 View 模板，绑定处理后的数据到 View 模板中，View 中根据自定义指令展示数据。&lt;/p&gt;
+
+&lt;p&gt;将数据绑定到 Vuew 实例上，设置挂载方法，设置挂载点，每个 Vue 实例创建后时，都会经历一系列的初始化过程，同时也会调用相应的生命周期的钩子，比如&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;created 实例创建完成以后调用，此阶段完成了数据的观测，但是尚未挂载，$el 还不可用，需要初始化处理一些数据时比较有用&lt;/li&gt;
+&lt;li&gt;mounted el 挂载到实例上后调用，一般是第一个业务逻辑会到这里开始&lt;/li&gt;
+&lt;li&gt;beforeDestroy 实例销毁之前调用，主要是解绑一些使用 addEventListener 监听的事件&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Dom 层插入变量使用 Mushache 语法，这个也是在熟悉不过了，包括过滤器等，它会自动的将双向绑定的数据实时显示出来。下面简单记录一下本章提到的基本指令&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;v-html 输出 html 格式，而非纯文本内容 后端使用 {!! x !!}&lt;/li&gt;
+&lt;li&gt;v-pre 输出未编译的内容&lt;/li&gt;
+&lt;li&gt;v-bind 动态更新 html 元素的属性&lt;/li&gt;
+&lt;li&gt;v-on 绑定事件监听器，例如点击某个按钮的事件，鼠标 input 失焦事件&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;需要注意的地方，比如&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Vue.js 只支持单个表达式，不支持语句和流程控制，而且在表达式中，不能使用用户自定义的全局变量，只能使用 Vue 白名单中的全局变量，例如 Math 和 Date。&lt;/li&gt;
+&lt;li&gt;使用过滤器的时候，调用 method 时，第一个参数是数据本身，后面参数取决于方法的定义。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;关于过滤器的用法也是类似于 Laravel 模板语言一样，通常用于数据微处理，比如日期格式，简单的数据转换，需要注意的是，复杂的数据转换应该使用计算属性，多个过滤器的用法是如下&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;p&#34;&gt;{{&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;message&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;|&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;filterA&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;|&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;filterB&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}}&lt;/span&gt;
+
+&lt;span class=&#34;p&#34;&gt;{{&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;message&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;|&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;filter&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;arg1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;arg2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;//gist.github.com/reallyli/47ada4d08a60254da4d173bfa3ca2ca1.js&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;平时在开发过程中，我们往往会使用 Vue.js 的语法糖，例如 v-bind 和 v-on，使用 &lt;code&gt;:&lt;/code&gt;来代替实际的指令名称，并且 v-on 也可以直接用 &lt;code&gt;@&lt;/code&gt; 来缩写，这样的写法也更加的简洁和方便。&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
       <title>Laravel Sql General Error 1366</title>
       <link>https://reallyli.github.io/post/laravel-sql-general-error-1366/</link>
       <pubDate>Sun, 16 Dec 2018 23:20:51 +0800</pubDate>
@@ -120,6 +185,8 @@
 &lt;blockquote&gt;
 &lt;p&gt;简单小巧的核心（代码压缩后大小仅为 17KB），渐进式技术栈，足以应付任何规模的应用&lt;/p&gt;
 &lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/wiki/reallyli/reallyli.github.io/vue-intro.png&#34; alt=&#34;vue-intro&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;书中简单的介绍现代 Web 开发中常见的高级功能，个人觉得不管是前端还是后端，技术不断更新和迭代的过程，都是包含了很多软件设计思想在里面，如何去解决高内聚，低耦合问题，如何在复杂的软件设计流程中，去写出易于维护的代码。还有一点比较重要的是，如何在快速迭代的软件开发周期内，去解放生产力。于是就会大量涌现很多优秀的开源框架和扩展库，去解决现实生活中的实际问题。&lt;/p&gt;
 
@@ -1886,61 +1953,6 @@ complex128：具有float64实部和虚部的复数&lt;/p&gt;
 &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Go 教程第一部分</title>
-      <link>https://reallyli.github.io/post/go-tutorial-note-1/</link>
-      <pubDate>Sun, 05 Aug 2018 11:27:27 +0800</pubDate>
-      
-      <guid>https://reallyli.github.io/post/go-tutorial-note-1/</guid>
-      
-        <description>
-
-&lt;p&gt;&lt;img src=&#34;https://eva.hixiaogan.cn/thumb/blog/golang_note.png&#34; alt=&#34;golang&#34; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;什么是-golang&#34;&gt;什么是 Golang&lt;/h1&gt;
-
-&lt;p&gt;&lt;code&gt;Go&lt;/code&gt; 也称为 &lt;code&gt;Golang&lt;/code&gt;，是一种由谷歌开源的，编译和静态类型的编程语言&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;Golang&lt;/code&gt;的主要重点是使高度可用、可扩展的 Web 应用程序开发变得简单&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;golang-的优点&#34;&gt;Golang 的优点&lt;/h1&gt;
-
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;并发性是该语言的重要优势。因此常用在编写多线程程序。这是通过Goroutines和渠道实现的。&lt;/li&gt;
-&lt;li&gt;Golang 是一种编译语言。源代码被编译为本机二进制文件。在诸如nodejs中使用的JavaScript之类的解释语言中缺少这一点。&lt;/li&gt;
-&lt;li&gt;语言规范非常简单。你甚至可以用它来写你自己的编译器:)&lt;/li&gt;
-&lt;li&gt;Go 编译器支持静态链接。所有 Go 代码都可以静态链接到一个大的二进制文件中，并且可以轻松地部署在云服务器中，而不用考虑其依赖性。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;安装&#34;&gt;安装&lt;/h1&gt;
-
-&lt;p&gt;Mac，Windows 和 Linux 三个平台都支持Golang。您可以从 &lt;a href=&#34;https://golang.org/dl/&#34;&gt;golang.org&lt;/a&gt; 下载相应平台的二进制文件&lt;/p&gt;
-
-&lt;h2 id=&#34;mac&#34;&gt;Mac&lt;/h2&gt;
-
-&lt;p&gt;从 &lt;code&gt;https://golang.org/dl/&lt;/code&gt; 下载 OS X 安装程序。双击即可开始安装。按照提示进行操作，在&lt;code&gt;/usr/local/go&lt;/code&gt;中安装 Golang，然后将&lt;code&gt;/usr/local/go/bin&lt;/code&gt; 添加到 PATH 环境变量中。&lt;/p&gt;
-
-&lt;h2 id=&#34;windows&#34;&gt;Windows&lt;/h2&gt;
-
-&lt;p&gt;从 &lt;code&gt;https://golang.org/dl/&lt;/code&gt; 下载 MSI 安装程序。双击以开始安装并按照提示进行操作。在位置 &lt;code&gt;C：\Go&lt;/code&gt;中安装  Golang，然后&lt;code&gt;C：\Go\bin&lt;/code&gt; 添加到路径环境变量中。&lt;/p&gt;
-
-&lt;h2 id=&#34;linux&#34;&gt;Linux&lt;/h2&gt;
-
-&lt;p&gt;从 &lt;code&gt;https://golang.org/dl/&lt;/code&gt; 下载 tar 文件并将其解压缩到 &lt;code&gt;/usr/local&lt;/code&gt;。 然后将 &lt;code&gt;/usr/local/go/bin&lt;/code&gt; 添加到 PATH 环境变量。&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;原文地址：&lt;a href=&#34;https://golangbot.com/golang-tutorial-part-1-introduction-and-installation/&#34;&gt;https://golangbot.com/golang-tutorial-part-1-introduction-and-installation/&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
       
     </item>
     
