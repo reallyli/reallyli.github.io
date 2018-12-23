@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>归档 - reallyli - 那些道听途说</title>
+  <title>Vuejs 实战学习笔记 C2 - reallyli - 那些道听途说</title>
   
 
 <meta name="renderer" content="webkit" />
@@ -22,9 +22,9 @@
 
 <meta name="mobile-web-app-capable" content="yes">
 
-<meta name="author" content="reallyli" />
-  <meta name="description" content="reallyli poros blog" />
-  <meta name="keywords" content="reallyli, poros, phpreallyli" />
+<meta name="author" content="reallyli" /><meta name="description" content="vue.js 实战学习笔记 - reallyli" />
+<meta name="keywords" content="Vuejs, Javascript, Js 学习笔记, Js 学习教程, reallyli" />
+
 
 
 <meta name="baidu-site-verification" content="splFzazQJF" />
@@ -34,8 +34,7 @@
 <meta name="generator" content="Hugo 0.52" />
 
 
-<link rel="canonical" href="https://reallyli.github.io/post/" />
-<link href="https://reallyli.github.io/post/index.xml" rel="alternate" type="application/rss+xml" title="reallyli - 那些道听途说" />
+<link rel="canonical" href="https://reallyli.github.io/post/vuejs-practical-book-note-c2/" />
 
 
 
@@ -57,18 +56,26 @@
 
 
 
-<meta property="og:title" content="Posts" />
-<meta property="og:description" content="reallyli poros blog" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://reallyli.github.io/post/" />
-<meta property="og:updated_time" content="2018-07-04T22:59:59&#43;08:00"/>
+<meta property="og:title" content="Vuejs 实战学习笔记 C2" />
+<meta property="og:description" content="vue.js 实战学习笔记 - reallyli" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://reallyli.github.io/post/vuejs-practical-book-note-c2/" /><meta property="article:published_time" content="2018-12-23T15:06:21&#43;08:00"/>
+<meta property="article:modified_time" content="2018-12-23T15:06:21&#43;08:00"/>
 
-<meta itemprop="name" content="Posts">
-<meta itemprop="description" content="reallyli poros blog">
+<meta itemprop="name" content="Vuejs 实战学习笔记 C2">
+<meta itemprop="description" content="vue.js 实战学习笔记 - reallyli">
 
+
+<meta itemprop="datePublished" content="2018-12-23T15:06:21&#43;08:00" />
+<meta itemprop="dateModified" content="2018-12-23T15:06:21&#43;08:00" />
+<meta itemprop="wordCount" content="1018">
+
+
+
+<meta itemprop="keywords" content="vuejs," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Posts"/>
-<meta name="twitter:description" content="reallyli poros blog"/>
+<meta name="twitter:title" content="Vuejs 实战学习笔记 C2"/>
+<meta name="twitter:description" content="vue.js 实战学习笔记 - reallyli"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -241,7 +248,7 @@ if (!doNotTrack) {
 
       </li>
     
-        <li class="menu-item active">
+        <li class="menu-item">
         
           
           
@@ -306,181 +313,135 @@ if (!doNotTrack) {
     <main id="main" class="main bg-llight">
       <div class="content-wrapper">
         <div id="content" class="content container">
+          <article class="post bg-white">
+    
+    <header class="post-header">
+      <h1 class="post-title">Vuejs 实战学习笔记 C2</h1>
+      
+      <div class="post-meta">
+        <time datetime="2018-12-23" class="post-time">
+          2018-12-23
+        </time>
+        <div class="post-category">
+            <a href="https://reallyli.github.io/categories/%E6%8A%80%E6%9C%AF%E6%9D%82%E8%AE%B0/"> 技术杂记 </a>
+            
+          </div>
+        <span class="more-meta"> 约 1018 字 </span>
+          <span class="more-meta"> 预计阅读 3 分钟 </span>
+
+        
+        
+          <span id="busuanzi_container_page_pv">
+            | 阅读 <span id="busuanzi_value_page_pv"></span>
+          </span>
+        
+
+        
+        
+      </div>
+    </header>
+
+    
+    
+
+    
+    <div class="post-content">
+      <blockquote>
+<p>本章主要是讲 Vue 的数据绑定实践，以及基本指令、事件与语法糖</p>
+</blockquote>
+
+<p><img src="https://raw.githubusercontent.com/wiki/reallyli/reallyli.github.io/vuejs_c2.png" alt="Vue.js-C2" /></p>
+
+<p>在学习本章之前，其实我也在回顾上一章对于 Vue.js 的基本介绍和现代 Web 开发的基本模式，这种 MVVM 的思想逐渐体现出软件设计的分层理念。只要从事软件开发这一行业，不管什么语言，实践践行模式，学习优秀的软件设计模式，合理的运用在日常工作中显得很重要。</p>
+
+<p>在后端开发中的，我们透过 Model 层去从 DB 获取数据，并整理成 View 所需要的类容，通常包括一个类别或类别阵列，通过 Model 层提供的 Model Object，我们可以获取到 View 层的展示数据。</p>
+
+<p>那么对于前端开发来说，Dom 层就可以比喻成后端的 View 层，如何做到修改数据层后渲染出不同的画面呢？通过这一章的数据绑定样例介绍，这里我还是结合后端开发的思想去找出设计的共同点，以便于更好理解本框架的设计思想。很显然，我们在开发 Laravel 项目的时候，回忆一下基本的操作，配置路由，从 Controller 获取请求数据，从 Model 中获取数据， 从 Service 中处理业务逻辑，在 Controller 层挂载 View 模板，绑定处理后的数据到 View 模板中，View 中根据自定义指令展示数据。</p>
+
+<p>将数据绑定到 Vuew 实例上，设置挂载方法，设置挂载点，每个 Vue 实例创建后时，都会经历一系列的初始化过程，同时也会调用相应的生命周期的钩子，比如</p>
+
+<ul>
+<li>created 实例创建完成以后调用，此阶段完成了数据的观测，但是尚未挂载，$el 还不可用，需要初始化处理一些数据时比较有用</li>
+<li>mounted el 挂载到实例上后调用，一般是第一个业务逻辑会到这里开始</li>
+<li>beforeDestroy 实例销毁之前调用，主要是解绑一些使用 addEventListener 监听的事件</li>
+</ul>
+
+<p>Dom 层插入变量使用 Mushache 语法，这个也是在熟悉不过了，包括过滤器等，它会自动的将双向绑定的数据实时显示出来。下面简单记录一下本章提到的基本指令</p>
+
+<ul>
+<li>v-html 输出 html 格式，而非纯文本内容 后端使用 {!! x !!}</li>
+<li>v-pre 输出未编译的内容</li>
+<li>v-bind 动态更新 html 元素的属性</li>
+<li>v-on 绑定事件监听器，例如点击某个按钮的事件，鼠标 input 失焦事件</li>
+</ul>
+
+<p>需要注意的地方，比如</p>
+
+<ol>
+<li>Vue.js 只支持单个表达式，不支持语句和流程控制，而且在表达式中，不能使用用户自定义的全局变量，只能使用 Vue 白名单中的全局变量，例如 Math 和 Date。</li>
+<li>使用过滤器的时候，调用 method 时，第一个参数是数据本身，后面参数取决于方法的定义。</li>
+</ol>
+
+<p>关于过滤器的用法也是类似于 Laravel 模板语言一样，通常用于数据微处理，比如日期格式，简单的数据转换，需要注意的是，复杂的数据转换应该使用计算属性，多个过滤器的用法是如下</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-js" data-lang="js"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-js" data-lang="js"><span class="p">{{</span> <span class="nx">message</span> <span class="o">|</span> <span class="nx">filterA</span> <span class="o">|</span> <span class="nx">filterB</span><span class="p">}}</span>
+
+<span class="p">{{</span> <span class="nx">message</span> <span class="o">|</span> <span class="nx">filter</span><span class="p">(</span><span class="nx">arg1</span><span class="p">,</span> <span class="nx">arg2</span><span class="p">)</span> <span class="p">}}</span>
+</code></pre></td></tr></table>
+</div>
+</div>
+<script type="application/javascript" src="//gist.github.com/reallyli/47ada4d08a60254da4d173bfa3ca2ca1.js"></script>
+
+<p>平时在开发过程中，我们往往会使用 Vue.js 的语法糖，例如 v-bind 和 v-on，使用 <code>:</code>来代替实际的指令名称，并且 v-on 也可以直接用 <code>@</code> 来缩写，这样的写法也更加的简洁和方便。</p>
+
+    </div>
+
+    
+    
+
+
+    
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          <a href="https://reallyli.github.io/tags/vuejs/">vuejs</a>
           
-<section id="archive" class="archive">
-    
-      <div class="collection-title">
-        <h2 class="archive-year">2018</h2>
-      </div>
+        </div>
 
-    <div class="archive-post">
-      <time datetime="2018-07-04" class="archive-post-time">
-        2018-07-04
-      </time>
-      <span class="archive-post-title">
-        <a href="/post/afternoon-cat/" class="archive-post-link">
-          午后的猫
-        </a>
-      </span>
-    </div>
-    
-      <div class="collection-title">
-        <h2 class="archive-year">2017</h2>
-      </div>
-
-    <div class="archive-post">
-      <time datetime="2017-12-31" class="archive-post-time">
-        2017-12-31
-      </time>
-      <span class="archive-post-title">
-        <a href="/post/outlook-2018/" class="archive-post-link">
-          展望2018
-        </a>
-      </span>
-    </div>
-    
-
-    <div class="archive-post">
-      <time datetime="2017-12-03" class="archive-post-time">
-        2017-12-03
-      </time>
-      <span class="archive-post-title">
-        <a href="/post/functional-php/" class="archive-post-link">
-          PHP 函数式编程初步笔记
-        </a>
-      </span>
-    </div>
-    
-
-    <div class="archive-post">
-      <time datetime="2017-12-02" class="archive-post-time">
-        2017-12-02
-      </time>
-      <span class="archive-post-title">
-        <a href="/post/linux-rsync/" class="archive-post-link">
-          Linux Rsync
-        </a>
-      </span>
-    </div>
-    
-
-    <div class="archive-post">
-      <time datetime="2017-11-23" class="archive-post-time">
-        2017-11-23
-      </time>
-      <span class="archive-post-title">
-        <a href="/post/elasticsearch-note/" class="archive-post-link">
-          Elasticsearch 工作笔记
-        </a>
-      </span>
-    </div>
-    
-
-    <div class="archive-post">
-      <time datetime="2017-11-10" class="archive-post-time">
-        2017-11-10
-      </time>
-      <span class="archive-post-title">
-        <a href="/post/php7/" class="archive-post-link">
-          PHP7 要点
-        </a>
-      </span>
-    </div>
-    
-
-    <div class="archive-post">
-      <time datetime="2017-10-24" class="archive-post-time">
-        2017-10-24
-      </time>
-      <span class="archive-post-title">
-        <a href="/post/2017-ending/" class="archive-post-link">
-          2017 Ending
-        </a>
-      </span>
-    </div>
-    
-
-    <div class="archive-post">
-      <time datetime="2017-08-08" class="archive-post-time">
-        2017-08-08
-      </time>
-      <span class="archive-post-title">
-        <a href="/post/summer-thinking/" class="archive-post-link">
-          夏日的思考
-        </a>
-      </span>
-    </div>
-    
-
-    <div class="archive-post">
-      <time datetime="2017-06-04" class="archive-post-time">
-        2017-06-04
-      </time>
-      <span class="archive-post-title">
-        <a href="/post/laravel-queue-note/" class="archive-post-link">
-          Laravel Queue 笔记
-        </a>
-      </span>
-    </div>
-    
-
-    <div class="archive-post">
-      <time datetime="2017-05-28" class="archive-post-time">
-        2017-05-28
-      </time>
-      <span class="archive-post-title">
-        <a href="/post/webpack-note/" class="archive-post-link">
-          Webpack 前端笔记
-        </a>
-      </span>
-    </div></section>
-
-
-
-
-
-
-  
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-  <nav class="pagination">
-    <ul>
       
-      <li >
-        <a href="/post/">1</a>
-      </li>
-      
-      <li >
-        <a href="/post/page/2/">2</a>
-      </li>
-      
-      <li  class="active" >
-        <a href="/post/page/3/">3</a>
-      </li>
-      
-      <li >
-        <a href="/post/page/4/">4</a>
-      </li>
-      
-    </ul>
-  </nav>
+      <nav class="post-nav">
+        
+        
+          <a class="next" href="/post/laravel-sql-general-error-1366/">
+            <span class="next-text nav-default">Laravel Sql General Error 1366</span>
+            <span class="prev-text nav-mobile">下一篇</span>
+            
+            <i class="iconfont">
+              <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="18" height="18">
+  <path d="M332.091514 74.487481l-75.369571 89.491197c-10.963703 12.998035-10.285251 32.864502 1.499144 44.378743l286.278095 300.375162L266.565125 819.058374c-11.338233 12.190647-11.035334 32.285311 0.638543 44.850487l80.46666 86.564541c11.680017 12.583596 30.356378 12.893658 41.662889 0.716314l377.434212-421.426145c11.332093-12.183484 11.041474-32.266891-0.657986-44.844348l-80.46666-86.564541c-1.772366-1.910513-3.706415-3.533476-5.750981-4.877077L373.270379 71.774697C361.493148 60.273758 343.054193 61.470003 332.091514 74.487481z"></path>
+</svg>
+
+            </i>
+          </a>
+      </nav>
+    </footer>
+  </article>
 
   
   
 
-
+  
+  
 
 
 

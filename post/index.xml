@@ -6,10 +6,19 @@
     <description>Recent content in Posts on reallyli - 那些道听途说</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 16 Dec 2018 23:20:51 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 23 Dec 2018 15:06:21 +0800</lastBuildDate>
     
 	<atom:link href="https://reallyli.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Vuejs 实战学习笔记 C2</title>
+      <link>https://reallyli.github.io/post/vuejs-practical-book-note-c2/</link>
+      <pubDate>Sun, 23 Dec 2018 15:06:21 +0800</pubDate>
+      
+      <guid>https://reallyli.github.io/post/vuejs-practical-book-note-c2/</guid>
+      <description>本章主要是讲 Vue 的数据绑定实践，以及基本指令、事件与语法糖 在学习本章之前，其实我也在回顾上一章对于 Vue.js 的基本介绍和现代 Web 开发的基本模式，这种 MVVM 的</description>
+    </item>
     
     <item>
       <title>Laravel Sql General Error 1366</title>
@@ -180,15 +189,6 @@
       
       <guid>https://reallyli.github.io/post/php-deployer/</guid>
       <description>实际项目开发中，对于自动化部署 php 项目市面上鲜有比较不错的方案，比如瓦力，比如公司 ruby 项目组使用 capistrano，经过少数实践，还是选择使用</description>
-    </item>
-    
-    <item>
-      <title>午后的猫</title>
-      <link>https://reallyli.github.io/post/afternoon-cat/</link>
-      <pubDate>Wed, 04 Jul 2018 22:59:59 +0800</pubDate>
-      
-      <guid>https://reallyli.github.io/post/afternoon-cat/</guid>
-      <description>来自我的 QQ 空间日志，记载于 2013-9-12 22:41 突然发现很久没有打球了，或许是到了九月秋初这个季节才开始想起。没有时间，没有精力看上去只是心灵上的阻碍，我发现</description>
     </item>
     
   </channel>
