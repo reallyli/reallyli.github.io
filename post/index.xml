@@ -6,10 +6,19 @@
     <description>Recent content in Posts on reallyli - 那些道听途说</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 23 Dec 2018 17:14:28 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 26 Dec 2018 21:45:49 +0800</lastBuildDate>
     
 	<atom:link href="https://reallyli.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2018 Goodbye</title>
+      <link>https://reallyli.github.io/post/2018-goodbye/</link>
+      <pubDate>Wed, 26 Dec 2018 21:45:49 +0800</pubDate>
+      
+      <guid>https://reallyli.github.io/post/2018-goodbye/</guid>
+      <description>2018 真的就要快结束了，还有最后的这一周。寒冷的冬天静下来都可以听到时钟的嘀嗒声，键盘的声音现在听得格外的清楚。 tip 由 2018 开往 2019 的列车即将到站！收拾</description>
+    </item>
     
     <item>
       <title>Vuejs 实战学习笔记 C3</title>
@@ -180,15 +189,6 @@
       
       <guid>https://reallyli.github.io/post/go-tutorial-note-2/</guid>
       <description>个人建议使用带有go扩展名的Visual Studio Code作为IDE。它具有自动完成，代码样式和许多其他功能。 这是 Golang 教程系列的第二篇教程。请阅读 Golang 教</description>
-    </item>
-    
-    <item>
-      <title>Go 教程第一部分</title>
-      <link>https://reallyli.github.io/post/go-tutorial-note-1/</link>
-      <pubDate>Sun, 05 Aug 2018 11:27:27 +0800</pubDate>
-      
-      <guid>https://reallyli.github.io/post/go-tutorial-note-1/</guid>
-      <description>什么是 Golang Go 也称为 Golang，是一种由谷歌开源的，编译和静态类型的编程语言 Golang的主要重点是使高度可用、可扩展的 Web 应用程序开发变得简单</description>
     </item>
     
   </channel>
